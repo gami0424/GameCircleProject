@@ -37,9 +37,9 @@ public class Player_Ishi : MonoBehaviour
     {
         Vector2 move = plInput.actions["Look"].ReadValue<Vector2>() * camSpeed;
         Debug.Log(move);
-        Vector3 ang = cameraObj.transform.localEulerAngles;
-        ang.x += move.x;
-        ang.y = Mathf.Clamp(ang.y, -89, 89);
+        Vector3 ang = cameraObj.transform.eulerAngles;
+        ang.x = 0;// Mathf.Clamp(ang.x+move.y, -89, 89);
+        ang.y = move.x;
         cameraObj.transform.localEulerAngles = ang;
     }
 }
