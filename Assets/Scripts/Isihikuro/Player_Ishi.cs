@@ -12,12 +12,16 @@ public class Player_Ishi : MonoBehaviour
 
     public float speed = 10;
     public float camSpeed = 10;
+    public Vector3 camLook;
 
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
         plInput = GetComponent<PlayerInput>();
         rd = GetComponent<Rigidbody>();
+
+        Cursor.lockState = CursorLockMode.Locked;
+        Cursor.visible = false;
     }
 
     // Update is called once per frame
@@ -30,16 +34,22 @@ public class Player_Ishi : MonoBehaviour
     void PlMove()
     {
         Vector2 move = plInput.actions["Move"].ReadValue<Vector2>() * speed;
-        rd.linearVelocity = new Vector3(move.x, 0, move.y);
+        Vector3 moveMain = move.x * cameraObj.transform.right + move.y * cameraObj.transform.forward;
+        moveMain.y = rd.linearVelocity.y;
+        rd.linearVelocity = moveMain;
     }
     
     void CameraMove()
     {
-        Vector2 move = plInput.actions["Look"].ReadValue<Vector2>() * camSpeed;
-        Debug.Log(move);
-        Vector3 ang = cameraObj.transform.eulerAngles;
-        ang.x = 0;// Mathf.Clamp(ang.x+move.y, -89, 89);
-        ang.y = move.x;
-        cameraObj.transform.localEulerAngles = ang;
+        Vector2 move = plInput.actions["Look"].ReadValue<Vector2>() * camSpeed * Time.deltaTime;
+
+        camLook += new Vector3(-move.y, move.x, 0);
+
+        //Y軸だけ視点に上限を設ける
+        camLook.x = Mathf.Clamp(camLook.x, -90, 90);
+
+        //カメラとプレイヤーの向きを動かす
+        cameraObj.transform.rotation = Quaternion.Euler(camLook);
+        //transform.rotation = Quaternion.Euler(camLook);
     }
 }
