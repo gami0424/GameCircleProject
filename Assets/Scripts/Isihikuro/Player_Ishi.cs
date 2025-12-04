@@ -33,7 +33,9 @@ public class Player_Ishi : MonoBehaviour
 
     void PlMove()
     {
-        Vector2 move = plInput.actions["Move"].ReadValue<Vector2>() * speed;
+        float speedDash = 1;
+        if (plInput.actions["Dash"].ReadValue<float>() > 0) speedDash = 1.5f;
+        Vector2 move = plInput.actions["Move"].ReadValue<Vector2>() * speed * speedDash;
         Vector3 moveMain = move.x * cameraObj.transform.right + move.y * cameraObj.transform.forward;
         moveMain.y = rd.linearVelocity.y;
         rd.linearVelocity = moveMain;
