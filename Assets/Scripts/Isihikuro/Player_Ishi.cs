@@ -27,8 +27,12 @@ public class Player_Ishi : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        PlMove();
         CameraMove();
+    }
+
+    void FixedUpdate()
+    {
+        PlMove();
     }
 
     void PlMove()
