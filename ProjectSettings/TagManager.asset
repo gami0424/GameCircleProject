@@ -5,6 +5,8 @@ TagManager:
   serializedVersion: 3
   tags:
   - Collapse
+  - hypoxia
+  - Hypoxia
   layers:
   - Default
   - TransparentFX
