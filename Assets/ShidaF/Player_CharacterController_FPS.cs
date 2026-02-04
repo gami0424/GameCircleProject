@@ -8,7 +8,6 @@ public class Player_CharacterController_FPS : MonoBehaviour
     public CharacterController cc;
     public PlayerInput playerinput;
 
-
     [SerializeField] private Animator animator;
 
     [Header("カメラ設定")]
