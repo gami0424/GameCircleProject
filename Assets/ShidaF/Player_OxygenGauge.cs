@@ -6,15 +6,16 @@ using UnityEngine.UI;
 public class Player_OxygenGauge : MonoBehaviour
 {
     [SerializeField] private Image OxygenGaugeImage;
-  
+
     public GameObject OxygenBar;
     public float dur = 0.5f;
     public float strength = 20f;
     public int vibrate = 100;
-    public float curBarRate = 1f;
+    public float FirstBarRate = 1f;
+
     void Start()
     {
-        SetGauge(curBarRate);
+        SetGauge(FirstBarRate);
     }
 
     private void SetGauge(float SetRate)
@@ -27,21 +28,21 @@ public class Player_OxygenGauge : MonoBehaviour
         {
             OxygenGaugeImage.DOFillAmount(SetRate, dur * 0.5f).SetDelay(0.5f);
         });
-
+        if (SetRate == FirstBarRate) return;
         OxygenBar.transform.DOShakePosition(dur * 0.5f, strength, vibrate);
-        curBarRate = SetRate;
+        //curBarRate = SetRate;
     }
 
 
-    public void TakeOxygenDamage(float Rate)
+    public void TakeOxygenGaugeDamage(float Rate)
     {
-        SetGauge(curBarRate - Rate);
+        SetGauge(Rate);
     }
 
 
 
     void Update()
     {
-        
+
     }
 }

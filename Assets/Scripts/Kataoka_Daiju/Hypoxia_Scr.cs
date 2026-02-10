@@ -1,38 +1,63 @@
+using System.Collections;
+using System.Runtime.InteropServices;
+using NUnit.Framework;
 using UnityEngine;
 
 public class Hypoxia_Scr : MonoBehaviour
 {
     private float ElapsedTime = 0f;
-    private bool isRunning = false;
-
-    void Update()
+    private bool isAreaIn = false;
+    private GameObject player;
+    public Player_Oxygen playerOxygen;
+    public float OxygenDamage;
+    public float DamageDelayTime = 3f;
+    private bool isDamage;
+    public Player_OxygenGauge playerOxygenGauge;
+    void Awake()
     {
-        if (isRunning)
+        player = GameObject.FindGameObjectWithTag("Player");
+        playerOxygen = player.GetComponentInParent<Player_Oxygen>();
+        playerOxygenGauge = player.GetComponentInParent<Player_OxygenGauge>();
+    }
+    void FixedUpdate()
+    {
+        if (player && playerOxygen && playerOxygenGauge == null) return;
+        if (isAreaIn)
         {
-            ElapsedTime += Time.deltaTime;
-            // ログに経過した時間を表示（小数点1桁まで）
-            Debug.Log("Time: " + ElapsedTime.ToString("F1"));
+            if (isDamage) return;
+            StartCoroutine(DamageDelay());
+
+            //ElapsedTime += Time.deltaTime;
+            // 経過時間を表示(Fの横の数字まで小数点表示)
+            //:Debug.Log("Time: " + ElapsedTime.ToString("F1"));
         }
     }
+    IEnumerator DamageDelay()
+    {
+        isDamage = true;
+        playerOxygen.TakeOxygenDamage(OxygenDamage);
+        yield return new WaitForSeconds(DamageDelayTime);
+        isDamage = false;
+    }
 
-    // エリアに入った時
     private void OnTriggerEnter(Collider other)
     {
-        if (other.CompareTag("Player")) // プレイヤーに "Player" タグがついている場合
+        if (other.CompareTag("Player"))
         {
-            isRunning = true;
+            isAreaIn = true;
             Debug.Log("計測開始");
         }
     }
 
-    // エリアから出た時
     private void OnTriggerExit(Collider other)
     {
         if (other.CompareTag("Player"))
         {
-            isRunning = false;
-            Debug.Log("計測終了。滞在時間: " + ElapsedTime.ToString("F2"));
-            ElapsedTime = 0f;
+            isAreaIn = false;
+            playerOxygen.CurrentOxygen = playerOxygen.MaxOxygen;
+            playerOxygenGauge.TakeOxygenGaugeDamage(1f);
+            /*Debug.Log("計測終了。滞在時間: " + ElapsedTime.ToString("F1"));
+            ElapsedTime = 0f;*/
         }
     }
 }
