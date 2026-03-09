@@ -1,87 +1,65 @@
-using Unity.VisualScripting;
 using UnityEngine;
 
 public class Slow : MonoBehaviour
 {
-    private float SlowSpeed;
-    float defaultSpeed;
+    [SerializeField] private float slowMultiplier = 0.2f;
+    [SerializeField] private Collider triggerCollider;
 
-    public float slow = 0.2f;
+    private bool isSlow;
+    private PlayerCharacterControllerFps playerController;
 
-    public Collider coll;
-
-    public bool isSlow = false;
-
-    private Player_CharacterController_FPS PCCFPS;
     private void Awake()
     {
-        coll = GetComponent<Collider>();
-        coll.isTrigger = true;
-
-    }
-
-
-    private void Start()
-    {
-
-    }
-
-    private void Update()
-    {
-
-    }
-
-    void OnTriggerEnter(Collider other)
-    {
-        if (isSlow == true) return;
-        if (PCCFPS == null && other.CompareTag("Player"))
+        if (triggerCollider == null)
         {
-            Debug.Log("減速しました。");
-            isSlow = true;
-            PCCFPS = other.GetComponentInParent<Player_CharacterController_FPS>();
-            defaultSpeed = PCCFPS.moveSpeed;
-
-            SlowSpeed = PCCFPS.moveSpeed * slow;
-
-            PCCFPS.moveSpeed = SlowSpeed;
-        }
-        else if (other.CompareTag("Player"))
-        {
-            isSlow = true;
-            PCCFPS = other.GetComponentInParent<Player_CharacterController_FPS>();
-            defaultSpeed = PCCFPS.moveSpeed;
-
-            SlowSpeed = PCCFPS.moveSpeed * slow;
-
-            PCCFPS.moveSpeed = SlowSpeed;
+            triggerCollider = GetComponent<Collider>();
         }
 
-
-
-
-
-
-
-
-        /*
-        if (other.CompareTag("SlowArea"))
+        if (triggerCollider != null)
         {
-            SlowArea area = other.GetComponent<SlowArea>();
-            if (area != null)
-            {
-                moveSpeed = defaultSpeed * area.slowMultiplier;
-            }
-        }*/
+            triggerCollider.isTrigger = true;
+        }
     }
 
-    void OnTriggerExit(Collider other)
-    {/*
-        if (other.CompareTag("SlowArea"))
+    private void OnTriggerEnter(Collider other)
+    {
+        if (isSlow)
         {
-            moveSpeed = defaultSpeed;
-        }*/
+            return;
+        }
 
-        PCCFPS.moveSpeed = defaultSpeed;
+        if (!other.CompareTag("Player"))
+        {
+            return;
+        }
+
+        playerController = other.GetComponentInParent<PlayerCharacterControllerFps>();
+
+        if (playerController == null)
+        {
+            Debug.LogWarning("PlayerCharacterControllerFps が見つかりませんでした。");
+            return;
+        }
+
+        Debug.Log("減速しました。");
+        isSlow = true;
+        playerController.ApplySlow(slowMultiplier);
+    }
+
+    private void OnTriggerExit(Collider other)
+    {
+        if (!other.CompareTag("Player"))
+        {
+            return;
+        }
+
+        if (playerController == null)
+        {
+            return;
+        }
+
+        playerController.ResetSpeed();
         isSlow = false;
+        playerController = null;
     }
 }
