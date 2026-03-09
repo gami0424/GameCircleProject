@@ -5258,7 +5258,7 @@ Transform:
   m_GameObject: {fileID: 4284447955337320321}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: 1, z: -4.5}
+  m_LocalPosition: {x: 0, y: 1, z: -3.5}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -10891,6 +10891,7 @@ GameObject:
   - component: {fileID: 1069122684120582914}
   - component: {fileID: 8957464373714603116}
   - component: {fileID: 8957464373714603115}
+  - component: {fileID: 8957464373714603117}
   m_Layer: 0
   m_Name: Player_Shida
   m_TagString: Player
@@ -27663,7 +27664,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 3348242061578943553}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: a93beabd720bb468fa07bdfceca7aa9e, type: 3}
   m_Name: 
@@ -27688,7 +27689,19 @@ MonoBehaviour:
   dur: 0.5
   strength: 20
   vibrate: 100
-  curBarRate: 1
+  FirstBarRate: 1
+--- !u!114 &8957464373714603117
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3348242061578943553}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 71cee07af91f24bb69a0c95a47402db4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::Drillman_Timer
 --- !u!65 &8959006520029506002
 BoxCollider:
   m_ObjectHideFlags: 0
