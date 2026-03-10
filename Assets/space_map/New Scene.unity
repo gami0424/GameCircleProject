@@ -36873,7 +36873,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6cfa374937c9d4896b25e705203e18bb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::CountdownTimer
-  time: 5
+  time: 300
   timerText: {fileID: 1326047922}
   gameoverObj: {fileID: 365551481}
 --- !u!4 &1852853961
