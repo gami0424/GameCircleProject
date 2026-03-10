@@ -3,15 +3,12 @@
   <Project Path="VRM10.csproj" />
   <Project Path="VRM10.MToon10.csproj" />
   <Project Path="UniGLTF.csproj" />
-  <Project Path="VRM.Tests.csproj" />
   <Project Path="UniGLTF.Editor.csproj" />
-  <Project Path="VRM.csproj" />
   <Project Path="UniGLTF.Tests.csproj" />
   <Project Path="UniGLTF.Utils.csproj" />
   <Project Path="Assembly-CSharp.csproj" />
   <Project Path="VRM10.MToon10.Editor.csproj" />
   <Project Path="UniGLTF.UniUnlit.Editor.csproj" />
-  <Project Path="UniVRM.Editor.csproj" />
   <Project Path="UniHumanoid.csproj" />
   <Project Path="SpringBoneJobs.csproj" />
   <Project Path="FastSpringBone10.csproj" />
@@ -19,11 +16,8 @@
   <Project Path="VrmLib.csproj" />
   <Project Path="Assembly-CSharp-firstpass.csproj" />
   <Project Path="VRM10.Tests.csproj" />
-  <Project Path="MToon.csproj" />
   <Project Path="UniGLTF.UniUnlit.csproj" />
-  <Project Path="VRM.Samples.Editor.Tests.csproj" />
   <Project Path="VrmLibTests.csproj" />
-  <Project Path="MToon.Editor.csproj" />
   <Project Path="VRM10.MToon10.Tests.csproj" />
   <Project Path="UniHumanoid.Editor.Tests.csproj" />
 </Solution>
