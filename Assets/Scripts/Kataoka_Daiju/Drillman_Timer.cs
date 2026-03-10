@@ -2,9 +2,9 @@ using UnityEngine;
 
 public class Drillman_Timer : MonoBehaviour
 {
-    public float LimitTime = 5f; //1f = 1秒
+  [SerializeField ]private float LimitTime = 5f; //1f = 1秒
 
-    void FixedUpdate()
+   private void Update()
     {
         if (LimitTime <= 0)
         {

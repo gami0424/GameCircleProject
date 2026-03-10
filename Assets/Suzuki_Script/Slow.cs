@@ -43,7 +43,7 @@ public class Slow : MonoBehaviour
 
         Debug.Log("減速しました。");
         isSlow = true;
-        playerController.ApplySlow(slowMultiplier);
+      //  playerController.ApplySlow(slowMultiplier);
     }
 
     private void OnTriggerExit(Collider other)
@@ -58,7 +58,7 @@ public class Slow : MonoBehaviour
             return;
         }
 
-        playerController.ResetSpeed();
+     //   playerController.ResetSpeed();
         isSlow = false;
         playerController = null;
     }

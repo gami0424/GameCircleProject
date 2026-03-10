@@ -498,7 +498,7 @@
                     "name": "",
                     "id": "c5180870-e2f7-43e7-9067-1207f2e2e52c",
                     "path": "<Gamepad>/leftTrigger",
-                    "interactions": "",
+                    "interactions": "Press",
                     "processors": "",
                     "groups": "",
                     "action": "Dash",
