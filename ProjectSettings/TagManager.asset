@@ -7,6 +7,9 @@ TagManager:
   - Collapse
   - hypoxia
   - Hypoxia
+  - SlowArea
+  - StopPoint
+  - Ceiling
   layers:
   - Default
   - TransparentFX
