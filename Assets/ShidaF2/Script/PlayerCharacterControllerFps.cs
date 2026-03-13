@@ -4,20 +4,20 @@ using UnityEngine.Playables;
 
 public class PlayerCharacterControllerFps : MonoBehaviour
 {
-    [Header("基本設定")]
+
     [SerializeField] private CharacterController characterController;
     [SerializeField] private PlayerInput playerInput;
     [SerializeField] private Animator animator;
     [SerializeField] private Transform characterModel;
+    [SerializeField] private SpaceshipRepair spaceShipRepair;
 
-    [Header("カメラ設定")]
+
     [SerializeField] private Transform playerCamera;
 
-    [Header("感度設定")]
+
     [SerializeField] private float mouseSensitivity = 0.1f;
     [SerializeField] private float padSensitivity = 500f;
 
-    [Header("移動・回転設定")]
     [SerializeField] private float walkSpeed = 2f;
     [SerializeField] private float runSpeed = 6f;
     [SerializeField] private float rotationSpeed = 15f;
@@ -52,31 +52,73 @@ public class PlayerCharacterControllerFps : MonoBehaviour
     public void OnMove(InputValue value) => moveInput = value.Get<Vector2>();
     public void OnLook(InputValue value) => lookInput = value.Get<Vector2>();
 
+
+
+    public void OnInteract(InputValue value)
+    {
+        if (value.isPressed)
+        {
+      
+            if (!spaceShipRepair.isRepairing)
+            {
+            
+                if (spaceShipRepair.repairButton.gameObject.activeInHierarchy && spaceShipRepair.repairButton.interactable)
+                {
+                
+                    spaceShipRepair.repairButton.onClick.Invoke();
+                }
+            }
+            else
+            {
+          
+                spaceShipRepair.Repairing();
+            }
+        }
+    }
+
     public void OnAttack(InputValue value)
     {
         if (value.isPressed)
         {
-            animator.SetTrigger("Attack1");
+            if (spaceShipRepair.isRepairing)
+            {
+                spaceShipRepair.Repairing(); 
+                animator.SetTrigger("Attack1"); 
+
+            }
+            else
+            {
+                animator.SetTrigger("Attack1");
+            }
         }
     }
-
     private void Update()
     {
-        if (runaction.IsPressed())
+    
+        if (spaceShipRepair != null && spaceShipRepair.isRepairing)
+        {
+        
+            if (animator != null) animator.SetFloat("Speed", 0f);
+            return;
+        }
+
+        if (runaction != null && runaction.IsPressed())
         {
             isDashing = true;
         }
         else
         {
-            isDashing =false;
-
+            isDashing = false;
         }
+
         UpdateLook();
         UpdateMovement();
     }
 
     private void UpdateLook()
     {
+  
+        if (spaceShipRepair != null && spaceShipRepair.isRepairing) return;
         if (playerCamera == null || playerInput == null) return;
 
         float yawInput;
@@ -93,10 +135,8 @@ public class PlayerCharacterControllerFps : MonoBehaviour
             pitchInput = lookInput.y * mouseSensitivity;
         }
 
-  
         transform.Rotate(Vector3.up * yawInput);
 
-   
         pitch -= pitchInput;
         pitch = Mathf.Clamp(pitch, -90f, 90f);
         playerCamera.localRotation = Quaternion.Euler(pitch, 0f, 0f);
@@ -104,6 +144,8 @@ public class PlayerCharacterControllerFps : MonoBehaviour
 
     private void UpdateMovement()
     {
+        // ★修理中は何もしない
+        if (spaceShipRepair != null && spaceShipRepair.isRepairing) return;
         if (characterController == null) return;
 
         if (characterController.isGrounded && verticalVelocity.y < 0f)
