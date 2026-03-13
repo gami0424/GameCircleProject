@@ -5,22 +5,22 @@ using UnityEngine.InputSystem;
 
 public class Player_Search1 : MonoBehaviour
 {
-    [Header("ï¿½Tï¿½ï¿½ï¿½@ï¿½ï¿½ï¿½ÌƒJï¿½Eï¿½ï¿½ï¿½^ï¿½[")]
+    [Header("’Tõ‹@‘¤‚ÌƒJƒEƒ“ƒ^[")]
     [SerializeField] private ScanTriggerCounter scanTriggerCounter;
 
-    [Header("ï¿½ï¿½ï¿½ï¿½pUIï¿½eï¿½Lï¿½Xï¿½g")]
+    [Header("•\¦—pUIƒeƒLƒXƒg")]
     [SerializeField] private TMP_Text infoText;
     [SerializeField] private GameObject infoTextObj;
 
 
 
-    [Header("ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½")]
+    [Header("•\¦ŠÔ")]
     [SerializeField] private float displayTime = 5f;
 
 
     [SerializeField] public GameObject scannerArea;
 
-    private bool isScanning = false;
+   private  bool isScanning = false;
 
     private bool isShowing = false;
 
@@ -28,7 +28,7 @@ public class Player_Search1 : MonoBehaviour
 
     public void OnSearch(InputValue value)
     {
-        if (value.isPressed && !isScanning)
+        if(value.isPressed && !isScanning)
         {
             StartCoroutine(Scan());
 
@@ -65,7 +65,7 @@ public class Player_Search1 : MonoBehaviour
         scanTriggerCounter.RemoveNullParts();
 
         int count = scanTriggerCounter.PartCount;
-        infoText.text = $"ï¿½ß‚ï¿½ï¿½Éƒpï¿½[ï¿½cï¿½ï¿½ {count} ï¿½Â‚ï¿½ï¿½ï¿½Ü‚ï¿½";
+        infoText.text = $"‹ß‚­‚Éƒp[ƒc‚ª {count} ŒÂ‚ ‚è‚Ü‚·";
         infoText.gameObject.SetActive(true);
         infoTextObj.SetActive(true);
         StartCoroutine(HideInfoText());
@@ -83,7 +83,7 @@ public class Player_Search1 : MonoBehaviour
     private void Update()
     {
         if (!isScanning) return;
-
-
+     
+        
     }
 }
