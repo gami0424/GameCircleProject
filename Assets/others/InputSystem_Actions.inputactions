@@ -104,6 +104,24 @@
                     "processors": "",
                     "interactions": "",
                     "initialStateCheck": false
+                },
+                {
+                    "name": "hito",
+                    "type": "Value",
+                    "id": "3b7cc411-c505-43ab-95f9-cf1a3f235d3f",
+                    "expectedControlType": "Axis",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": true
+                },
+                {
+                    "name": "hitoL",
+                    "type": "Value",
+                    "id": "a8e3a757-b90b-4c7a-9173-5982d3ae4b72",
+                    "expectedControlType": "Axis",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": true
                 }
             ],
             "bindings": [
@@ -231,7 +249,7 @@
                 {
                     "name": "",
                     "id": "3ea4d645-4504-4529-b061-ab81934c3752",
-                    "path": "<Joystick>/stick",
+                    "path": "<HID::raphnet technologies 1-player WUSBMote v2.2>/stick",
                     "interactions": "",
                     "processors": "",
                     "groups": "Joystick",
@@ -268,6 +286,17 @@
                     "interactions": "",
                     "processors": "",
                     "groups": "Joystick",
+                    "action": "Look",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "26198717-a543-4057-aafd-d08df3291b4f",
+                    "path": "<HID::raphnet technologies 1-player WUSBMote v2.2>/stick",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
                     "action": "Look",
                     "isComposite": false,
                     "isPartOfComposite": false
@@ -340,6 +369,17 @@
                 },
                 {
                     "name": "",
+                    "id": "2ee8be85-5deb-4320-9449-3d79bb8e9c40",
+                    "path": "",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Attack",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
                     "id": "cbac6039-9c09-46a1-b5f2-4e5124ccb5ed",
                     "path": "<Keyboard>/2",
                     "interactions": "",
@@ -389,6 +429,17 @@
                     "interactions": "",
                     "processors": "",
                     "groups": "XR",
+                    "action": "Sprint",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "b6ce5532-e35c-402d-9ab2-627cc64e2b1a",
+                    "path": "<HID::raphnet technologies 1-player WUSBMote v2.2>/trigger",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
                     "action": "Sprint",
                     "isComposite": false,
                     "isPartOfComposite": false
@@ -516,12 +567,89 @@
                 },
                 {
                     "name": "",
+                    "id": "8cdec1b1-342f-4deb-8050-a7534c6f6f0d",
+                    "path": "<HID::raphnet technologies 1-player WUSBMote v2.2>/trigger",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Dash",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
                     "id": "8743e4a3-3486-448f-bd6d-f2d148016891",
                     "path": "<Gamepad>/dpad/up",
                     "interactions": "",
                     "processors": "",
                     "groups": "",
                     "action": "Search",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "15463ae5-a905-4d06-90ae-e3222588c258",
+                    "path": "<HID::raphnet technologies 1-player WUSBMote v2.2>/ry",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "hito",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "c653706a-65e2-4209-b32b-8d8a8e10060b",
+                    "path": "<HID::raphnet technologies 1-player WUSBMote v2.2>/rx",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "hito",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "87cac180-befc-45f1-a018-018a794fab33",
+                    "path": "<HID::raphnet technologies 1-player WUSBMote v2.2>/rz",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "hito",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "a5231189-f918-4f0b-8550-c410fbde603a",
+                    "path": "<HID::raphnet technologies 1-player WUSBMote v2.2>/rx",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "hitoL",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "638c1c8d-fc79-42a6-b1a6-da12f4d99141",
+                    "path": "<HID::raphnet technologies 1-player WUSBMote v2.2>/rz",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "hitoL",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "cc86b89d-d3a6-4591-b2ab-b43e7416aa8f",
+                    "path": "<HID::raphnet technologies 1-player WUSBMote v2.2>/ry",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "hitoL",
                     "isComposite": false,
                     "isPartOfComposite": false
                 }

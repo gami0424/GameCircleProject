@@ -32,6 +32,11 @@ public class PlayerCharacterControllerFps : MonoBehaviour
     private bool isDashing;
     private InputAction runaction;
 
+    // --- 加速度センサー（振る動作）用の変数を追加 ---
+    private float lastAccelSum; 
+    private float attackCooldown = 0.5f; // 連続攻撃を防ぐ待ち時間
+    private float lastAttackTime;
+
     private void Awake()
     {
         if (animator == null) animator = GetComponentInChildren<Animator>();
@@ -75,6 +80,7 @@ public class PlayerCharacterControllerFps : MonoBehaviour
             }
         }
     }
+   
 
     public void OnAttack(InputValue value)
     {
@@ -92,26 +98,94 @@ public class PlayerCharacterControllerFps : MonoBehaviour
             }
         }
     }
-    private void Update()
-    {
+    // private void Update()
+    // {
     
+    //     if (spaceShipRepair != null && spaceShipRepair.isRepairing)
+    //     {
+        
+    //         if (animator != null) animator.SetFloat("Speed", 0f);
+    //         return;
+    //     }
+
+    //     if (runaction != null && runaction.IsPressed())
+    //     {
+    //         isDashing = true;
+    //     }
+    //     else
+    //     {
+    //         isDashing = false;
+    //     }
+
+    //     UpdateLook();
+    //     UpdateMovement();
+    // }
+private void Update()
+    {
         if (spaceShipRepair != null && spaceShipRepair.isRepairing)
         {
-        
             if (animator != null) animator.SetFloat("Speed", 0f);
             return;
         }
 
-        if (runaction != null && runaction.IsPressed())
+        var joysticks = UnityEngine.InputSystem.Joystick.all;
+        if (joysticks.Count == 0) return;
+
+        // --- 1つ目のデバイス (v2.2 / 移動・ダッシュ担当) ---
+        if (joysticks.Count >= 1)
         {
-            isDashing = true;
+            moveInput = joysticks[0].stick.ReadValue();
+            
+            bool dashButtonPressed = false;
+            foreach (var control in joysticks[0].allControls)
+            {
+                if (control.name.Contains("trigger") || control.name.Contains("button"))
+                {
+                    var button = control as UnityEngine.InputSystem.Controls.ButtonControl;
+                    if (button != null && button.isPressed)
+                    {
+                        dashButtonPressed = true;
+                        break; 
+                    }
+                }
+            }
+            isDashing = dashButtonPressed;
         }
-        else
+        // --- 2つ目のデバイス (v2.3 / 視点・振って攻撃担当) ---
+    if (joysticks.Count >= 2)
+    {
+        lookInput = joysticks[1].stick.ReadValue();
+
+        // ★ ここから攻撃判定（joysticks[1]、つまりv2.3だけを対象にする）
+        float currentAccelSum = 0;
+        
+        // joysticks[1] (右手側) のコントロールだけをループで回す
+        foreach (var control in joysticks[1].allControls)
         {
-            isDashing = false;
+            // スティック(x, y)以外の「Rx, Ry, Rz」などの軸だけを計算
+            if (control is UnityEngine.InputSystem.Controls.AxisControl axis && 
+                control.name != "x" && control.name != "y")
+            {
+                currentAccelSum += Mathf.Abs(axis.ReadValue());
+            }
         }
 
-        UpdateLook();
+        // 加速度の変化（振りの強さ）を計算
+        float deltaAccel = Mathf.Abs(currentAccelSum - lastAccelSum);
+
+        // 0.8f を超えたら攻撃（v2.3を振ったときだけ実行される）
+        if (deltaAccel > 1.0f && Time.time > lastAttackTime + attackCooldown)
+        {
+            animator.SetTrigger("Attack1");
+            if (spaceShipRepair.isRepairing) spaceShipRepair.Repairing();
+            
+            lastAttackTime = Time.time;
+            deltaAccel = 0f;
+        }
+        lastAccelSum = currentAccelSum;
+    }
+
+        UpdateLookL(); // 以前のUpdateLookLを使用
         UpdateMovement();
     }
 
@@ -141,6 +215,26 @@ public class PlayerCharacterControllerFps : MonoBehaviour
         pitch = Mathf.Clamp(pitch, -90f, 90f);
         playerCamera.localRotation = Quaternion.Euler(pitch, 0f, 0f);
     }
+    private void UpdateLookL()
+{
+    if (spaceShipRepair != null && spaceShipRepair.isRepairing) return;
+    if (playerCamera == null) return;
+
+    // Time.deltaTimeを掛けることで、1フレームごとではなく「1秒間」の回転量になります。
+    // これで動きが劇的にゆっくり、かつ滑らかになります。
+    float yawInput = lookInput.x * padSensitivity * Time.deltaTime;
+    float pitchInput = lookInput.y * padSensitivity * Time.deltaTime;
+
+    // 左右の回転
+    transform.Rotate(Vector3.up * yawInput);
+
+    // 上下の回転（制限付き）
+    pitch -= pitchInput;
+    pitch = Mathf.Clamp(pitch, -90f, 90f);
+    playerCamera.localRotation = Quaternion.Euler(pitch, 0f, 0f);
+}
+    
+
 
     private void UpdateMovement()
     {

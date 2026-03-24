@@ -44954,367 +44954,6 @@ Transform:
   m_Children: []
   m_Father: {fileID: 9206399482878452823}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &338564272994299725
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 8062139072529111538}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: bfba4ccd3f854e64f868ce83553071a9, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: VRM10::UniVRM10.Vrm10Instance
-  Vrm: {fileID: 5929401533440927806, guid: 84bb2f350cf89264eb560d6d8a2aff52, type: 3}
-  SpringBone:
-    ColliderGroups:
-    - {fileID: 6775527676531707818}
-    - {fileID: 2180382637829240344}
-    - {fileID: 8872827576576236730}
-    - {fileID: 4651878713339921652}
-    - {fileID: 728839320460546805}
-    - {fileID: 5723373504939095068}
-    - {fileID: 363098181589404145}
-    - {fileID: 1447201249660629460}
-    - {fileID: 6770808375111363862}
-    - {fileID: 6082761784039432981}
-    Springs:
-    - Name: TopsUpperArm
-      ColliderGroups: []
-      Joints:
-      - {fileID: 8132001917672988010}
-      - {fileID: 1327707302319442222}
-      - {fileID: 853906148267715584}
-      Center: {fileID: 1806765950752097502}
-    - Name: TopsUpperArm
-      ColliderGroups: []
-      Joints:
-      - {fileID: 3396919891385657872}
-      - {fileID: 1407811581827317432}
-      - {fileID: 8923782047115569989}
-      Center: {fileID: 1806765950752097502}
-    - Name: TopsUpperArm
-      ColliderGroups: []
-      Joints:
-      - {fileID: 1167322066215486990}
-      - {fileID: 2228753427996883825}
-      - {fileID: 5428012108110332985}
-      - {fileID: 1755043896848353937}
-      Center: {fileID: 1806765950752097502}
-    - Name: TopsUpperArm
-      ColliderGroups: []
-      Joints:
-      - {fileID: 7953067755379626006}
-      - {fileID: 3299222003371038276}
-      - {fileID: 7318332393717568171}
-      Center: {fileID: 1806765950752097502}
-    - Name: TopsUpperArm
-      ColliderGroups: []
-      Joints:
-      - {fileID: 4340886771735461407}
-      - {fileID: 2581591019492603398}
-      - {fileID: 4524427917899989886}
-      Center: {fileID: 1806765950752097502}
-    - Name: TopsUpperArm
-      ColliderGroups: []
-      Joints:
-      - {fileID: 3278534161737034652}
-      - {fileID: 8070716497144520963}
-      - {fileID: 6648755166185369780}
-      - {fileID: 502907698465830262}
-      Center: {fileID: 1806765950752097502}
-    - Name: TopsUpperArm
-      ColliderGroups: []
-      Joints:
-      - {fileID: 8707862850526521928}
-      - {fileID: 6533666871964013335}
-      - {fileID: 6517494950933607740}
-      Center: {fileID: 1806765950752097502}
-    - Name: TopsUpperArm
-      ColliderGroups: []
-      Joints:
-      - {fileID: 7294549186061509782}
-      - {fileID: 7228445374848814582}
-      - {fileID: 3902315894505321275}
-      Center: {fileID: 1806765950752097502}
-    - Name: TopsUpperArm
-      ColliderGroups: []
-      Joints:
-      - {fileID: 2281565655420491319}
-      - {fileID: 6387636672801255087}
-      - {fileID: 643171532003475973}
-      - {fileID: 5749055438330797583}
-      Center: {fileID: 1806765950752097502}
-    - Name: TopsUpperArm
-      ColliderGroups: []
-      Joints:
-      - {fileID: 7917715344702137254}
-      - {fileID: 4015447118566735596}
-      - {fileID: 2829333464774191991}
-      Center: {fileID: 1806765950752097502}
-    - Name: TopsUpperArm
-      ColliderGroups: []
-      Joints:
-      - {fileID: 7947965717835065968}
-      - {fileID: 5046619655795819746}
-      - {fileID: 1848597004684453243}
-      Center: {fileID: 1806765950752097502}
-    - Name: TopsUpperArm
-      ColliderGroups: []
-      Joints:
-      - {fileID: 7276409855713194154}
-      - {fileID: 3300356487647299800}
-      - {fileID: 660308436579735497}
-      - {fileID: 1565516318964429216}
-      Center: {fileID: 1806765950752097502}
-    - Name: TopsUpperArm
-      ColliderGroups: []
-      Joints:
-      - {fileID: 87388945605135265}
-      - {fileID: 42010174466892488}
-      - {fileID: 7645883969106445596}
-      Center: {fileID: 1806765950752097502}
-    - Name: TopsUpperArm
-      ColliderGroups: []
-      Joints:
-      - {fileID: 1700335430028655257}
-      - {fileID: 3264188365406910605}
-      - {fileID: 7071815695022472025}
-      Center: {fileID: 1806765950752097502}
-    - Name: TopsUpperArm
-      ColliderGroups: []
-      Joints:
-      - {fileID: 134914432740121346}
-      - {fileID: 8200443491692640524}
-      - {fileID: 729984543432573605}
-      - {fileID: 6419851566776142758}
-      Center: {fileID: 1806765950752097502}
-    - Name: TopsUpperArm
-      ColliderGroups: []
-      Joints:
-      - {fileID: 3692041412138750846}
-      - {fileID: 9081185096386392983}
-      - {fileID: 7964080397871777362}
-      Center: {fileID: 1806765950752097502}
-    - Name: TopsUpperArm
-      ColliderGroups: []
-      Joints:
-      - {fileID: 694973460505883755}
-      - {fileID: 3617886988214880567}
-      - {fileID: 5182412250962288847}
-      Center: {fileID: 1806765950752097502}
-    - Name: TopsUpperArm
-      ColliderGroups: []
-      Joints:
-      - {fileID: 6557974038417048732}
-      - {fileID: 7538635613241319939}
-      - {fileID: 4693811150040169335}
-      - {fileID: 7721307495060069109}
-      Center: {fileID: 1806765950752097502}
-    - Name: Hair
-      ColliderGroups:
-      - {fileID: 4651878713339921652}
-      - {fileID: 728839320460546805}
-      - {fileID: 1447201249660629460}
-      - {fileID: 5723373504939095068}
-      - {fileID: 6770808375111363862}
-      - {fileID: 363098181589404145}
-      - {fileID: 6082761784039432981}
-      - {fileID: 2180382637829240344}
-      - {fileID: 6775527676531707818}
-      - {fileID: 8872827576576236730}
-      Joints:
-      - {fileID: 1414455293260748997}
-      - {fileID: 8145211325002274278}
-      - {fileID: 6476701819778920740}
-      - {fileID: 192895345349561711}
-      Center: {fileID: 1806765950752097502}
-    - Name: Hair
-      ColliderGroups:
-      - {fileID: 4651878713339921652}
-      - {fileID: 728839320460546805}
-      - {fileID: 1447201249660629460}
-      - {fileID: 5723373504939095068}
-      - {fileID: 6770808375111363862}
-      - {fileID: 363098181589404145}
-      - {fileID: 6082761784039432981}
-      - {fileID: 2180382637829240344}
-      - {fileID: 6775527676531707818}
-      - {fileID: 8872827576576236730}
-      Joints:
-      - {fileID: 41344518792666593}
-      - {fileID: 5786201671832789696}
-      - {fileID: 5995777127517732993}
-      - {fileID: 1495853218305021370}
-      Center: {fileID: 1806765950752097502}
-    - Name: Hair
-      ColliderGroups:
-      - {fileID: 4651878713339921652}
-      - {fileID: 728839320460546805}
-      - {fileID: 1447201249660629460}
-      - {fileID: 5723373504939095068}
-      - {fileID: 6770808375111363862}
-      - {fileID: 363098181589404145}
-      - {fileID: 6082761784039432981}
-      - {fileID: 2180382637829240344}
-      - {fileID: 6775527676531707818}
-      - {fileID: 8872827576576236730}
-      Joints:
-      - {fileID: 6227525357184889134}
-      - {fileID: 8991218572318044660}
-      - {fileID: 3865112110483740005}
-      - {fileID: 7716121818051194414}
-      Center: {fileID: 1806765950752097502}
-    - Name: Hair
-      ColliderGroups:
-      - {fileID: 4651878713339921652}
-      - {fileID: 728839320460546805}
-      - {fileID: 1447201249660629460}
-      - {fileID: 5723373504939095068}
-      - {fileID: 6770808375111363862}
-      - {fileID: 363098181589404145}
-      - {fileID: 6082761784039432981}
-      - {fileID: 2180382637829240344}
-      - {fileID: 6775527676531707818}
-      - {fileID: 8872827576576236730}
-      Joints:
-      - {fileID: 9204038093527494867}
-      - {fileID: 8569373591696693661}
-      - {fileID: 5551771121793755803}
-      - {fileID: 3523685936328920124}
-      Center: {fileID: 1806765950752097502}
-    - Name: Hair
-      ColliderGroups:
-      - {fileID: 4651878713339921652}
-      - {fileID: 728839320460546805}
-      - {fileID: 1447201249660629460}
-      - {fileID: 5723373504939095068}
-      - {fileID: 6770808375111363862}
-      - {fileID: 363098181589404145}
-      - {fileID: 6082761784039432981}
-      - {fileID: 2180382637829240344}
-      - {fileID: 6775527676531707818}
-      - {fileID: 8872827576576236730}
-      Joints:
-      - {fileID: 8239183144299655686}
-      - {fileID: 4067259604433376018}
-      - {fileID: 4782656358213624370}
-      - {fileID: 8188291545649517014}
-      Center: {fileID: 1806765950752097502}
-    - Name: Hair
-      ColliderGroups:
-      - {fileID: 4651878713339921652}
-      - {fileID: 728839320460546805}
-      - {fileID: 1447201249660629460}
-      - {fileID: 5723373504939095068}
-      - {fileID: 6770808375111363862}
-      - {fileID: 363098181589404145}
-      - {fileID: 6082761784039432981}
-      - {fileID: 2180382637829240344}
-      - {fileID: 6775527676531707818}
-      - {fileID: 8872827576576236730}
-      Joints:
-      - {fileID: 5630030144723261526}
-      - {fileID: 7315890306882299620}
-      - {fileID: 3178242955499999624}
-      - {fileID: 4729257138565736132}
-      Center: {fileID: 1806765950752097502}
-    - Name: Hair
-      ColliderGroups:
-      - {fileID: 4651878713339921652}
-      - {fileID: 728839320460546805}
-      - {fileID: 1447201249660629460}
-      - {fileID: 5723373504939095068}
-      - {fileID: 6770808375111363862}
-      - {fileID: 363098181589404145}
-      - {fileID: 6082761784039432981}
-      - {fileID: 2180382637829240344}
-      - {fileID: 6775527676531707818}
-      - {fileID: 8872827576576236730}
-      Joints:
-      - {fileID: 6798689344447042326}
-      - {fileID: 3746822873401318292}
-      - {fileID: 8627367868583669774}
-      - {fileID: 7370220510534710733}
-      Center: {fileID: 1806765950752097502}
-    - Name: Hair
-      ColliderGroups:
-      - {fileID: 4651878713339921652}
-      - {fileID: 728839320460546805}
-      - {fileID: 1447201249660629460}
-      - {fileID: 5723373504939095068}
-      - {fileID: 6770808375111363862}
-      - {fileID: 363098181589404145}
-      - {fileID: 6082761784039432981}
-      - {fileID: 2180382637829240344}
-      - {fileID: 6775527676531707818}
-      - {fileID: 8872827576576236730}
-      Joints:
-      - {fileID: 4623635315021912711}
-      - {fileID: 5724249436676789796}
-      - {fileID: 1787124869018401482}
-      - {fileID: 4780672987348003904}
-      Center: {fileID: 1806765950752097502}
-    - Name: Hair
-      ColliderGroups:
-      - {fileID: 4651878713339921652}
-      - {fileID: 728839320460546805}
-      - {fileID: 1447201249660629460}
-      - {fileID: 5723373504939095068}
-      - {fileID: 6770808375111363862}
-      - {fileID: 363098181589404145}
-      - {fileID: 6082761784039432981}
-      - {fileID: 2180382637829240344}
-      - {fileID: 6775527676531707818}
-      - {fileID: 8872827576576236730}
-      Joints:
-      - {fileID: 7450283089945560625}
-      - {fileID: 6943360333274661280}
-      - {fileID: 3885579057064618321}
-      - {fileID: 8504880197935078202}
-      Center: {fileID: 1806765950752097502}
-    - Name: Hair
-      ColliderGroups:
-      - {fileID: 4651878713339921652}
-      - {fileID: 728839320460546805}
-      - {fileID: 1447201249660629460}
-      - {fileID: 5723373504939095068}
-      - {fileID: 6770808375111363862}
-      - {fileID: 363098181589404145}
-      - {fileID: 6082761784039432981}
-      - {fileID: 2180382637829240344}
-      - {fileID: 6775527676531707818}
-      - {fileID: 8872827576576236730}
-      Joints:
-      - {fileID: 7644115654589179915}
-      - {fileID: 5621957411111580635}
-      - {fileID: 4273591816605683071}
-      - {fileID: 782771820735251541}
-      Center: {fileID: 1806765950752097502}
-    - Name: Hair
-      ColliderGroups:
-      - {fileID: 4651878713339921652}
-      - {fileID: 728839320460546805}
-      - {fileID: 1447201249660629460}
-      - {fileID: 5723373504939095068}
-      - {fileID: 6770808375111363862}
-      - {fileID: 363098181589404145}
-      - {fileID: 6082761784039432981}
-      - {fileID: 2180382637829240344}
-      - {fileID: 6775527676531707818}
-      - {fileID: 8872827576576236730}
-      Joints:
-      - {fileID: 665181006197954038}
-      - {fileID: 4896828281230209438}
-      - {fileID: 8339633498845492853}
-      - {fileID: 8497418216049677771}
-      - {fileID: 7436646641144435081}
-      Center: {fileID: 1806765950752097502}
-  UpdateType: 2
-  DrawLookAtGizmo: 1
-  LookAtTarget: {fileID: 0}
-  LookAtTargetType: 0
 --- !u!1 &338697677404953312
 GameObject:
   m_ObjectHideFlags: 0
@@ -45399,21 +45038,6 @@ Transform:
   m_Children: []
   m_Father: {fileID: 2650068796906751243}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &363098181589404145
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 8683559935223316684}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 177ea458e237fee41b0902e3006c744b, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: VRM10::UniVRM10.VRM10SpringBoneColliderGroup
-  Name: J_Bip_L_Hand
-  Colliders:
-  - {fileID: 3658470178459436655}
 --- !u!114 &363867329960187657
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -45849,6 +45473,21 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
+--- !u!114 &504768209654273406
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2210602344948343805}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 177ea458e237fee41b0902e3006c744b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: VRM10::UniVRM10.VRM10SpringBoneColliderGroup
+  Name: J_Bip_C_Spine
+  Colliders:
+  - {fileID: 8066130912603831874}
 --- !u!4 &515295351035283817
 Transform:
   m_ObjectHideFlags: 0
@@ -46675,23 +46314,6 @@ MonoBehaviour:
   Radius: 0.050341766
   Tail: {x: 0, y: 0, z: 0}
   Normal: {x: 0, y: 1, z: 0}
---- !u!114 &728839320460546805
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 8683559935223316684}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 177ea458e237fee41b0902e3006c744b, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: VRM10::UniVRM10.VRM10SpringBoneColliderGroup
-  Name: J_Bip_L_UpperArm
-  Colliders:
-  - {fileID: 8829696583098940388}
-  - {fileID: 3073501728024768041}
-  - {fileID: 5310660642313074558}
 --- !u!114 &729984543432573605
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -48042,6 +47664,23 @@ MonoBehaviour:
   Radius: 0.030209655
   Tail: {x: 0, y: 0, z: 0}
   Normal: {x: 0, y: 1, z: 0}
+--- !u!114 &1043638439675711227
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2210602344948343805}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 177ea458e237fee41b0902e3006c744b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: VRM10::UniVRM10.VRM10SpringBoneColliderGroup
+  Name: J_Bip_L_UpperArm
+  Colliders:
+  - {fileID: 8829696583098940388}
+  - {fileID: 3073501728024768041}
+  - {fileID: 5310660642313074558}
 --- !u!4 &1043932780531876512
 Transform:
   m_ObjectHideFlags: 0
@@ -48317,6 +47956,7 @@ MonoBehaviour:
   playerInput: {fileID: 2819395914412546655}
   animator: {fileID: 569227321601342687}
   characterModel: {fileID: 0}
+  spaceShipRepair: {fileID: 0}
   playerCamera: {fileID: 7486949806071695625}
   mouseSensitivity: 0.1
   padSensitivity: 300
@@ -49522,23 +49162,6 @@ Transform:
   - {fileID: 6355591344898356034}
   m_Father: {fileID: 2567815335583761916}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &1447201249660629460
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 8683559935223316684}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 177ea458e237fee41b0902e3006c744b, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: VRM10::UniVRM10.VRM10SpringBoneColliderGroup
-  Name: J_Bip_R_UpperArm
-  Colliders:
-  - {fileID: 1459304813550950996}
-  - {fileID: 4325494586653261539}
-  - {fileID: 5728884610883707757}
 --- !u!4 &1453055554388204603
 Transform:
   m_ObjectHideFlags: 0
@@ -50157,17 +49780,17 @@ SkinnedMeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: -9158373887091854016, guid: 84bb2f350cf89264eb560d6d8a2aff52, type: 3}
-  - {fileID: -2475380982112512756, guid: 84bb2f350cf89264eb560d6d8a2aff52, type: 3}
-  - {fileID: 5827585089927132572, guid: 84bb2f350cf89264eb560d6d8a2aff52, type: 3}
-  - {fileID: -6437266514495247748, guid: 84bb2f350cf89264eb560d6d8a2aff52, type: 3}
-  - {fileID: -8353693834043161444, guid: 84bb2f350cf89264eb560d6d8a2aff52, type: 3}
-  - {fileID: 7692379741788347048, guid: 84bb2f350cf89264eb560d6d8a2aff52, type: 3}
-  - {fileID: -3010499270558034290, guid: 84bb2f350cf89264eb560d6d8a2aff52, type: 3}
-  - {fileID: 4657297357312445901, guid: 84bb2f350cf89264eb560d6d8a2aff52, type: 3}
-  - {fileID: 2601858927673969104, guid: 84bb2f350cf89264eb560d6d8a2aff52, type: 3}
-  - {fileID: 1481755156234241564, guid: 84bb2f350cf89264eb560d6d8a2aff52, type: 3}
-  - {fileID: 8207044853691556369, guid: 84bb2f350cf89264eb560d6d8a2aff52, type: 3}
+  - {fileID: -9158373887091854016, guid: bb8dd59c43a521b4a835d9ca50175933, type: 3}
+  - {fileID: -2475380982112512756, guid: bb8dd59c43a521b4a835d9ca50175933, type: 3}
+  - {fileID: 5827585089927132572, guid: bb8dd59c43a521b4a835d9ca50175933, type: 3}
+  - {fileID: -6437266514495247748, guid: bb8dd59c43a521b4a835d9ca50175933, type: 3}
+  - {fileID: -8353693834043161444, guid: bb8dd59c43a521b4a835d9ca50175933, type: 3}
+  - {fileID: 7692379741788347048, guid: bb8dd59c43a521b4a835d9ca50175933, type: 3}
+  - {fileID: -3010499270558034290, guid: bb8dd59c43a521b4a835d9ca50175933, type: 3}
+  - {fileID: 4657297357312445901, guid: bb8dd59c43a521b4a835d9ca50175933, type: 3}
+  - {fileID: 2601858927673969104, guid: bb8dd59c43a521b4a835d9ca50175933, type: 3}
+  - {fileID: 1481755156234241564, guid: bb8dd59c43a521b4a835d9ca50175933, type: 3}
+  - {fileID: 8207044853691556369, guid: bb8dd59c43a521b4a835d9ca50175933, type: 3}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -50193,7 +49816,7 @@ SkinnedMeshRenderer:
   m_Quality: 0
   m_UpdateWhenOffscreen: 0
   m_SkinnedMotionVectors: 1
-  m_Mesh: {fileID: 3046009429776454734, guid: 84bb2f350cf89264eb560d6d8a2aff52, type: 3}
+  m_Mesh: {fileID: 3046009429776454734, guid: bb8dd59c43a521b4a835d9ca50175933, type: 3}
   m_Bones:
   - {fileID: 1806765950752097502}
   - {fileID: 3530994963427556412}
@@ -50821,6 +50444,21 @@ MonoBehaviour:
   m_limitSpaceOffset: {x: 0, y: 0, z: 0, w: 1}
   m_pitch: 3.1415927
   m_yaw: 0
+--- !u!114 &1748074290098228480
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2210602344948343805}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 177ea458e237fee41b0902e3006c744b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: VRM10::UniVRM10.VRM10SpringBoneColliderGroup
+  Name: J_Bip_L_Hand
+  Colliders:
+  - {fileID: 3658470178459436655}
 --- !u!114 &1755043896848353937
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -51681,6 +51319,24 @@ Transform:
   - {fileID: 5539127015609273243}
   m_Father: {fileID: 3530994963427556412}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1961997661561614759
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2210602344948343805}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 177ea458e237fee41b0902e3006c744b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: VRM10::UniVRM10.VRM10SpringBoneColliderGroup
+  Name: J_Bip_L_LowerArm
+  Colliders:
+  - {fileID: 5380883662279963486}
+  - {fileID: 6210421750165332145}
+  - {fileID: 4571984768257353567}
+  - {fileID: 1539433153547820990}
 --- !u!1 &1970742693842872030
 GameObject:
   m_ObjectHideFlags: 0
@@ -52426,23 +52082,6 @@ Transform:
   - {fileID: 5972559294824314667}
   m_Father: {fileID: 4651546516111343658}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &2180382637829240344
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 8683559935223316684}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 177ea458e237fee41b0902e3006c744b, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: VRM10::UniVRM10.VRM10SpringBoneColliderGroup
-  Name: J_Bip_C_UpperChest
-  Colliders:
-  - {fileID: 3998662724793191482}
-  - {fileID: 2944151102770281449}
-  - {fileID: 7039458761347586018}
 --- !u!1 &2185031509427472092
 GameObject:
   m_ObjectHideFlags: 0
@@ -52485,7 +52124,7 @@ Animator:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 8062139072529111538}
   m_Enabled: 1
-  m_Avatar: {fileID: -7015762578403652589, guid: 84bb2f350cf89264eb560d6d8a2aff52, type: 3}
+  m_Avatar: {fileID: -7015762578403652589, guid: bb8dd59c43a521b4a835d9ca50175933, type: 3}
   m_Controller: {fileID: 9100000, guid: f6b8a70446362424fbaffb4299f7636a, type: 2}
   m_CullingMode: 0
   m_UpdateMode: 0
@@ -52546,6 +52185,32 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
+--- !u!1 &2210602344948343805
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 9140932559223784779}
+  - component: {fileID: 504768209654273406}
+  - component: {fileID: 2907924877388690802}
+  - component: {fileID: 4844668555577517045}
+  - component: {fileID: 5601082307093748965}
+  - component: {fileID: 1043638439675711227}
+  - component: {fileID: 1961997661561614759}
+  - component: {fileID: 1748074290098228480}
+  - component: {fileID: 9150251792883184412}
+  - component: {fileID: 3149246220134852048}
+  - component: {fileID: 4818770770523790339}
+  m_Layer: 0
+  m_Name: secondary
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
 --- !u!4 &2210705876561979922
 Transform:
   m_ObjectHideFlags: 0
@@ -54973,7 +54638,7 @@ Transform:
   m_GameObject: {fileID: 1940823864559531470}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalPosition: {x: 1, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -55070,6 +54735,7 @@ MonoBehaviour:
   playerInput: {fileID: 972943953802250638}
   animator: {fileID: 7173975335988157765}
   characterModel: {fileID: 1384619284732923675}
+  spaceShipRepair: {fileID: 0}
   playerCamera: {fileID: 7486949806071695625}
   mouseSensitivity: 0.1
   padSensitivity: 500
@@ -55226,9 +54892,26 @@ Transform:
   - {fileID: 8927319633085724769}
   - {fileID: 6976324903772497065}
   - {fileID: 942864238700580048}
-  - {fileID: 8147355487925187110}
+  - {fileID: 9140932559223784779}
   m_Father: {fileID: 7936260938769892260}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &2907924877388690802
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2210602344948343805}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 177ea458e237fee41b0902e3006c744b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: VRM10::UniVRM10.VRM10SpringBoneColliderGroup
+  Name: J_Bip_C_UpperChest
+  Colliders:
+  - {fileID: 3998662724793191482}
+  - {fileID: 2944151102770281449}
+  - {fileID: 7039458761347586018}
 --- !u!114 &2908412163135488012
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -56062,6 +55745,24 @@ Transform:
   - {fileID: 6258792912048628703}
   m_Father: {fileID: 4413045966930755996}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &3149246220134852048
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2210602344948343805}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 177ea458e237fee41b0902e3006c744b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: VRM10::UniVRM10.VRM10SpringBoneColliderGroup
+  Name: J_Bip_R_LowerArm
+  Colliders:
+  - {fileID: 7458870505768808075}
+  - {fileID: 4065260601095514447}
+  - {fileID: 4790201449585568804}
+  - {fileID: 3699082406976083565}
 --- !u!1 &3149994517173153540
 GameObject:
   m_ObjectHideFlags: 0
@@ -62115,21 +61816,6 @@ Transform:
   - {fileID: 2175913126435561005}
   m_Father: {fileID: 7738033155659259682}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &4651878713339921652
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 8683559935223316684}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 177ea458e237fee41b0902e3006c744b, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: VRM10::UniVRM10.VRM10SpringBoneColliderGroup
-  Name: J_Bip_C_Head
-  Colliders:
-  - {fileID: 159191862167182390}
 --- !u!114 &4661287586286077071
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -62950,6 +62636,21 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 90, z: 0}
+--- !u!114 &4818770770523790339
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2210602344948343805}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 177ea458e237fee41b0902e3006c744b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: VRM10::UniVRM10.VRM10SpringBoneColliderGroup
+  Name: J_Bip_R_Hand
+  Colliders:
+  - {fileID: 5721340551609507537}
 --- !u!4 &4819811063720778033
 Transform:
   m_ObjectHideFlags: 0
@@ -63047,6 +62748,21 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
+--- !u!114 &4844668555577517045
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2210602344948343805}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 177ea458e237fee41b0902e3006c744b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: VRM10::UniVRM10.VRM10SpringBoneColliderGroup
+  Name: J_Bip_C_Neck
+  Colliders:
+  - {fileID: 698046351435376913}
 --- !u!1 &4845132253294837856
 GameObject:
   m_ObjectHideFlags: 0
@@ -65428,6 +65144,21 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
+--- !u!114 &5601082307093748965
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2210602344948343805}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 177ea458e237fee41b0902e3006c744b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: VRM10::UniVRM10.VRM10SpringBoneColliderGroup
+  Name: J_Bip_C_Head
+  Colliders:
+  - {fileID: 159191862167182390}
 --- !u!1 &5603034779623778200
 GameObject:
   m_ObjectHideFlags: 0
@@ -65812,13 +65543,13 @@ SkinnedMeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: -10445852844373290, guid: 84bb2f350cf89264eb560d6d8a2aff52, type: 3}
-  - {fileID: -3086040202636137392, guid: 84bb2f350cf89264eb560d6d8a2aff52, type: 3}
-  - {fileID: 3962705404929896953, guid: 84bb2f350cf89264eb560d6d8a2aff52, type: 3}
-  - {fileID: -3795172059498023923, guid: 84bb2f350cf89264eb560d6d8a2aff52, type: 3}
-  - {fileID: 3408670460030677136, guid: 84bb2f350cf89264eb560d6d8a2aff52, type: 3}
-  - {fileID: -8947343091360537376, guid: 84bb2f350cf89264eb560d6d8a2aff52, type: 3}
-  - {fileID: 3480520191389243366, guid: 84bb2f350cf89264eb560d6d8a2aff52, type: 3}
+  - {fileID: -10445852844373290, guid: bb8dd59c43a521b4a835d9ca50175933, type: 3}
+  - {fileID: -3086040202636137392, guid: bb8dd59c43a521b4a835d9ca50175933, type: 3}
+  - {fileID: 3962705404929896953, guid: bb8dd59c43a521b4a835d9ca50175933, type: 3}
+  - {fileID: -3795172059498023923, guid: bb8dd59c43a521b4a835d9ca50175933, type: 3}
+  - {fileID: 3408670460030677136, guid: bb8dd59c43a521b4a835d9ca50175933, type: 3}
+  - {fileID: -8947343091360537376, guid: bb8dd59c43a521b4a835d9ca50175933, type: 3}
+  - {fileID: 3480520191389243366, guid: bb8dd59c43a521b4a835d9ca50175933, type: 3}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -65844,7 +65575,7 @@ SkinnedMeshRenderer:
   m_Quality: 0
   m_UpdateWhenOffscreen: 0
   m_SkinnedMotionVectors: 1
-  m_Mesh: {fileID: -896797775081031041, guid: 84bb2f350cf89264eb560d6d8a2aff52, type: 3}
+  m_Mesh: {fileID: -896797775081031041, guid: bb8dd59c43a521b4a835d9ca50175933, type: 3}
   m_Bones:
   - {fileID: 1806765950752097502}
   - {fileID: 3530994963427556412}
@@ -66111,24 +65842,6 @@ MonoBehaviour:
   Radius: 0.030209655
   Tail: {x: 0, y: 0, z: 0}
   Normal: {x: 0, y: 1, z: 0}
---- !u!114 &5723373504939095068
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 8683559935223316684}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 177ea458e237fee41b0902e3006c744b, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: VRM10::UniVRM10.VRM10SpringBoneColliderGroup
-  Name: J_Bip_L_LowerArm
-  Colliders:
-  - {fileID: 5380883662279963486}
-  - {fileID: 6210421750165332145}
-  - {fileID: 4571984768257353567}
-  - {fileID: 1539433153547820990}
 --- !u!114 &5724249436676789796
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -67274,7 +66987,7 @@ SkinnedMeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: -8864942217884724621, guid: 84bb2f350cf89264eb560d6d8a2aff52, type: 3}
+  - {fileID: -8864942217884724621, guid: bb8dd59c43a521b4a835d9ca50175933, type: 3}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -67300,7 +67013,7 @@ SkinnedMeshRenderer:
   m_Quality: 0
   m_UpdateWhenOffscreen: 0
   m_SkinnedMotionVectors: 1
-  m_Mesh: {fileID: 7637705309920616046, guid: 84bb2f350cf89264eb560d6d8a2aff52, type: 3}
+  m_Mesh: {fileID: 7637705309920616046, guid: bb8dd59c43a521b4a835d9ca50175933, type: 3}
   m_Bones:
   - {fileID: 1806765950752097502}
   - {fileID: 3530994963427556412}
@@ -67443,21 +67156,6 @@ SkinnedMeshRenderer:
     m_Center: {x: -0.0022508428, y: 1.5560079, z: -0.036209375}
     m_Extent: {x: 0.13385648, y: 0.13666207, z: 0.1395598}
   m_DirtyAABB: 0
---- !u!114 &6082761784039432981
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 8683559935223316684}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 177ea458e237fee41b0902e3006c744b, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: VRM10::UniVRM10.VRM10SpringBoneColliderGroup
-  Name: J_Bip_R_Hand
-  Colliders:
-  - {fileID: 5721340551609507537}
 --- !u!4 &6084614809410120190
 Transform:
   m_ObjectHideFlags: 0
@@ -68893,9 +68591,10 @@ MonoBehaviour:
   playerInput: {fileID: 8112377104590832945}
   animator: {fileID: 2205479789079663098}
   characterModel: {fileID: 7936260938769892260}
+  spaceShipRepair: {fileID: 0}
   playerCamera: {fileID: 1941783231117133238}
   mouseSensitivity: 0.1
-  padSensitivity: 500
+  padSensitivity: 100
   walkSpeed: 2
   runSpeed: 6
   rotationSpeed: 15
@@ -69829,39 +69528,6 @@ Canvas:
   m_SortingLayerID: 0
   m_SortingOrder: 0
   m_TargetDisplay: 0
---- !u!114 &6770808375111363862
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 8683559935223316684}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 177ea458e237fee41b0902e3006c744b, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: VRM10::UniVRM10.VRM10SpringBoneColliderGroup
-  Name: J_Bip_R_LowerArm
-  Colliders:
-  - {fileID: 7458870505768808075}
-  - {fileID: 4065260601095514447}
-  - {fileID: 4790201449585568804}
-  - {fileID: 3699082406976083565}
---- !u!114 &6775527676531707818
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 8683559935223316684}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 177ea458e237fee41b0902e3006c744b, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: VRM10::UniVRM10.VRM10SpringBoneColliderGroup
-  Name: J_Bip_C_Spine
-  Colliders:
-  - {fileID: 8066130912603831874}
 --- !u!1 &6776689621998666225
 GameObject:
   m_ObjectHideFlags: 0
@@ -74755,11 +74421,11 @@ GameObject:
   - component: {fileID: 7936260938769892260}
   - component: {fileID: 794586780479831788}
   - component: {fileID: 2205479789079663098}
-  - component: {fileID: 338564272994299725}
   - component: {fileID: 4595698628007125838}
   - component: {fileID: 7548136733647791180}
   - component: {fileID: 8112377104590832945}
   - component: {fileID: 6525740483736297727}
+  - component: {fileID: 8112377104590832946}
   m_Layer: 0
   m_Name: Player_tmp1
   m_TagString: Player
@@ -74975,6 +74641,20 @@ MonoBehaviour:
   m_DefaultActionMap: Player
   m_SplitScreenIndex: -1
   m_Camera: {fileID: 0}
+--- !u!114 &8112377104590832946
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8062139072529111538}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2b53c946a7cc0004398fd1472e5337b5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::NunchukAccelReader
+  accelX: {fileID: -8931362001517314941, guid: 052faaac586de48259a63d0c4782560b, type: 3}
+  Value: 10
 --- !u!4 &8113967890867417172
 Transform:
   m_ObjectHideFlags: 0
@@ -75223,21 +74903,6 @@ MonoBehaviour:
   m_limitSpaceOffset: {x: 0, y: 0, z: 0, w: 1}
   m_pitch: 3.1415927
   m_yaw: 0
---- !u!4 &8147355487925187110
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 8683559935223316684}
-  serializedVersion: 2
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 2905985425769871589}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!4 &8155756291453780860
 Transform:
   m_ObjectHideFlags: 0
@@ -77311,32 +76976,6 @@ Transform:
   - {fileID: 7629561516555279080}
   m_Father: {fileID: 7541462660975556529}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!1 &8683559935223316684
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 8147355487925187110}
-  - component: {fileID: 6775527676531707818}
-  - component: {fileID: 2180382637829240344}
-  - component: {fileID: 8872827576576236730}
-  - component: {fileID: 4651878713339921652}
-  - component: {fileID: 728839320460546805}
-  - component: {fileID: 5723373504939095068}
-  - component: {fileID: 363098181589404145}
-  - component: {fileID: 1447201249660629460}
-  - component: {fileID: 6770808375111363862}
-  - component: {fileID: 6082761784039432981}
-  m_Layer: 0
-  m_Name: secondary
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
 --- !u!1 &8684827066629113272
 GameObject:
   m_ObjectHideFlags: 0
@@ -77908,21 +77547,6 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!114 &8872827576576236730
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 8683559935223316684}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 177ea458e237fee41b0902e3006c744b, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: VRM10::UniVRM10.VRM10SpringBoneColliderGroup
-  Name: J_Bip_C_Neck
-  Colliders:
-  - {fileID: 698046351435376913}
 --- !u!114 &8873199362722796736
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -78787,6 +78411,7 @@ MonoBehaviour:
   playerInput: {fileID: 0}
   animator: {fileID: 0}
   characterModel: {fileID: 0}
+  spaceShipRepair: {fileID: 0}
   playerCamera: {fileID: 7705536718772362774}
   mouseSensitivity: 40
   padSensitivity: 100
@@ -78794,6 +78419,21 @@ MonoBehaviour:
   runSpeed: 6
   rotationSpeed: 15
   gravity: -9.81
+--- !u!4 &9140932559223784779
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2210602344948343805}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 2905985425769871589}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &9145333364853441501
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -78815,6 +78455,23 @@ MonoBehaviour:
   m_limitSpaceOffset: {x: 0, y: 0, z: 0, w: 1}
   m_pitch: 3.1415927
   m_yaw: 0
+--- !u!114 &9150251792883184412
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2210602344948343805}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 177ea458e237fee41b0902e3006c744b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: VRM10::UniVRM10.VRM10SpringBoneColliderGroup
+  Name: J_Bip_R_UpperArm
+  Colliders:
+  - {fileID: 1459304813550950996}
+  - {fileID: 4325494586653261539}
+  - {fileID: 5728884610883707757}
 --- !u!114 &9160871975156109449
 MonoBehaviour:
   m_ObjectHideFlags: 0
