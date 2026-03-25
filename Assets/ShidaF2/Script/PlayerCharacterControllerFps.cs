@@ -1,26 +1,23 @@
 using UnityEngine;
 using UnityEngine.InputSystem;
-using UnityEngine.Playables;
 
 public class PlayerCharacterControllerFps : MonoBehaviour
 {
+    [Header("Mode Settings")]
+    [SerializeField] private bool useSpecialDualController = true; 
 
+    [Header("References")]
     [SerializeField] private CharacterController characterController;
     [SerializeField] private PlayerInput playerInput;
     [SerializeField] private Animator animator;
-    [SerializeField] private Transform characterModel;
     [SerializeField] private SpaceshipRepair spaceShipRepair;
-
-
     [SerializeField] private Transform playerCamera;
 
-
+    [Header("Movement Settings")]
     [SerializeField] private float mouseSensitivity = 0.1f;
     [SerializeField] private float padSensitivity = 500f;
-
     [SerializeField] private float walkSpeed = 2f;
     [SerializeField] private float runSpeed = 6f;
-    [SerializeField] private float rotationSpeed = 15f;
     [SerializeField] private float gravity = -9.81f;
 
     private float defaultWalkSpeed;
@@ -32,9 +29,8 @@ public class PlayerCharacterControllerFps : MonoBehaviour
     private bool isDashing;
     private InputAction runaction;
 
-    // --- 加速度センサー（振る動作）用の変数を追加 ---
-    private float lastAccelSum; 
-    private float attackCooldown = 0.5f; // 連続攻撃を防ぐ待ち時間
+    private float lastAccelSum;
+    private float attackCooldown = 0.5f; 
     private float lastAttackTime;
 
     private void Awake()
@@ -47,236 +43,170 @@ public class PlayerCharacterControllerFps : MonoBehaviour
         defaultRunSpeed = runSpeed;
 
         Cursor.lockState = CursorLockMode.Locked;
-        Cursor.visible = false;
-        if (playerInput != null)
-        {
-            runaction = playerInput.actions["Dash"];
-        }
+        
+        // Input Action Assetに "Dash" という名前のアクションがあることを確認してください
+        if (playerInput != null) runaction = playerInput.actions["Dash"];
     }
 
-    public void OnMove(InputValue value) => moveInput = value.Get<Vector2>();
-    public void OnLook(InputValue value) => lookInput = value.Get<Vector2>();
-
-
+    // --- ① 標準入力イベント（キーボード/通常パッド用） ---
+    public void OnMove(InputValue value) { if (!useSpecialDualController) moveInput = value.Get<Vector2>(); }
+    public void OnLook(InputValue value) { if (!useSpecialDualController) lookInput = value.Get<Vector2>(); }
+    
+    public void OnAttack(InputValue value)
+    {
+        if (useSpecialDualController) return; 
+        if (value.isPressed) PerformAttack();
+    }
 
     public void OnInteract(InputValue value)
     {
-        if (value.isPressed)
-        {
-      
-            if (!spaceShipRepair.isRepairing)
-            {
-            
-                if (spaceShipRepair.repairButton.gameObject.activeInHierarchy && spaceShipRepair.repairButton.interactable)
-                {
-                
-                    spaceShipRepair.repairButton.onClick.Invoke();
-                }
-            }
-            else
-            {
-          
-                spaceShipRepair.Repairing();
-            }
-        }
+        if (value.isPressed) HandleRepairInput();
     }
-   
 
-    public void OnAttack(InputValue value)
+    private void Update()
     {
-        if (value.isPressed)
+        // Pキーでモード切替
+        if (Keyboard.current != null && Keyboard.current.pKey.wasPressedThisFrame)
         {
-            if (spaceShipRepair.isRepairing)
-            {
-                spaceShipRepair.Repairing(); 
-                animator.SetTrigger("Attack1"); 
-
-            }
-            else
-            {
-                animator.SetTrigger("Attack1");
-            }
+            useSpecialDualController = !useSpecialDualController;
+            // モード切替時に一旦入力をクリアする（暴走防止）
+            moveInput = Vector2.zero;
+            lookInput = Vector2.zero;
+            isDashing = false;
+            Debug.Log($"モード切替完了: {(useSpecialDualController ? "ヌンチャク2台" : "キーボード/マウス")}");
         }
-    }
-    // private void Update()
-    // {
-    
-    //     if (spaceShipRepair != null && spaceShipRepair.isRepairing)
-    //     {
-        
-    //         if (animator != null) animator.SetFloat("Speed", 0f);
-    //         return;
-    //     }
 
-    //     if (runaction != null && runaction.IsPressed())
-    //     {
-    //         isDashing = true;
-    //     }
-    //     else
-    //     {
-    //         isDashing = false;
-    //     }
-
-    //     UpdateLook();
-    //     UpdateMovement();
-    // }
-private void Update()
-    {
         if (spaceShipRepair != null && spaceShipRepair.isRepairing)
         {
             if (animator != null) animator.SetFloat("Speed", 0f);
             return;
         }
 
+        // --- ② 入力ソースの確定 ---
+        if (useSpecialDualController)
+        {
+            HandleDualJoystickInput();
+        }
+        else
+        {
+            // キーボードモード：Shiftキー（Dashアクション）が押されているかチェック
+            if (runaction != null) 
+            {
+                isDashing = runaction.IsPressed();
+            }
+        }
+
+        UpdateLookL(); 
+        UpdateMovement();
+    }
+
+    private void HandleDualJoystickInput()
+    {
         var joysticks = UnityEngine.InputSystem.Joystick.all;
+        // ジョイスティックがない場合は何もしない（Update自体は止めない）
         if (joysticks.Count == 0) return;
 
-        // --- 1つ目のデバイス (v2.2 / 移動・ダッシュ担当) ---
+        // --- 左手：移動・ダッシュ (v2.2) ---
         if (joysticks.Count >= 1)
         {
             moveInput = joysticks[0].stick.ReadValue();
             
-            bool dashButtonPressed = false;
-            foreach (var control in joysticks[0].allControls)
+            bool dashActive = false; 
+            // 前回の修正通り "trigger" という名前のボタンだけを狙い撃ち
+            var trigger = joysticks[0]["trigger"] as UnityEngine.InputSystem.Controls.ButtonControl;
+            if (trigger != null && trigger.isPressed)
             {
-                if (control.name.Contains("trigger") || control.name.Contains("button"))
+                dashActive = true;
+            }
+            isDashing = dashActive;
+        }
+
+        // --- 右手：視点・振り攻撃 (v2.3) ---
+        if (joysticks.Count >= 2)
+        {
+            lookInput = joysticks[1].stick.ReadValue();
+
+            float currentSum = 0;
+            foreach (var control in joysticks[1].allControls)
+            {
+                if (control is UnityEngine.InputSystem.Controls.AxisControl axis &&
+                    control.name != "x" && control.name != "y")
                 {
-                    var button = control as UnityEngine.InputSystem.Controls.ButtonControl;
-                    if (button != null && button.isPressed)
-                    {
-                        dashButtonPressed = true;
-                        break; 
-                    }
+                    currentSum += Mathf.Abs(axis.ReadValue());
                 }
             }
-            isDashing = dashButtonPressed;
-        }
-        // --- 2つ目のデバイス (v2.3 / 視点・振って攻撃担当) ---
-    if (joysticks.Count >= 2)
-    {
-        lookInput = joysticks[1].stick.ReadValue();
 
-        // ★ ここから攻撃判定（joysticks[1]、つまりv2.3だけを対象にする）
-        float currentAccelSum = 0;
-        
-        // joysticks[1] (右手側) のコントロールだけをループで回す
-        foreach (var control in joysticks[1].allControls)
-        {
-            // スティック(x, y)以外の「Rx, Ry, Rz」などの軸だけを計算
-            if (control is UnityEngine.InputSystem.Controls.AxisControl axis && 
-                control.name != "x" && control.name != "y")
+            float delta = Mathf.Abs(currentSum - lastAccelSum);
+            if (delta > 1.2f && Time.time > lastAttackTime + attackCooldown)
             {
-                currentAccelSum += Mathf.Abs(axis.ReadValue());
+                PerformAttack();
+                lastAttackTime = Time.time;
             }
+            lastAccelSum = currentSum;
         }
-
-        // 加速度の変化（振りの強さ）を計算
-        float deltaAccel = Mathf.Abs(currentAccelSum - lastAccelSum);
-
-        // 0.8f を超えたら攻撃（v2.3を振ったときだけ実行される）
-        if (deltaAccel > 1.0f && Time.time > lastAttackTime + attackCooldown)
-        {
-            animator.SetTrigger("Attack1");
-            if (spaceShipRepair.isRepairing) spaceShipRepair.Repairing();
-            
-            lastAttackTime = Time.time;
-            deltaAccel = 0f;
-        }
-        lastAccelSum = currentAccelSum;
     }
 
-        UpdateLookL(); // 以前のUpdateLookLを使用
-        UpdateMovement();
-    }
-
-    private void UpdateLook()
+    private void PerformAttack()
     {
-  
+        animator.SetTrigger("Attack1");
+        if (spaceShipRepair.isRepairing) spaceShipRepair.Repairing();
+    }
+
+    private void UpdateLookL()
+    {
         if (spaceShipRepair != null && spaceShipRepair.isRepairing) return;
-        if (playerCamera == null || playerInput == null) return;
+        if (playerCamera == null) return;
 
-        float yawInput;
-        float pitchInput;
+        float yawInput, pitchInput;
 
-        if (playerInput.currentControlScheme == "Gamepad")
-        {
-            yawInput = lookInput.x * padSensitivity * Time.deltaTime;
-            pitchInput = lookInput.y * padSensitivity * Time.deltaTime;
-        }
-        else
+        // キーボード/マウスモードかつコントロールスキームがGamepad以外（＝マウス）の場合
+        if (!useSpecialDualController && (playerInput == null || playerInput.currentControlScheme != "Gamepad"))
         {
             yawInput = lookInput.x * mouseSensitivity;
             pitchInput = lookInput.y * mouseSensitivity;
         }
+        else // ヌンチャクまたは通常パッド
+        {
+            yawInput = lookInput.x * padSensitivity * Time.deltaTime;
+            pitchInput = lookInput.y * padSensitivity * Time.deltaTime;
+        }
 
         transform.Rotate(Vector3.up * yawInput);
-
         pitch -= pitchInput;
         pitch = Mathf.Clamp(pitch, -90f, 90f);
         playerCamera.localRotation = Quaternion.Euler(pitch, 0f, 0f);
     }
-    private void UpdateLookL()
-{
-    if (spaceShipRepair != null && spaceShipRepair.isRepairing) return;
-    if (playerCamera == null) return;
-
-    // Time.deltaTimeを掛けることで、1フレームごとではなく「1秒間」の回転量になります。
-    // これで動きが劇的にゆっくり、かつ滑らかになります。
-    float yawInput = lookInput.x * padSensitivity * Time.deltaTime;
-    float pitchInput = lookInput.y * padSensitivity * Time.deltaTime;
-
-    // 左右の回転
-    transform.Rotate(Vector3.up * yawInput);
-
-    // 上下の回転（制限付き）
-    pitch -= pitchInput;
-    pitch = Mathf.Clamp(pitch, -90f, 90f);
-    playerCamera.localRotation = Quaternion.Euler(pitch, 0f, 0f);
-}
-    
-
 
     private void UpdateMovement()
     {
-        // ★修理中は何もしない
         if (spaceShipRepair != null && spaceShipRepair.isRepairing) return;
         if (characterController == null) return;
 
-        if (characterController.isGrounded && verticalVelocity.y < 0f)
-        {
-            verticalVelocity.y = -2f;
-        }
+        if (characterController.isGrounded && verticalVelocity.y < 0f) verticalVelocity.y = -2f;
 
-        Vector3 moveDirection = transform.forward * moveInput.y + transform.right * moveInput.x;
+        Vector3 move = transform.forward * moveInput.y + transform.right * moveInput.x;
+        if (move.sqrMagnitude > 1f) move.Normalize();
 
-        if (moveDirection.sqrMagnitude > 1f)
-        {
-            moveDirection.Normalize();
-        }
-
-        float currentSpeed = isDashing ? runSpeed : walkSpeed;
-        characterController.Move(moveDirection * currentSpeed * Time.deltaTime);
+        float speed = isDashing ? runSpeed : walkSpeed;
+        characterController.Move(move * speed * Time.deltaTime);
 
         if (animator != null)
         {
-            bool hasMoveInput = moveInput.magnitude > 0.1f;
-            float animatorSpeed = hasMoveInput ? (isDashing ? runSpeed : walkSpeed) : 0f;
-            animator.SetFloat("Speed", animatorSpeed);
+            float animSpeed = move.magnitude > 0.1f ? speed : 0f;
+            animator.SetFloat("Speed", animSpeed);
         }
 
         verticalVelocity.y += gravity * Time.deltaTime;
         characterController.Move(verticalVelocity * Time.deltaTime);
     }
 
-    public void ApplySlow(float slowMultiplier)
+    private void HandleRepairInput()
     {
-        walkSpeed = defaultWalkSpeed * slowMultiplier;
-        runSpeed = defaultRunSpeed * slowMultiplier;
-    }
-
-    public void ResetSpeed()
-    {
-        walkSpeed = defaultWalkSpeed;
-        runSpeed = defaultRunSpeed;
+        if (!spaceShipRepair.isRepairing)
+        {
+            if (spaceShipRepair.repairButton.gameObject.activeInHierarchy && spaceShipRepair.repairButton.interactable)
+                spaceShipRepair.repairButton.onClick.Invoke();
+        }
+        else spaceShipRepair.Repairing();
     }
 }

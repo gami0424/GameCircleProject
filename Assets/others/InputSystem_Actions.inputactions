@@ -259,6 +259,17 @@
                 },
                 {
                     "name": "",
+                    "id": "de6acd97-1d6c-4f56-a1bb-bae61b2fca69",
+                    "path": "<HID::raphnet technologies 1-player WUSBMote v2.2>/stick",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "Joystick",
+                    "action": "Move",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
                     "id": "c1f7a91b-d0fd-4a62-997e-7fb9b69bf235",
                     "path": "<Gamepad>/rightStick",
                     "interactions": "",
@@ -292,17 +303,6 @@
                 },
                 {
                     "name": "",
-                    "id": "26198717-a543-4057-aafd-d08df3291b4f",
-                    "path": "<HID::raphnet technologies 1-player WUSBMote v2.2>/stick",
-                    "interactions": "",
-                    "processors": "",
-                    "groups": "",
-                    "action": "Look",
-                    "isComposite": false,
-                    "isPartOfComposite": false
-                },
-                {
-                    "name": "",
                     "id": "143bb1cd-cc10-4eca-a2f0-a3664166fe91",
                     "path": "<Gamepad>/buttonWest",
                     "interactions": "",
@@ -330,17 +330,6 @@
                     "interactions": "",
                     "processors": "",
                     "groups": ";Touch",
-                    "action": "Attack",
-                    "isComposite": false,
-                    "isPartOfComposite": false
-                },
-                {
-                    "name": "",
-                    "id": "ee3d0cd2-254e-47a7-a8cb-bc94d9658c54",
-                    "path": "<Joystick>/trigger",
-                    "interactions": "",
-                    "processors": "",
-                    "groups": "Joystick",
                     "action": "Attack",
                     "isComposite": false,
                     "isPartOfComposite": false
@@ -429,17 +418,6 @@
                     "interactions": "",
                     "processors": "",
                     "groups": "XR",
-                    "action": "Sprint",
-                    "isComposite": false,
-                    "isPartOfComposite": false
-                },
-                {
-                    "name": "",
-                    "id": "b6ce5532-e35c-402d-9ab2-627cc64e2b1a",
-                    "path": "<HID::raphnet technologies 1-player WUSBMote v2.2>/trigger",
-                    "interactions": "",
-                    "processors": "",
-                    "groups": "",
                     "action": "Sprint",
                     "isComposite": false,
                     "isPartOfComposite": false
@@ -559,17 +537,6 @@
                     "id": "c5180870-e2f7-43e7-9067-1207f2e2e52c",
                     "path": "<Gamepad>/leftTrigger",
                     "interactions": "Press",
-                    "processors": "",
-                    "groups": "",
-                    "action": "Dash",
-                    "isComposite": false,
-                    "isPartOfComposite": false
-                },
-                {
-                    "name": "",
-                    "id": "8cdec1b1-342f-4deb-8050-a7534c6f6f0d",
-                    "path": "<HID::raphnet technologies 1-player WUSBMote v2.2>/trigger",
-                    "interactions": "",
                     "processors": "",
                     "groups": "",
                     "action": "Dash",
