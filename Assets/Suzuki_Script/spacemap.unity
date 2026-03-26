@@ -15760,96 +15760,6 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 717738624}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
---- !u!1 &718824844
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 718824845}
-  - component: {fileID: 718824847}
-  - component: {fileID: 718824846}
-  - component: {fileID: 718824848}
-  m_Layer: 5
-  m_Name: gage
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!224 &718824845
-RectTransform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 718824844}
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 1054364048979618168}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0.5, y: 0.5}
-  m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -360, y: 183}
-  m_SizeDelta: {x: 100, y: 100}
-  m_Pivot: {x: 0.5, y: 0.5}
---- !u!114 &718824846
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 718824844}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: UnityEngine.UI::UnityEngine.UI.Image
-  m_Material: {fileID: 0}
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
-  m_RaycastTarget: 1
-  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
-  m_Maskable: 1
-  m_OnCullStateChanged:
-    m_PersistentCalls:
-      m_Calls: []
-  m_Sprite: {fileID: 10913, guid: 0000000000000000f000000000000000, type: 0}
-  m_Type: 3
-  m_PreserveAspect: 0
-  m_FillCenter: 1
-  m_FillMethod: 4
-  m_FillAmount: 1
-  m_FillClockwise: 0
-  m_FillOrigin: 2
-  m_UseSpriteMesh: 0
-  m_PixelsPerUnitMultiplier: 1
---- !u!222 &718824847
-CanvasRenderer:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 718824844}
-  m_CullTransparentMesh: 1
---- !u!114 &718824848
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 718824844}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 0d32b6d49b2db420ba73681579b34b0a, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::metaaar
-  time: 300
-  maxtime: 300
 --- !u!1 &719287069
 GameObject:
   m_ObjectHideFlags: 0
@@ -46130,7 +46040,7 @@ RectTransform:
   m_Children:
   - {fileID: 2960048419192342006}
   - {fileID: 6307528456888588322}
-  - {fileID: 718824845}
+  - {fileID: 2110141003347041076}
   m_Father: {fileID: 5746597069747635219}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
@@ -47964,6 +47874,20 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
+--- !u!114 &1772132258082502730
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6978816995050097202}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0d32b6d49b2db420ba73681579b34b0a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::metaaar
+  time: 300
+  maxtime: 300
 --- !u!4 &1775288583691085075
 Transform:
   m_ObjectHideFlags: 0
@@ -48541,6 +48465,25 @@ Transform:
   - {fileID: 4934897694232871214}
   m_Father: {fileID: 2195461248658660858}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!224 &2110141003347041076
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6978816995050097202}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 1054364048979618168}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: -360, y: 183}
+  m_SizeDelta: {x: 100, y: 100}
+  m_Pivot: {x: 0.5, y: 0.5}
 --- !u!1 &2124015632460095418
 GameObject:
   m_ObjectHideFlags: 0
@@ -57234,6 +57177,36 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
+--- !u!114 &5914355832029685131
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6978816995050097202}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: UnityEngine.UI::UnityEngine.UI.Image
+  m_Material: {fileID: 0}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_RaycastTarget: 1
+  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
+  m_Maskable: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_Sprite: {fileID: 10913, guid: 0000000000000000f000000000000000, type: 0}
+  m_Type: 3
+  m_PreserveAspect: 0
+  m_FillCenter: 1
+  m_FillMethod: 4
+  m_FillAmount: 1
+  m_FillClockwise: 0
+  m_FillOrigin: 2
+  m_UseSpriteMesh: 0
+  m_PixelsPerUnitMultiplier: 1
 --- !u!1 &5916385085747670819
 GameObject:
   m_ObjectHideFlags: 0
@@ -57665,6 +57638,14 @@ MonoBehaviour:
   Radius: 0.03020506
   Tail: {x: 0, y: 0, z: 0}
   Normal: {x: 0, y: 1, z: 0}
+--- !u!222 &6107896622307840928
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6978816995050097202}
+  m_CullTransparentMesh: 1
 --- !u!1 &6108152275764482483
 GameObject:
   m_ObjectHideFlags: 0
@@ -59416,6 +59397,25 @@ RectTransform:
   m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 200, y: 50}
   m_Pivot: {x: 0.5, y: 0.5}
+--- !u!1 &6978816995050097202
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 2110141003347041076}
+  - component: {fileID: 6107896622307840928}
+  - component: {fileID: 5914355832029685131}
+  - component: {fileID: 1772132258082502730}
+  m_Layer: 5
+  m_Name: gage
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
 --- !u!4 &6980071523582100845
 Transform:
   m_ObjectHideFlags: 0
@@ -60471,16 +60471,16 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 81d4b12c82ceb4c1da263f9802342dff, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::PlayerCharacterControllerFps
+  useSpecialDualController: 1
   characterController: {fileID: 7451731085392627201}
   playerInput: {fileID: 7451731085392627203}
   animator: {fileID: 5546935774969681511}
-  characterModel: {fileID: 0}
+  spaceShipRepair: {fileID: 0}
   playerCamera: {fileID: 660559376}
   mouseSensitivity: 0.1
   padSensitivity: 300
   walkSpeed: 2
   runSpeed: 6
-  rotationSpeed: 15
   gravity: -9.81
 --- !u!114 &7451731085392627205
 MonoBehaviour:
@@ -63510,16 +63510,16 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 81d4b12c82ceb4c1da263f9802342dff, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::PlayerCharacterControllerFps
+  useSpecialDualController: 1
   characterController: {fileID: 5270089584465454075}
   playerInput: {fileID: 5870357653050212998}
   animator: {fileID: 4573459292812629581}
-  characterModel: {fileID: 5746597069747635219}
+  spaceShipRepair: {fileID: 0}
   playerCamera: {fileID: 4256422127238365697}
   mouseSensitivity: 0.1
   padSensitivity: 500
   walkSpeed: 2
   runSpeed: 6
-  rotationSpeed: 15
   gravity: -9.81
 --- !u!4 &8898380317986870126
 Transform:
@@ -63992,16 +63992,16 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 81d4b12c82ceb4c1da263f9802342dff, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::Player_CharacterController_FPS
+  useSpecialDualController: 1
   characterController: {fileID: 0}
   playerInput: {fileID: 0}
   animator: {fileID: 0}
-  characterModel: {fileID: 0}
+  spaceShipRepair: {fileID: 0}
   playerCamera: {fileID: 7705536718772362774}
   mouseSensitivity: 40
   padSensitivity: 100
   walkSpeed: 2
   runSpeed: 6
-  rotationSpeed: 15
   gravity: -9.81
 --- !u!1 &9157137694755860159
 GameObject:
