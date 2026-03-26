@@ -1,0 +1,1799 @@
+fileFormatVersion: 2
+guid: d095363143c094475813596ef29c4476
+ModelImporter:
+  serializedVersion: 24200
+  internalIDToNameTable: []
+  externalObjects: {}
+  materials:
+    materialImportMode: 2
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    removeConstantScaleCurves: 0
+    motionNodeName: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 3
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 0
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    useSRGBMaterialColor: 1
+    sortHierarchyByName: 1
+    importPhysicalCameras: 1
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    nodeNameCollisionStrategy: 1
+    fileIdsGeneration: 2
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    keepQuads: 0
+    weldVertices: 1
+    bakeAxisConversion: 0
+    preserveHierarchy: 0
+    skinWeightsMode: 0
+    maxBonesPerVertex: 4
+    minBoneWeight: 0.001
+    optimizeBones: 1
+    generateMeshLods: 0
+    meshLodGenerationFlags: 0
+    maximumMeshLod: -1
+    meshOptimizationFlags: -1
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVMarginMethod: 1
+    secondaryUVMinLightmapResolution: 40
+    secondaryUVMinObjectScale: 1
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+    strictVertexDataChecks: 0
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+    legacyComputeAllNormalsFromSmoothingGroupsWhenMeshHasBlendShapes: 0
+    blendShapeNormalImportMode: 1
+    normalSmoothingSource: 0
+  referencedClips: []
+  importAnimation: 1
+  humanDescription:
+    serializedVersion: 3
+    human:
+    - boneName: "\u30DC\u30FC\u30F3"
+      humanName: Hips
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: "\u30DC\u30FC\u30F3.011"
+      humanName: LeftUpperLeg
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: "\u30DC\u30FC\u30F3.012"
+      humanName: LeftLowerLeg
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: "\u30DC\u30FC\u30F3.012_end"
+      humanName: LeftFoot
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: "\u30DC\u30FC\u30F3.001"
+      humanName: Spine
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: "\u30DC\u30FC\u30F3.005"
+      humanName: LeftUpperArm
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: "\u30DC\u30FC\u30F3.008"
+      humanName: RightUpperArm
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: "\u30DC\u30FC\u30F3.006"
+      humanName: LeftLowerArm
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: "\u30DC\u30FC\u30F3.009"
+      humanName: RightLowerArm
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: "\u30DC\u30FC\u30F3.016"
+      humanName: RightHand
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: "\u30DC\u30FC\u30F3.014"
+      humanName: RightUpperLeg
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: "\u30DC\u30FC\u30F3.015"
+      humanName: RightLowerLeg
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: "\u30DC\u30FC\u30F3.015_end"
+      humanName: RightFoot
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: "\u30DC\u30FC\u30F3.004"
+      humanName: LeftShoulder
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: "\u30DC\u30FC\u30F3.007"
+      humanName: RightShoulder
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: "\u30DC\u30FC\u30F3.002"
+      humanName: Neck
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: "\u30DC\u30FC\u30F3.003"
+      humanName: Head
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: "\u30DC\u30FC\u30F3.017"
+      humanName: LeftHand
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    skeleton:
+    - name: DrillMan(Clone)
+      parentName: 
+      position: {x: 0, y: 0, z: 0}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: "\u30A2\u30FC\u30DE\u30C1\u30E5\u30A2"
+      parentName: DrillMan(Clone)
+      position: {x: -0, y: 9.5, z: 0}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071067}
+      scale: {x: 1.0054467, y: 1.0054468, z: 1.0054467}
+    - name: "\u30DC\u30FC\u30F3"
+      parentName: "\u30A2\u30FC\u30DE\u30C1\u30E5\u30A2"
+      position: {x: 0.00000031277403, y: -0.000000097893434, z: -1.0080557}
+      rotation: {x: 0.522167, y: -0.50000006, z: -0.4768036, w: 0.4999999}
+      scale: {x: 1.0000001, y: 1.0000001, z: 1.0000001}
+    - name: "\u30DC\u30FC\u30F3.001"
+      parentName: "\u30DC\u30FC\u30F3"
+      position: {x: 4.705072e-10, y: 2.404302, z: -0.0000000038909587}
+      rotation: {x: 0.0020412449, y: 0.002043537, z: 0.00009687327, w: 0.9999958}
+      scale: {x: 0.9999999, y: 0.99999994, z: 0.99999994}
+    - name: "\u30DC\u30FC\u30F3.002"
+      parentName: "\u30DC\u30FC\u30F3.001"
+      position: {x: -9.848122e-12, y: 2.380122, z: -0.000000007584465}
+      rotation: {x: 0.021615053, y: 0.022652473, z: 0.02151566, w: 0.9992781}
+      scale: {x: 0.9999999, y: 0.99999994, z: 1}
+    - name: "\u30DC\u30FC\u30F3.003"
+      parentName: "\u30DC\u30FC\u30F3.002"
+      position: {x: -0.0000000055879354, y: 0.7331397, z: -0.000000040512532}
+      rotation: {x: 0.0048133265, y: 0.0028118214, z: -0.019517567, w: 0.999794}
+      scale: {x: 1, y: 1.0000001, z: 0.99999994}
+    - name: "\u30DC\u30FC\u30F3.003_end"
+      parentName: "\u30DC\u30FC\u30F3.003"
+      position: {x: -0, y: 1.0261655, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: "\u30DC\u30FC\u30F3.004"
+      parentName: "\u30DC\u30FC\u30F3.001"
+      position: {x: -9.848122e-12, y: 2.380122, z: -0.000000007584465}
+      rotation: {x: 0.5659659, y: -0.42172846, z: -0.5526932, w: -0.44312298}
+      scale: {x: 1, y: 1.0000001, z: 0.99999994}
+    - name: "\u30DC\u30FC\u30F3.005"
+      parentName: "\u30DC\u30FC\u30F3.004"
+      position: {x: 0.000000020954758, y: 2.2002203, z: 0.00000009406358}
+      rotation: {x: 0.08538084, y: -0.6808995, z: -0.07343321, w: 0.7236667}
+      scale: {x: 1.0000001, y: 1.0000002, z: 1.0000001}
+    - name: "\u30DC\u30FC\u30F3.006"
+      parentName: "\u30DC\u30FC\u30F3.005"
+      position: {x: -0.0000002220986, y: 2.898718, z: -0.000000013620593}
+      rotation: {x: 0.004082461, y: -0.00020696867, z: -0.011969068, w: 0.99992007}
+      scale: {x: 1, y: 1, z: 0.99999994}
+    - name: HandNeck.L
+      parentName: "\u30DC\u30FC\u30F3.006"
+      position: {x: 0.0000003096029, y: 2.3331478, z: 0.000000012863893}
+      rotation: {x: 0.09223345, y: 0.0000000108508384, z: 0.017777488, w: 0.9955787}
+      scale: {x: 0.99999994, y: 0.99999994, z: 0.99999994}
+    - name: "\u30DC\u30FC\u30F3.017"
+      parentName: HandNeck.L
+      position: {x: -0.00000016321428, y: 0.3512684, z: -0.00000020489097}
+      rotation: {x: 0.34090334, y: 0.50002575, z: -0.4987636, w: 0.6204789}
+      scale: {x: 1.0000001, y: 1.0000001, z: 1.0000001}
+    - name: "\u30DC\u30FC\u30F3.018"
+      parentName: "\u30DC\u30FC\u30F3.017"
+      position: {x: 0.000000033527613, y: 0.6161207, z: 0.00000028312206}
+      rotation: {x: 0.010012016, y: -0.00033560244, z: 0.07711399, w: 0.99697196}
+      scale: {x: 0.99999994, y: 1, z: 1}
+    - name: "\u30DC\u30FC\u30F3.019"
+      parentName: "\u30DC\u30FC\u30F3.018"
+      position: {x: 0.000000099651515, y: 0.34384912, z: 0.00000035576522}
+      rotation: {x: 0.010679829, y: -0.0014558248, z: -0.028504726, w: 0.99953556}
+      scale: {x: 1.0000001, y: 1.0000001, z: 1}
+    - name: "\u30DC\u30FC\u30F3.020"
+      parentName: "\u30DC\u30FC\u30F3.019"
+      position: {x: -0.000000029802322, y: 0.49369872, z: -0.0000006854534}
+      rotation: {x: -0.047173418, y: 0.003259195, z: -0.014821604, w: 0.9987714}
+      scale: {x: 0.99999994, y: 0.9999999, z: 1.0000001}
+    - name: "\u30DC\u30FC\u30F3.020_end"
+      parentName: "\u30DC\u30FC\u30F3.020"
+      position: {x: -0, y: 0.6225402, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: "\u30DC\u30FC\u30F3.021"
+      parentName: HandNeck.L
+      position: {x: -0.00000016321428, y: 0.3512684, z: -0.00000020489097}
+      rotation: {x: 0.0967701, y: 0.6412794, z: -0.23518287, w: 0.72393745}
+      scale: {x: 0.99999994, y: 1, z: 1.0000001}
+    - name: "\u30DC\u30FC\u30F3.022"
+      parentName: "\u30DC\u30FC\u30F3.021"
+      position: {x: 0.0000000027939677, y: 1.1520619, z: -0.00000033155084}
+      rotation: {x: -0.13990779, y: 0.004031827, z: 0.005855169, w: 0.99013907}
+      scale: {x: 0.99999994, y: 0.99999994, z: 0.9999999}
+    - name: "\u30DC\u30FC\u30F3.023"
+      parentName: "\u30DC\u30FC\u30F3.022"
+      position: {x: -0.000000037252903, y: 0.52743137, z: 0.000000011175871}
+      rotation: {x: -0.0014206895, y: 0.000001321096, z: -0.019173723, w: 0.99981517}
+      scale: {x: 0.99999994, y: 1.0000001, z: 0.99999994}
+    - name: "\u30DC\u30FC\u30F3.024"
+      parentName: "\u30DC\u30FC\u30F3.023"
+      position: {x: -0.000000059604645, y: 0.48451775, z: -0.00000011920929}
+      rotation: {x: 0.004501151, y: -0.000010532723, z: 0.06726657, w: 0.9977249}
+      scale: {x: 1, y: 1, z: 1}
+    - name: "\u30DC\u30FC\u30F3.024_end"
+      parentName: "\u30DC\u30FC\u30F3.024"
+      position: {x: -0, y: 0.53121525, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: "\u30DC\u30FC\u30F3.025"
+      parentName: HandNeck.L
+      position: {x: -0.00000016321428, y: 0.3512684, z: -0.00000020489097}
+      rotation: {x: -0.0466831, y: 0.6703191, z: -0.17298833, w: 0.7201168}
+      scale: {x: 0.99999994, y: 0.9999999, z: 0.9999999}
+    - name: "\u30DC\u30FC\u30F3.026"
+      parentName: "\u30DC\u30FC\u30F3.025"
+      position: {x: -0.000000074505806, y: 1.1065476, z: -0.00000008754432}
+      rotation: {x: 0.016427886, y: -0.0004309493, z: 0.15447074, w: 0.9878607}
+      scale: {x: 1, y: 0.99999994, z: 1}
+    - name: "\u30DC\u30FC\u30F3.027"
+      parentName: "\u30DC\u30FC\u30F3.026"
+      position: {x: -0.00000017881393, y: 0.49664825, z: 0.00000014528632}
+      rotation: {x: -0.040251035, y: 0.0038234873, z: -0.10535593, w: 0.9936123}
+      scale: {x: 0.99999994, y: 1.0000001, z: 0.99999994}
+    - name: "\u30DC\u30FC\u30F3.028"
+      parentName: "\u30DC\u30FC\u30F3.027"
+      position: {x: 0.000000044703484, y: 0.5297934, z: 0.000000016763806}
+      rotation: {x: 0.028778756, y: 0.0007399909, z: -0.031832825, w: 0.9990786}
+      scale: {x: 1, y: 1, z: 1}
+    - name: "\u30DC\u30FC\u30F3.028_end"
+      parentName: "\u30DC\u30FC\u30F3.028"
+      position: {x: -0, y: 0.5488966, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: "\u30DC\u30FC\u30F3.029"
+      parentName: HandNeck.L
+      position: {x: -0.00000016321428, y: 0.3512684, z: -0.00000020489097}
+      rotation: {x: -0.13952449, y: 0.6787806, z: -0.07723388, w: 0.71681565}
+      scale: {x: 1, y: 1.0000001, z: 1.0000001}
+    - name: "\u30DC\u30FC\u30F3.030"
+      parentName: "\u30DC\u30FC\u30F3.029"
+      position: {x: 0.00000013411045, y: 1.0602248, z: 0.000000009313226}
+      rotation: {x: 0.062876344, y: 0.0028149153, z: 0.04284394, w: 0.9970973}
+      scale: {x: 1, y: 1.0000001, z: 1}
+    - name: "\u30DC\u30FC\u30F3.031"
+      parentName: "\u30DC\u30FC\u30F3.030"
+      position: {x: 0.000000009565156, y: 0.42902777, z: -0.00000022981203}
+      rotation: {x: 0.048569612, y: -0.0009032808, z: 0.0159387, w: 0.9986922}
+      scale: {x: 1, y: 0.99999994, z: 1}
+    - name: "\u30DC\u30FC\u30F3.032"
+      parentName: "\u30DC\u30FC\u30F3.031"
+      position: {x: -0.000000014901161, y: 0.44541904, z: 0.00000029429793}
+      rotation: {x: 0.052595865, y: -0.004195806, z: 0.042708077, w: 0.9976934}
+      scale: {x: 0.9999999, y: 1, z: 0.99999994}
+    - name: "\u30DC\u30FC\u30F3.032_end"
+      parentName: "\u30DC\u30FC\u30F3.032"
+      position: {x: -0, y: 0.54948705, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: "\u30DC\u30FC\u30F3.033"
+      parentName: HandNeck.L
+      position: {x: -0.00000016321428, y: 0.3512684, z: -0.00000020489097}
+      rotation: {x: -0.21964617, y: 0.6800151, z: 0.0494331, w: 0.69777614}
+      scale: {x: 1, y: 1.0000001, z: 1}
+    - name: "\u30DC\u30FC\u30F3.034"
+      parentName: "\u30DC\u30FC\u30F3.033"
+      position: {x: -0.000000007450581, y: 1.1786053, z: 0.00000043958426}
+      rotation: {x: 0.23377281, y: 0.013754684, z: -0.031153603, w: 0.9716947}
+      scale: {x: 0.99999994, y: 1, z: 1}
+    - name: "\u30DC\u30FC\u30F3.035"
+      parentName: "\u30DC\u30FC\u30F3.034"
+      position: {x: 0.000000014901161, y: 0.36737, z: 0.00000022910535}
+      rotation: {x: 0.012369577, y: -0.00020223425, z: 0.11442754, w: 0.99335456}
+      scale: {x: 0.99999994, y: 1, z: 1.0000001}
+    - name: "\u30DC\u30FC\u30F3.036"
+      parentName: "\u30DC\u30FC\u30F3.035"
+      position: {x: 0.00000016391277, y: 0.42099273, z: -0.00000014901161}
+      rotation: {x: 0.036883987, y: -0.0021420426, z: -0.10885492, w: 0.99337083}
+      scale: {x: 1, y: 1, z: 0.9999999}
+    - name: "\u30DC\u30FC\u30F3.036_end"
+      parentName: "\u30DC\u30FC\u30F3.036"
+      position: {x: -0, y: 0.59186035, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: "\u30DC\u30FC\u30F3.007"
+      parentName: "\u30DC\u30FC\u30F3.001"
+      position: {x: -9.848122e-12, y: 2.380122, z: -0.000000007584465}
+      rotation: {x: 0.55963033, y: 0.44345638, z: -0.5229191, w: 0.4655276}
+      scale: {x: 1, y: 1.0000002, z: 1}
+    - name: "\u30DC\u30FC\u30F3.008"
+      parentName: "\u30DC\u30FC\u30F3.007"
+      position: {x: 0.0000000055879354, y: 2.3539815, z: -0.000000107102096}
+      rotation: {x: -0.054269433, y: -0.72591996, z: 0.051114842, w: 0.6837268}
+      scale: {x: 1, y: 0.99999994, z: 1}
+    - name: "\u30DC\u30FC\u30F3.009"
+      parentName: "\u30DC\u30FC\u30F3.008"
+      position: {x: -0.00000021564199, y: 2.903738, z: 0.000000010437432}
+      rotation: {x: -0.000000020850248, y: 0.0000011237302, z: 0.0059550097, w: 0.9999823}
+      scale: {x: 0.99999994, y: 0.99999994, z: 1}
+    - name: "\u30DC\u30FC\u30F3.016"
+      parentName: "\u30DC\u30FC\u30F3.009"
+      position: {x: -0.000000114832915, y: 1.5904453, z: 0.000000014425581}
+      rotation: {x: 0.00000003173042, y: -0.000008752011, z: 0.009913714, w: 0.9999509}
+      scale: {x: 0.99999994, y: 1, z: 1}
+    - name: "\u30DC\u30FC\u30F3.016_end"
+      parentName: "\u30DC\u30FC\u30F3.016"
+      position: {x: -0, y: 3.80549, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: "\u30DC\u30FC\u30F3.011"
+      parentName: "\u30DC\u30FC\u30F3"
+      position: {x: -1.3550767, y: -0.0728455, z: -0.058222752}
+      rotation: {x: 0.99943936, y: -0.009599827, z: 0.02288721, w: 0.022474544}
+      scale: {x: 1.0000001, y: 1, z: 1.000001}
+    - name: "\u30DC\u30FC\u30F3.012"
+      parentName: "\u30DC\u30FC\u30F3.011"
+      position: {x: 0.0000000149011035, y: 3.4657557, z: 0.00000002980242}
+      rotation: {x: 0.0000000011799793, y: -0.000000039900158, z: 0.00047827524, w: 0.9999999}
+      scale: {x: 0.99999994, y: 0.99999994, z: 1}
+    - name: "\u30DC\u30FC\u30F3.012_end"
+      parentName: "\u30DC\u30FC\u30F3.012"
+      position: {x: -0, y: 4.3900404, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: "\u30DC\u30FC\u30F3.014"
+      parentName: "\u30DC\u30FC\u30F3"
+      position: {x: 1.4055408, y: -0.04195808, z: 0.06573285}
+      rotation: {x: 0.9994853, y: -0.0005147189, z: 0.022681704, w: 0.022681681}
+      scale: {x: 0.99999994, y: 0.9999997, z: 1.0000008}
+    - name: "\u30DC\u30FC\u30F3.015"
+      parentName: "\u30DC\u30FC\u30F3.014"
+      position: {x: -0.000000025835533, y: 3.5071867, z: 0.000000033603364}
+      rotation: {x: 0.0000000016030631, y: -0.0000000022286288, z: 0.01213324, w: 0.9999264}
+      scale: {x: 0.99999994, y: 1, z: 1}
+    - name: "\u30DC\u30FC\u30F3.015_end"
+      parentName: "\u30DC\u30FC\u30F3.015"
+      position: {x: -0, y: 4.327508, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: "\u30A2\u30FC\u30DE\u30FC"
+      parentName: DrillMan(Clone)
+      position: {x: -0.22542556, y: 12.850075, z: -0.014338493}
+      rotation: {x: -0.7071068, y: -0.000000023106443, z: -0.0000000030545464, w: 0.7071067}
+      scale: {x: 1.1857718, y: 1.1857715, z: 0.17354918}
+    - name: "\u30B3\u30A2"
+      parentName: DrillMan(Clone)
+      position: {x: -1.4928116, y: 12.581787, z: -0.7428217}
+      rotation: {x: 0.50000006, y: 0.50000006, z: -0.49999994, w: -0.4999999}
+      scale: {x: 0.9994833, y: 0.99948347, z: 0.9994836}
+    - name: "\u30C8\u30FC\u30E9\u30B9.018"
+      parentName: DrillMan(Clone)
+      position: {x: -0.21257317, y: 14.109249, z: 5.881791}
+      rotation: {x: -0.000000043605986, y: -0.000000015159891, z: -0.000000008857466, w: 1}
+      scale: {x: 0.17086144, y: 0.17086141, z: 0.17086142}
+    - name: "\u30C9\u30EA\u30EB"
+      parentName: DrillMan(Clone)
+      position: {x: -0.21378519, y: 12.791833, z: 9.651979}
+      rotation: {x: -0.000000051189033, y: -0.000000011326015, z: -0.000000012241264, w: 1}
+      scale: {x: 1.008068, y: 1.0080676, z: 2.067192}
+    - name: "\u30D9\u30ED"
+      parentName: DrillMan(Clone)
+      position: {x: -0.6975156, y: 14.184828, z: -0.014310837}
+      rotation: {x: -0.7046108, y: -0.059359726, z: 0.059359718, w: 0.7046109}
+      scale: {x: 0.8404025, y: 1.0054467, z: 1.0054467}
+    - name: "\u4E2D\u6307"
+      parentName: DrillMan(Clone)
+      position: {x: -0.3894586, y: 12.95371, z: -10.193171}
+      rotation: {x: 0.6799485, y: 0.7075096, z: 0.17056777, w: -0.08948108}
+      scale: {x: 0.14214346, y: 0.27151966, z: 0.25678536}
+    - name: "\u4EBA\u5DEE\u3057\u6307"
+      parentName: DrillMan(Clone)
+      position: {x: -0.5185968, y: 13.32033, z: -10.13096}
+      rotation: {x: 0.67994845, y: 0.70750964, z: 0.17056783, w: -0.089481026}
+      scale: {x: 0.15045463, y: 0.271555, z: 0.25881076}
+    - name: "\u5186\u67F1"
+      parentName: DrillMan(Clone)
+      position: {x: -0.13666269, y: 9.469029, z: 0.061854362}
+      rotation: {x: -0.7071068, y: 0.00000002007513, z: -0.00000003319885, w: 0.7071067}
+      scale: {x: 1.4723699, y: 1.9110603, z: 0.31245548}
+    - name: "\u5186\u67F1.001"
+      parentName: DrillMan(Clone)
+      position: {x: -0.5060607, y: 14.44249, z: -0.7135477}
+      rotation: {x: -0.000000044919705, y: 0.10149011, z: -0.000000018205476, w: 0.99483657}
+      scale: {x: 0.18318978, y: 0.18318978, z: 0.038244084}
+    - name: "\u5186\u67F1.002"
+      parentName: DrillMan(Clone)
+      position: {x: -0.50739485, y: 14.440603, z: 0.68633556}
+      rotation: {x: -0.10149015, y: 0.00000001782577, z: 0.99483657, w: 0.000000076144914}
+      scale: {x: -0.18318982, y: -0.18318978, z: -0.038244095}
+    - name: "\u5186\u67F1.003"
+      parentName: DrillMan(Clone)
+      position: {x: -1.2925128, y: 9.479738, z: -1.1507359}
+      rotation: {x: -0.7071068, y: 0.000000013122349, z: -0.00000003225442, w: 0.7071067}
+      scale: {x: 1.3032252, y: 1.6634233, z: 0.33092654}
+    - name: "\u5186\u67F1.004"
+      parentName: DrillMan(Clone)
+      position: {x: -0.096232526, y: 9.464706, z: -1.8663435}
+      rotation: {x: -0.653786, y: -0.26937693, z: -0.26937702, w: 0.6537859}
+      scale: {x: 1.3032252, y: 1.6634232, z: 0.33092654}
+    - name: "\u5186\u67F1.005"
+      parentName: DrillMan(Clone)
+      position: {x: -0.29480296, y: 12.846412, z: -9.133848}
+      rotation: {x: 0.0050702393, y: 0.093779586, z: -0.68363106, w: 0.72375983}
+      scale: {x: 0.14402834, y: 0.31050393, z: 0.2713946}
+    - name: "\u5186\u67F1.006"
+      parentName: DrillMan(Clone)
+      position: {x: -0.5088263, y: 13.797974, z: -8.1494665}
+      rotation: {x: -0.4999626, y: -0.46416262, z: -0.5313533, w: 0.5022491}
+      scale: {x: 0.2675033, y: 0.22823444, z: 0.22419102}
+    - name: "\u5186\u67F1.007"
+      parentName: DrillMan(Clone)
+      position: {x: -0.5664207, y: 14.352544, z: -8.336128}
+      rotation: {x: -0.49996233, y: -0.46416295, z: -0.5313532, w: 0.5022492}
+      scale: {x: 0.26762354, y: 0.1970102, z: 0.24723007}
+    - name: "\u5186\u67F1.008"
+      parentName: DrillMan(Clone)
+      position: {x: -0.36074167, y: 12.881836, z: -9.614732}
+      rotation: {x: 0.6799485, y: 0.7075096, z: 0.17056783, w: -0.089481026}
+      scale: {x: 0.14234915, y: 0.29726472, z: 0.23275968}
+    - name: "\u5186\u67F1.009"
+      parentName: DrillMan(Clone)
+      position: {x: -0.48913547, y: 13.23749, z: -9.581038}
+      rotation: {x: 0.6799485, y: 0.70750964, z: 0.17056796, w: -0.08948092}
+      scale: {x: 0.147805, y: 0.2966786, z: 0.2029882}
+    - name: "\u5186\u67F1.010"
+      parentName: DrillMan(Clone)
+      position: {x: -0.4223652, y: 13.179346, z: -9.122263}
+      rotation: {x: 0.009941766, y: 0.09077392, z: -0.6817888, w: 0.72582734}
+      scale: {x: 0.15203041, y: 0.31066123, z: 0.27394733}
+    - name: "\u5186\u67F1.011"
+      parentName: DrillMan(Clone)
+      position: {x: -0.31157142, y: 12.527436, z: -9.465169}
+      rotation: {x: 0.67994845, y: 0.70750964, z: 0.17056784, w: -0.08948102}
+      scale: {x: 0.14269343, y: 0.29667002, z: 0.20284766}
+    - name: "\u5186\u67F1.012"
+      parentName: DrillMan(Clone)
+      position: {x: -0.24609765, y: 12.491734, z: -9.025824}
+      rotation: {x: 0.0068995743, y: 0.092662565, z: -0.68293464, w: 0.7245456}
+      scale: {x: 0.14680345, y: 0.31041026, z: 0.25564525}
+    - name: "\u5186\u67F1.013"
+      parentName: DrillMan(Clone)
+      position: {x: -0.3228172, y: 12.148266, z: -9.007127}
+      rotation: {x: 0.006899519, y: 0.09266265, z: -0.6829346, w: 0.72454566}
+      scale: {x: 0.146696, y: 0.31029797, z: 0.24244225}
+    - name: "\u5186\u67F1.014"
+      parentName: DrillMan(Clone)
+      position: {x: -0.3866177, y: 12.166601, z: -9.417571}
+      rotation: {x: 0.6799484, y: 0.7075097, z: 0.17056784, w: -0.089481026}
+      scale: {x: 0.13958679, y: 0.2959576, z: 0.17127015}
+    - name: "\u5186\u67F1.015"
+      parentName: DrillMan(Clone)
+      position: {x: -0.46147734, y: 13.208994, z: -9.362654}
+      rotation: {x: 0.9984182, y: -0.000000010543326, z: 0.00000001003359, w: -0.056223843}
+      scale: {x: 0.11059112, y: 0.11059106, z: 0.14781694}
+    - name: "\u5186\u67F1.016"
+      parentName: DrillMan(Clone)
+      position: {x: -0.5313434, y: 13.280689, z: -9.834906}
+      rotation: {x: 0.9970321, y: -0.00000001352411, z: 0.000000009169124, w: -0.07698691}
+      scale: {x: 0.11007851, y: 0.110078484, z: 0.14713177}
+    - name: "\u5186\u67F1.017"
+      parentName: DrillMan(Clone)
+      position: {x: -0.2839856, y: 13.425774, z: -5.1067543}
+      rotation: {x: -0.7071068, y: -0.00000001723382, z: 0.0000000028434417, w: 0.7071067}
+      scale: {x: 0.3184514, y: 0.31845137, z: 0.055904068}
+    - name: "\u5186\u67F1.018"
+      parentName: DrillMan(Clone)
+      position: {x: -0.34813148, y: 12.861036, z: -9.362651}
+      rotation: {x: 0.9989022, y: -0.000000022130251, z: 0.000000010692207, w: -0.046844456}
+      scale: {x: 0.11059109, y: 0.11059104, z: 0.14781687}
+    - name: "\u5186\u67F1.019"
+      parentName: DrillMan(Clone)
+      position: {x: -0.2839858, y: 11.921009, z: -5.106758}
+      rotation: {x: 0.70710665, y: -0.000000036753875, z: -0.00000001606488, w: 0.7071069}
+      scale: {x: 0.4406726, y: 0.44067255, z: 0.07735995}
+    - name: "\u5186\u67F1.020"
+      parentName: DrillMan(Clone)
+      position: {x: -0.075741164, y: 8.46183, z: -0.005105972}
+      rotation: {x: -0.000000084575966, y: -0.0000000056804614, z: -0.00000001186468, w: 1}
+      scale: {x: 0.95044136, y: 1.3562517, z: 1.0054467}
+    - name: "\u5186\u67F1.022"
+      parentName: DrillMan(Clone)
+      position: {x: -0.46932048, y: 13.54765, z: -8.072497}
+      rotation: {x: -0.8037496, y: -0.11134695, z: 0.08020129, w: 0.57892674}
+      scale: {x: 0.13995631, y: 0.13995627, z: 0.18320538}
+    - name: "\u5186\u67F1.023"
+      parentName: DrillMan(Clone)
+      position: {x: -0.5556292, y: 14.009624, z: -8.197075}
+      rotation: {x: -0.8102476, y: -0.04370766, z: 0.031481866, w: 0.58360714}
+      scale: {x: 0.13995628, y: 0.13995627, z: 0.18320537}
+    - name: "\u5186\u67F1.024"
+      parentName: DrillMan(Clone)
+      position: {x: -0.3481313, y: 12.909434, z: -9.8986225}
+      rotation: {x: 0.9984182, y: -0.000000018714404, z: 0.00000001009997, w: -0.05622361}
+      scale: {x: 0.110591084, y: 0.110591024, z: 0.14781685}
+    - name: "\u5186\u67F1.025"
+      parentName: DrillMan(Clone)
+      position: {x: -0.34813172, y: 12.550411, z: -9.7102995}
+      rotation: {x: 0.99922705, y: -0.000000012905121, z: 0.00000000963525, w: -0.039311007}
+      scale: {x: 0.11059112, y: 0.11059106, z: 0.14781688}
+    - name: "\u5186\u67F1.026"
+      parentName: DrillMan(Clone)
+      position: {x: -0.33835173, y: 12.517042, z: -9.231457}
+      rotation: {x: 0.99922705, y: -0.000000012905121, z: 0.00000000963525, w: -0.039311007}
+      scale: {x: 0.11059112, y: 0.11059106, z: 0.14781688}
+    - name: "\u5186\u67F1.027"
+      parentName: DrillMan(Clone)
+      position: {x: -0.33835143, y: 12.164616, z: -9.231462}
+      rotation: {x: 0.9997096, y: -0.000000013425376, z: 0.000000012259157, w: -0.024099717}
+      scale: {x: 0.11059113, y: 0.11059104, z: 0.14781691}
+    - name: "\u5186\u67F1.028"
+      parentName: DrillMan(Clone)
+      position: {x: -0.39224774, y: 12.181867, z: -9.652141}
+      rotation: {x: 0.99670774, y: -0.002318095, z: -0.07495452, w: -0.030824684}
+      scale: {x: 0.1105911, y: 0.11059106, z: 0.1478169}
+    - name: "\u5186\u67F1.029"
+      parentName: DrillMan(Clone)
+      position: {x: -0.18995565, y: 12.112793, z: 5.490795}
+      rotation: {x: 0.70710665, y: -0.000000033176303, z: -0.000000013823266, w: 0.7071069}
+      scale: {x: 0.4406726, y: 0.44067258, z: 0.077359945}
+    - name: "\u5186\u67F1.030"
+      parentName: DrillMan(Clone)
+      position: {x: -0.19119787, y: 12.815802, z: 2.7997293}
+      rotation: {x: -0.000000047109125, y: -0.000000012112861, z: -0.000000011810037, w: 1}
+      scale: {x: 1.0054468, y: 1.0054466, z: 0.11230467}
+    - name: "\u5186\u67F1.031"
+      parentName: DrillMan(Clone)
+      position: {x: -0.2150682, y: 13.666897, z: 3.8649538}
+      rotation: {x: -0.000000061733644, y: -0.000000013915911, z: -0.000000012484088, w: 1}
+      scale: {x: 0.11656371, y: 0.116563685, z: 1.0260361}
+    - name: "\u5186\u67F1.032"
+      parentName: DrillMan(Clone)
+      position: {x: -0.21506822, y: 11.960895, z: 3.864952}
+      rotation: {x: -0.000000061733644, y: -0.000000013915911, z: -0.000000012484088, w: 1}
+      scale: {x: 0.11656371, y: 0.116563685, z: 1.0260361}
+    - name: "\u5186\u67F1.033"
+      parentName: DrillMan(Clone)
+      position: {x: -1.0386059, y: 12.846373, z: 3.8649538}
+      rotation: {x: -0.000000061733644, y: -0.000000013915911, z: -0.000000012484088, w: 1}
+      scale: {x: 0.11656371, y: 0.116563685, z: 1.0260361}
+    - name: "\u5186\u67F1.034"
+      parentName: DrillMan(Clone)
+      position: {x: 0.67056096, y: 12.846373, z: 3.8649538}
+      rotation: {x: -0.000000061733644, y: -0.000000013915911, z: -0.000000012484088, w: 1}
+      scale: {x: 0.11656371, y: 0.116563685, z: 1.0260361}
+    - name: "\u5186\u67F1.035"
+      parentName: DrillMan(Clone)
+      position: {x: 0.42275485, y: 13.436601, z: 3.8649538}
+      rotation: {x: -0.000000061733644, y: -0.000000013915911, z: -0.000000012484088, w: 1}
+      scale: {x: 0.11656371, y: 0.116563685, z: 1.0260361}
+    - name: "\u5186\u67F1.036"
+      parentName: DrillMan(Clone)
+      position: {x: 0.42275485, y: 12.20636, z: 3.8649538}
+      rotation: {x: -0.000000061733644, y: -0.000000013915911, z: -0.000000012484088, w: 1}
+      scale: {x: 0.11656371, y: 0.116563685, z: 1.0260361}
+    - name: "\u5186\u67F1.037"
+      parentName: DrillMan(Clone)
+      position: {x: -0.797945, y: 13.436602, z: 3.864952}
+      rotation: {x: -0.000000061733644, y: -0.000000013915911, z: -0.000000012484088, w: 1}
+      scale: {x: 0.11656371, y: 0.116563685, z: 1.0260361}
+    - name: "\u5186\u67F1.038"
+      parentName: DrillMan(Clone)
+      position: {x: -0.79794526, y: 12.204004, z: 3.8649538}
+      rotation: {x: -0.000000061733644, y: -0.000000013915911, z: -0.000000012484088, w: 1}
+      scale: {x: 0.11656371, y: 0.116563685, z: 1.0260361}
+    - name: "\u5186\u67F1.039"
+      parentName: DrillMan(Clone)
+      position: {x: -0.18995568, y: 13.617561, z: 5.490795}
+      rotation: {x: -0.7071068, y: 0.000000016543682, z: -0.000000031504005, w: 0.7071067}
+      scale: {x: 0.3184514, y: 0.31845134, z: 0.055904064}
+    - name: "\u5186\u67F1.042"
+      parentName: DrillMan(Clone)
+      position: {x: 1.0671852, y: 9.441842, z: -1.223465}
+      rotation: {x: 0.42687976, y: 0.5637142, z: 0.5637142, w: -0.4268797}
+      scale: {x: 1.303225, y: 1.6634238, z: 0.33092654}
+    - name: "\u5186\u67F1.043"
+      parentName: DrillMan(Clone)
+      position: {x: 1.0959786, y: 9.44764, z: 1.256134}
+      rotation: {x: 0.5617968, y: -0.4822909, z: 0.41987643, w: 0.5248653}
+      scale: {x: -1.303225, y: -1.6634235, z: -0.33092642}
+    - name: "\u5186\u67F1.044"
+      parentName: DrillMan(Clone)
+      position: {x: -0.10723618, y: 9.484055, z: 1.8949347}
+      rotation: {x: 0.29236886, y: -0.64089376, z: 0.66370153, w: 0.25154737}
+      scale: {x: -1.3032252, y: -1.6634238, z: -0.3309265}
+    - name: "\u5186\u67F1.045"
+      parentName: DrillMan(Clone)
+      position: {x: -1.2924199, y: 9.476516, z: 1.1305561}
+      rotation: {x: 0.00000005990598, y: 0.7071068, z: -0.7071067, w: -0.000000046864173}
+      scale: {x: -1.303225, y: -1.6634231, z: -0.33092645}
+    - name: "\u5186\u67F1.046"
+      parentName: DrillMan(Clone)
+      position: {x: -0.4255728, y: 10.4505205, z: 1.3877869}
+      rotation: {x: -0.1440172, y: -0.07984659, z: 0.8626378, w: 0.47826725}
+      scale: {x: 0.37655157, y: 0.3765515, z: 0.058792666}
+    - name: "\u5186\u67F1.047"
+      parentName: DrillMan(Clone)
+      position: {x: -0.42557186, y: 10.45052, z: 1.3877859}
+      rotation: {x: -0.15073675, y: -0.06629373, z: 0.9028872, w: 0.3970873}
+      scale: {x: 0.27438122, y: 0.27438122, z: 0.042840354}
+    - name: "\u5186\u67F1.048"
+      parentName: DrillMan(Clone)
+      position: {x: -0.42557305, y: 10.450518, z: 1.387785}
+      rotation: {x: -0.1507367, y: -0.06629367, z: 0.9028872, w: 0.39708728}
+      scale: {x: 0.1973266, y: 0.19732662, z: 0.030809479}
+    - name: "\u5186\u67F1.049"
+      parentName: DrillMan(Clone)
+      position: {x: 0.030307785, y: 4.6573887, z: 0.31967163}
+      rotation: {x: -0.0000000480838, y: -0.000000011397482, z: -0.000000010970166, w: 1}
+      scale: {x: 0.42447972, y: 0.42447966, z: 0.06421321}
+    - name: "\u5186\u67F1.050"
+      parentName: DrillMan(Clone)
+      position: {x: -0.42047346, y: 10.45684, z: 1.4037247}
+      rotation: {x: -0.13802874, y: -0.08980232, z: 0.8267683, w: 0.53790146}
+      scale: {x: 0.13159415, y: 0.1315942, z: 0.020546386}
+    - name: "\u5186\u67F1.051"
+      parentName: DrillMan(Clone)
+      position: {x: 0.030308038, y: 4.6573896, z: 2.255763}
+      rotation: {x: -0.000000015565316, y: 0.000000024247235, z: 1, w: 0.0000000754979}
+      scale: {x: -0.6145511, y: -0.61455095, z: -0.09296627}
+    - name: "\u5186\u67F1.053"
+      parentName: DrillMan(Clone)
+      position: {x: 0.078774944, y: 10.767834, z: -1.7340775}
+      rotation: {x: 0.70002633, y: 0.7000263, z: 0.09981608, w: 0.09981608}
+      scale: {x: 0.32521424, y: 0.3252143, z: 0.05077715}
+    - name: "\u5186\u67F1.057"
+      parentName: DrillMan(Clone)
+      position: {x: 0.0587378, y: 10.7723465, z: -1.710352}
+      rotation: {x: 0.7000263, y: 0.7000262, z: 0.09981615, w: 0.09981615}
+      scale: {x: 0.5044665, y: 0.5044666, z: 0.07876461}
+    - name: "\u5186\u67F1.059"
+      parentName: DrillMan(Clone)
+      position: {x: -0.6826015, y: 10.392364, z: -1.4352322}
+      rotation: {x: 0.20356598, y: 0.20356594, z: 0.67717123, w: 0.6771713}
+      scale: {x: 0.1685416, y: 0.16854164, z: 0.050261114}
+    - name: "\u5186\u67F1.061"
+      parentName: DrillMan(Clone)
+      position: {x: 0.030308098, y: 4.6573887, z: -2.2980728}
+      rotation: {x: -0.00000005430079, y: -0.000000013785675, z: -0.000000008334985, w: 1}
+      scale: {x: 0.6145511, y: 0.61455107, z: 0.09296627}
+    - name: "\u5186\u67F1.062"
+      parentName: DrillMan(Clone)
+      position: {x: 0.030307606, y: 4.6573887, z: -0.36197853}
+      rotation: {x: -0.000000008177187, y: -0.0000000145035965, z: 1, w: -0.0000000754979}
+      scale: {x: -0.42447972, y: -0.42447966, z: -0.06421322}
+    - name: "\u5186\u67F1.063"
+      parentName: DrillMan(Clone)
+      position: {x: -1.062473, y: 10.2883835, z: -0.09620762}
+      rotation: {x: 0.55332726, y: 0.4500473, z: -0.54061675, w: -0.44611663}
+      scale: {x: 0.060516927, y: 0.060516946, z: 0.030685855}
+    - name: "\u5186\u67F1.065"
+      parentName: DrillMan(Clone)
+      position: {x: -1.0292042, y: 10.384466, z: -0.54172325}
+      rotation: {x: -0.48021948, y: -0.5190272, z: 0.48021948, w: 0.51902723}
+      scale: {x: 0.076041244, y: 0.076041244, z: 0.011872663}
+    - name: "\u5186\u67F1.067"
+      parentName: DrillMan(Clone)
+      position: {x: 0.35687542, y: 10.745859, z: 1.5795841}
+      rotation: {x: 0.13539374, y: 0.13539378, z: 0.69402343, w: 0.69402355}
+      scale: {x: 0.15675178, y: 0.15675178, z: 0.066150725}
+    - name: "\u5186\u67F1.069"
+      parentName: DrillMan(Clone)
+      position: {x: -1.016676, y: 10.953462, z: -0.2776394}
+      rotation: {x: 0.5482951, y: 0.4465116, z: -0.54829496, w: -0.44651157}
+      scale: {x: 0.28992155, y: 0.28992164, z: 0.04526674}
+    - name: "\u5186\u67F1.070"
+      parentName: DrillMan(Clone)
+      position: {x: -1.0249335, y: 10.952911, z: -0.2717619}
+      rotation: {x: 0.50000006, y: 0.50000006, z: -0.49999994, w: -0.4999999}
+      scale: {x: 0.17323846, y: 0.17323849, z: 0.027048491}
+    - name: "\u5186\u67F1.071"
+      parentName: DrillMan(Clone)
+      position: {x: 0.7754817, y: 10.277976, z: -1.391757}
+      rotation: {x: 0.6463461, y: 0.64634603, z: 0.2867695, w: 0.28676957}
+      scale: {x: 0.15675178, y: 0.15675181, z: 0.06615073}
+    - name: "\u5186\u67F1.075"
+      parentName: DrillMan(Clone)
+      position: {x: 1.1816397, y: 10.240222, z: 0.46853733}
+      rotation: {x: 0.5447518, y: 0.54475176, z: -0.45082748, w: -0.45082763}
+      scale: {x: 0.15440509, y: 0.1544051, z: 0.02410795}
+    - name: "\u5186\u67F1.076"
+      parentName: DrillMan(Clone)
+      position: {x: 1.1898496, y: 10.240711, z: 0.46476936}
+      rotation: {x: 0.5973695, y: 0.48647597, z: -0.49437284, w: -0.40259954}
+      scale: {x: 0.25840312, y: 0.25840315, z: 0.040345624}
+    - name: "\u5186\u67F1.078"
+      parentName: DrillMan(Clone)
+      position: {x: 1.0206217, y: 10.929014, z: 0.8925028}
+      rotation: {x: 0.54218435, y: 0.32083783, z: 0.57982194, w: 0.51662916}
+      scale: {x: 0.1121381, y: 0.11213813, z: 0.017508628}
+    - name: "\u5186\u67F1.079"
+      parentName: DrillMan(Clone)
+      position: {x: 1.0069579, y: 10.927178, z: 0.899004}
+      rotation: {x: 0.58694077, y: 0.22891396, z: 0.655752, w: 0.41603875}
+      scale: {x: 0.23381424, y: 0.23381424, z: 0.036506448}
+    - name: "\u5186\u67F1.080"
+      parentName: DrillMan(Clone)
+      position: {x: 1.0069572, y: 10.927178, z: 0.8990059}
+      rotation: {x: 0.56345725, y: 0.28181008, z: 0.6148063, w: 0.47446007}
+      scale: {x: 0.32087877, y: 0.3208788, z: 0.05010024}
+    - name: "\u5186\u67F1.083"
+      parentName: DrillMan(Clone)
+      position: {x: -0.9051246, y: 10.089974, z: 0.9383049}
+      rotation: {x: -0.4011315, y: -0.40113166, z: 0.58231735, w: 0.5823173}
+      scale: {x: 0.18152189, y: 0.18152198, z: 0.039456327}
+    - name: "\u5186\u67F1.084"
+      parentName: DrillMan(Clone)
+      position: {x: -0.9091275, y: 10.093544, z: 0.9354391}
+      rotation: {x: -0.40113154, y: -0.40113163, z: 0.58231735, w: 0.5823173}
+      scale: {x: 0.12840997, y: 0.12841001, z: 0.03446791}
+    - name: "\u5186\u67F1.086"
+      parentName: DrillMan(Clone)
+      position: {x: -0.13923992, y: 14.113174, z: -0.82816887}
+      rotation: {x: 0.7000626, y: 0.70251834, z: 0.105860464, w: 0.07193103}
+      scale: {x: 0.13528934, y: 0.13528937, z: 0.057093382}
+    - name: "\u5186\u67F1.088"
+      parentName: DrillMan(Clone)
+      position: {x: -0.026266962, y: 13.97393, z: 0.7171116}
+      rotation: {x: 0.079614945, y: 0.24127388, z: 0.69792515, w: 0.66958857}
+      scale: {x: 0.2845763, y: 0.28457633, z: 0.044432174}
+    - name: "\u5186\u67F1.089"
+      parentName: DrillMan(Clone)
+      position: {x: -0.026266605, y: 13.973932, z: 0.7171154}
+      rotation: {x: 0.101419985, y: 0.23294969, z: 0.7564267, w: 0.60271645}
+      scale: {x: 0.20736177, y: 0.2073618, z: 0.03237631}
+    - name: "\u5186\u67F1.090"
+      parentName: DrillMan(Clone)
+      position: {x: -0.0138567835, y: 13.976191, z: 0.7219715}
+      rotation: {x: 0.06240444, y: 0.2462871, z: 0.64897555, w: 0.71713257}
+      scale: {x: 0.09945144, y: 0.09945145, z: 0.015527796}
+    - name: "\u5186\u67F1.092"
+      parentName: DrillMan(Clone)
+      position: {x: -0.022895828, y: 14.5879345, z: 0.6512642}
+      rotation: {x: 0.6869219, y: 0.7034582, z: -0.18223196, w: -0.0087416945}
+      scale: {x: 0.108559884, y: 0.10855988, z: 0.01694994}
+    - name: "\u53F3\u76EE"
+      parentName: DrillMan(Clone)
+      position: {x: -0.81693804, y: 14.757046, z: 0.2936325}
+      rotation: {x: -0.7071068, y: -0.000000018529875, z: 0.000000008452222, w: 0.7071067}
+      scale: {x: 0.12660988, y: 0.12660988, z: 0.12660988}
+    - name: "\u53F3\u80A1\u95A2\u7BC0"
+      parentName: DrillMan(Clone)
+      position: {x: -0.09483281, y: 8.455125, z: 1.2801208}
+      rotation: {x: -0.7071068, y: -0.000000026618368, z: 0.0000000017745565, w: 0.7071067}
+      scale: {x: 1.1133105, y: 1.1133103, z: 1.1133102}
+    - name: "\u53F3\u80A9"
+      parentName: DrillMan(Clone)
+      position: {x: -0.17345124, y: 13.364815, z: 1.73697}
+      rotation: {x: 0.99632233, y: -0.0000000066700636, z: 0.000000099186565, w: -0.08568468}
+      scale: {x: -1.1561769, y: -1.1561764, z: -0.1786639}
+    - name: "\u53F3\u8155\u3064\u306A\u304E\uFF11"
+      parentName: DrillMan(Clone)
+      position: {x: 1.1333218, y: 12.968674, z: 7.0490656}
+      rotation: {x: -0.02196931, y: 0.99975866, z: -0.000000011453943, w: 0.00000043348203}
+      scale: {x: 0.90811044, y: 1.1641296, z: 1.2689122}
+    - name: "\u53F3\u8155\u3064\u306A\u304E\uFF12"
+      parentName: DrillMan(Clone)
+      position: {x: -1.505067, y: 12.968672, z: 7.084624}
+      rotation: {x: -0.00000006014609, y: -0.000000014713598, z: -0.085851446, w: 0.99630797}
+      scale: {x: 0.9081104, y: 1.1641295, z: 1.3846575}
+    - name: "\u53F3\u8155\u30CD\u30B8.001"
+      parentName: DrillMan(Clone)
+      position: {x: 1.1197665, y: 12.973616, z: 6.9158125}
+      rotation: {x: -0.5336337, y: 0.46393433, z: -0.46393424, w: 0.53363377}
+      scale: {x: 0.10038707, y: 0.10038705, z: 0.019329207}
+    - name: "\u53F3\u8155\u30CD\u30B8.002"
+      parentName: DrillMan(Clone)
+      position: {x: 1.1197667, y: 12.973616, z: 7.2079725}
+      rotation: {x: -0.5336337, y: 0.46393433, z: -0.46393424, w: 0.53363377}
+      scale: {x: 0.10038707, y: 0.10038705, z: 0.019329207}
+    - name: "\u53F3\u8155\u30CD\u30B8.006"
+      parentName: DrillMan(Clone)
+      position: {x: -1.5017885, y: 12.967363, z: 7.269971}
+      rotation: {x: -0.55836654, y: -0.43385133, z: 0.4338513, w: 0.5583663}
+      scale: {x: 0.100387044, y: 0.10038705, z: 0.019329207}
+    - name: "\u53F3\u8155\u30CD\u30B8.007"
+      parentName: DrillMan(Clone)
+      position: {x: -1.5017885, y: 12.967361, z: 6.914671}
+      rotation: {x: -0.55836654, y: -0.43385133, z: 0.4338513, w: 0.5583663}
+      scale: {x: 0.100387044, y: 0.10038705, z: 0.019329207}
+    - name: "\u53F3\u8155\u30EA\u30F3\u30B0"
+      parentName: DrillMan(Clone)
+      position: {x: -0.19380242, y: 13.001432, z: 6.39383}
+      rotation: {x: -0.000000012246142, y: 0.000000029998578, z: 1, w: -0.00000019470718}
+      scale: {x: 1.1559916, y: 1.1559916, z: 0.8709949}
+    - name: "\u53F3\u8155\u88C5\u98FE\uFF11"
+      parentName: DrillMan(Clone)
+      position: {x: -0.19119793, y: 12.8158045, z: 4.940714}
+      rotation: {x: -0.000000047109125, y: -0.000000012112861, z: -0.000000011810037, w: 1}
+      scale: {x: 1.0054468, y: 1.0054466, z: 0.11230467}
+    - name: "\u53F3\u8155\u9593\u63A5\u4E3B.001"
+      parentName: DrillMan(Clone)
+      position: {x: -0.13715085, y: 12.854196, z: 2.6466036}
+      rotation: {x: -0.00000004841904, y: -0.000000017998023, z: -0.000000010988376, w: 1}
+      scale: {x: 1.064521, y: 1.4726744, z: 0.8249215}
+    - name: "\u53F3\u8155\u9593\u63A5\u4E3B.002"
+      parentName: DrillMan(Clone)
+      position: {x: -0.13715106, y: 12.774854, z: 5.522747}
+      rotation: {x: -0.00000007128503, y: -0.000000012705728, z: -0.000000013580389, w: 1}
+      scale: {x: 1.0482639, y: 1.4501846, z: 1.1049093}
+    - name: "\u53F3\u8155\u9593\u63A5\uFF11.001"
+      parentName: DrillMan(Clone)
+      position: {x: -0.18995559, y: 13.493261, z: 5.490795}
+      rotation: {x: -0.7071068, y: -0.000000023769635, z: 0.0000000029888154, w: 0.7071067}
+      scale: {x: 0.44067255, y: 0.44067252, z: 0.077359945}
+    - name: "\u53F3\u8155\u9593\u63A5\uFF12.001"
+      parentName: DrillMan(Clone)
+      position: {x: -0.18995565, y: 11.988497, z: 5.490793}
+      rotation: {x: 0.70710665, y: -0.00000003490366, z: -0.000000015251194, w: 0.7071069}
+      scale: {x: 0.31845146, y: 0.3184514, z: 0.05590407}
+    - name: "\u53F3\u8155\uFF11"
+      parentName: DrillMan(Clone)
+      position: {x: -0.14076707, y: 12.809502, z: 3.8561134}
+      rotation: {x: 0.000000014214791, y: -0.000000012136212, z: -0.065125756, w: 0.99787706}
+      scale: {x: 0.7826569, y: 0.78265685, z: 1.0505158}
+    - name: "\u53F3\u8155\uFF12"
+      parentName: DrillMan(Clone)
+      position: {x: -0.20204057, y: 12.749367, z: 6.443899}
+      rotation: {x: -0.000000023679178, y: -0.000000011051365, z: -0.0000000127991004, w: 1}
+      scale: {x: 0.5692296, y: 0.59069043, z: 0.67329586}
+    - name: "\u53F3\u819D\u88C5\u98FE"
+      parentName: DrillMan(Clone)
+      position: {x: 1.2254776, y: 6.4508486, z: 1.3622484}
+      rotation: {x: 0.70710665, y: -0.000000029693261, z: -0.000000013797775, w: 0.7071069}
+      scale: {x: -2.0224206, y: -0.9517837, z: -0.865455}
+    - name: "\u53F3\u819D\u88C5\u98FE.001"
+      parentName: DrillMan(Clone)
+      position: {x: -0.08948958, y: 6.5046864, z: 2.2190514}
+      rotation: {x: 0.00000006408584, y: 0.7071068, z: -0.7071067, w: -0.00000004268431}
+      scale: {x: -0.6321579, y: -0.045830786, z: -1.1447532}
+    - name: "\u53F3\u819D\u88C5\u98FE.002"
+      parentName: DrillMan(Clone)
+      position: {x: -0.08948955, y: 6.370289, z: 0.4902687}
+      rotation: {x: -0.7071068, y: -0.000000021511367, z: 0.000000003771948, w: 0.7071067}
+      scale: {x: 0.6321579, y: 0.045830786, z: 1.1447532}
+    - name: "\u53F3\u819D\u88C5\u98FE.003"
+      parentName: DrillMan(Clone)
+      position: {x: -1.3441381, y: 6.5792665, z: 1.3622494}
+      rotation: {x: -0.7071068, y: -0.000000017299142, z: 0.0000000019937365, w: 0.7071067}
+      scale: {x: 2.0224206, y: 0.9517838, z: 0.8654549}
+    - name: "\u53F3\u819D\u88C5\u98FE.004"
+      parentName: DrillMan(Clone)
+      position: {x: -1.3441381, y: 3.0340805, z: 1.3622494}
+      rotation: {x: -0.7071068, y: -0.000000021124361, z: 0.0000000028282856, w: 0.7071067}
+      scale: {x: 2.0224206, y: 0.9517837, z: 1.0054464}
+    - name: "\u53F3\u819D\u88C5\u98FE.005"
+      parentName: DrillMan(Clone)
+      position: {x: -0.018207192, y: 2.967414, z: 0.3123169}
+      rotation: {x: -0.5, y: -0.5, z: -0.49999997, w: 0.50000006}
+      scale: {x: 2.0224202, y: 0.95178396, z: 1.0054466}
+    - name: "\u53F3\u819D\u88C5\u98FE.006"
+      parentName: DrillMan(Clone)
+      position: {x: 0.060623944, y: 2.9588175, z: 2.3687744}
+      rotation: {x: 0.50000006, y: -0.49999994, z: 0.49999997, w: 0.50000006}
+      scale: {x: -2.0224202, y: -0.95178396, z: -1.0054466}
+    - name: "\u53F3\u819D\u88C5\u98FE.007"
+      parentName: DrillMan(Clone)
+      position: {x: 1.2748389, y: 3.229043, z: 1.3615837}
+      rotation: {x: -0.000000042943824, y: 0.7071068, z: -0.7071067, w: 0.00000006382633}
+      scale: {x: 2.1041172, y: 0.9902315, z: 0.9004154}
+    - name: "\u53F3\u819D\u88C5\u98FE.008"
+      parentName: DrillMan(Clone)
+      position: {x: -1.5093474, y: 4.9037437, z: 1.3286381}
+      rotation: {x: -0.70441604, y: -0.061628386, z: 0.0616284, w: 0.70441604}
+      scale: {x: 0.06425501, y: 0.53602886, z: 0.70297205}
+    - name: "\u53F3\u819D\u88C5\u98FE.009"
+      parentName: DrillMan(Clone)
+      position: {x: -1.1526283, y: 4.5532856, z: 0.6358013}
+      rotation: {x: 0.86103684, y: 0.1749764, z: 0.1398211, w: -0.45656207}
+      scale: {x: 0.064255014, y: 0.5360289, z: 0.7029721}
+    - name: "\u53F3\u819D\u88C5\u98FE.010"
+      parentName: DrillMan(Clone)
+      position: {x: -1.1526295, y: 4.484971, z: 1.9398756}
+      rotation: {x: -0.17497647, y: 0.8610368, z: -0.4565621, w: -0.13982116}
+      scale: {x: -0.057199758, y: -0.47717246, z: -0.6257852}
+    - name: "\u53F3\u819D\u88C5\u98FE.011"
+      parentName: DrillMan(Clone)
+      position: {x: -1.1526289, y: 4.484972, z: -1.9821872}
+      rotation: {x: 0.86103684, y: 0.17497641, z: 0.13982117, w: -0.45656198}
+      scale: {x: 0.057199765, y: 0.47717246, z: 0.62578523}
+    - name: "\u53F3\u819D\u88C5\u98FE.012"
+      parentName: DrillMan(Clone)
+      position: {x: -1.1526289, y: 4.5532856, z: -0.67811203}
+      rotation: {x: -0.1749764, y: 0.86103684, z: -0.45656204, w: -0.13982107}
+      scale: {x: -0.06425501, y: -0.5360289, z: -0.70297205}
+    - name: "\u53F3\u819D\u88C5\u98FE.013"
+      parentName: DrillMan(Clone)
+      position: {x: -1.509348, y: 4.903743, z: -1.3709469}
+      rotation: {x: -0.061628446, y: 0.7044161, z: -0.70441604, w: 0.06162848}
+      scale: {x: -0.064255014, y: -0.5360289, z: -0.70297205}
+    - name: "\u53F3\u819D\u88C5\u98FE.014"
+      parentName: DrillMan(Clone)
+      position: {x: 1.2748384, y: 3.229042, z: -1.4038963}
+      rotation: {x: -0.7071068, y: -0.000000021895403, z: 0.000000005730697, w: 0.7071067}
+      scale: {x: -2.1041174, y: -0.9902317, z: -0.90041554}
+    - name: "\u53F3\u819D\u88C5\u98FE.015"
+      parentName: DrillMan(Clone)
+      position: {x: 0.06062296, y: 2.9588146, z: -2.411087}
+      rotation: {x: -0.5000001, y: -0.49999985, z: -0.5, w: 0.5}
+      scale: {x: 2.02242, y: 0.9517838, z: 1.0054464}
+    - name: "\u53F3\u819D\u88C5\u98FE.016"
+      parentName: DrillMan(Clone)
+      position: {x: -0.018206924, y: 2.9674149, z: -0.3546276}
+      rotation: {x: 0.5, y: -0.49999997, z: 0.5, w: 0.5}
+      scale: {x: -2.02242, y: -0.95178396, z: -1.0054466}
+    - name: "\u53F3\u819D\u88C5\u98FE.017"
+      parentName: DrillMan(Clone)
+      position: {x: -1.344138, y: 3.0340815, z: -1.404562}
+      rotation: {x: 0.000000061597426, y: 0.7071068, z: -0.7071067, w: -0.00000004517273}
+      scale: {x: -2.0224206, y: -0.9517838, z: -1.0054464}
+    - name: "\u53F3\u819D\u88C5\u98FE.018"
+      parentName: DrillMan(Clone)
+      position: {x: -1.3441384, y: 6.5792675, z: -1.4045591}
+      rotation: {x: 0.000000060438104, y: 0.7071068, z: -0.7071067, w: -0.000000046332048}
+      scale: {x: -2.0224206, y: -0.9517838, z: -0.86545503}
+    - name: "\u53F3\u819D\u88C5\u98FE.019"
+      parentName: DrillMan(Clone)
+      position: {x: -0.089489534, y: 6.3702908, z: -0.53258324}
+      rotation: {x: 0.00000006408584, y: 0.7071068, z: -0.7071067, w: -0.00000004268431}
+      scale: {x: -0.6321579, y: -0.045830786, z: -1.1447532}
+    - name: "\u53F3\u819D\u88C5\u98FE.021"
+      parentName: DrillMan(Clone)
+      position: {x: -0.08948982, y: 6.5046864, z: -2.2613668}
+      rotation: {x: -0.7071068, y: -0.000000021511367, z: 0.000000003771948, w: 0.7071067}
+      scale: {x: 0.6321579, y: 0.045830786, z: 1.1447532}
+    - name: "\u53F3\u819D\u88C5\u98FE.022"
+      parentName: DrillMan(Clone)
+      position: {x: 1.2254773, y: 6.4508495, z: -1.404561}
+      rotation: {x: 0.000000097861424, y: 0.7071068, z: 0.7071067, w: 0.000000008908725}
+      scale: {x: 2.0224206, y: 0.95178366, z: 0.8654549}
+    - name: "\u53F3\u819D\uFF11"
+      parentName: DrillMan(Clone)
+      position: {x: -0.047953412, y: 6.4077244, z: 1.3529825}
+      rotation: {x: -0.7071068, y: -0.000000015220515, z: 0.0000000034122845, w: 0.7071067}
+      scale: {x: 1.4936006, y: 1.0054466, z: 1.5315711}
+    - name: "\u53F3\u819D\uFF11.001"
+      parentName: DrillMan(Clone)
+      position: {x: -0.047953635, y: 6.4077225, z: -1.3952942}
+      rotation: {x: 0.00000006029533, y: 0.7071068, z: -0.7071067, w: -0.00000004647482}
+      scale: {x: -1.4936008, y: -1.0054468, z: -1.5315714}
+    - name: "\u53F3\u819D\uFF12"
+      parentName: DrillMan(Clone)
+      position: {x: -0.04795395, y: 2.9370522, z: 1.3529835}
+      rotation: {x: -0.7071068, y: 0.000000019171651, z: -0.000000037049457, w: 0.7071067}
+      scale: {x: 1.4936006, y: 1.0054467, z: 1.3422683}
+    - name: "\u53F3\u819D\uFF12.001"
+      parentName: DrillMan(Clone)
+      position: {x: -0.047953784, y: 2.9370527, z: -1.3952923}
+      rotation: {x: 0.00000006110952, y: 0.7071068, z: -0.7071067, w: -0.00000004566063}
+      scale: {x: -1.4936006, y: -1.0054466, z: -1.3422683}
+    - name: "\u53F3\u8DB3"
+      parentName: DrillMan(Clone)
+      position: {x: -1.260459, y: 0.49278164, z: 1.3817768}
+      rotation: {x: -0.7071068, y: -0.000000018124323, z: 0.0000000049017674, w: 0.7071067}
+      scale: {x: 2.076901, y: 0.991771, z: 0.68319154}
+    - name: "\u53F3\u8DB3\u3064\u306A\u304E"
+      parentName: DrillMan(Clone)
+      position: {x: -0.047953293, y: 6.667494, z: 2.3699522}
+      rotation: {x: -0.000000008225653, y: 0.7071068, z: 0.7071067, w: -0.000000098544504}
+      scale: {x: 1.4936006, y: 1.0054467, z: 1.282059}
+    - name: "\u53F3\u8DB3\u3064\u306A\u304E.001"
+      parentName: DrillMan(Clone)
+      position: {x: -0.047953427, y: 6.667492, z: 0.33416367}
+      rotation: {x: 0.70710665, y: -0.000000034823127, z: -0.000000017420776, w: 0.7071069}
+      scale: {x: -1.4936006, y: -1.0054467, z: -1.282059}
+    - name: "\u53F3\u8DB3\u3064\u306A\u304E.002"
+      parentName: DrillMan(Clone)
+      position: {x: -0.047953203, y: 6.667492, z: -0.37647438}
+      rotation: {x: -0.000000008225653, y: 0.7071068, z: 0.7071067, w: -0.000000098544504}
+      scale: {x: 1.4936006, y: 1.0054467, z: 1.282059}
+    - name: "\u53F3\u8DB3\u3064\u306A\u304E.003"
+      parentName: DrillMan(Clone)
+      position: {x: -0.0479538, y: 6.6674957, z: -2.4122639}
+      rotation: {x: 0.70710665, y: -0.000000034823127, z: -0.000000017420776, w: 0.7071069}
+      scale: {x: -1.4936006, y: -1.0054467, z: -1.282059}
+    - name: "\u53F3\u8DB3\u30ED\u30FC\u30E9\u30FC"
+      parentName: DrillMan(Clone)
+      position: {x: 0.42225748, y: 0.81962204, z: 0.27287865}
+      rotation: {x: -0.000000056032732, y: -0.0000000129678615, z: -0.000000013324367, w: 1}
+      scale: {x: 0.9086505, y: 0.9086504, z: 0.12025194}
+    - name: "\u53F3\u8DB3\u30ED\u30FC\u30E9\u30FC.001"
+      parentName: DrillMan(Clone)
+      position: {x: 0.42225808, y: 0.819623, z: 2.4676704}
+      rotation: {x: 0.00000006036189, y: 0.000000032343603, z: 1, w: 0.000000075497894}
+      scale: {x: -0.9086505, y: -0.90865016, z: -0.12025191}
+    - name: "\u53F3\u8DB3\u30ED\u30FC\u30E9\u30FC.002"
+      parentName: DrillMan(Clone)
+      position: {x: 0.42225802, y: 0.81962395, z: -2.4826279}
+      rotation: {x: 0.00000020165103, y: -0.000000013981332, z: -0.000000012811894, w: 1}
+      scale: {x: 0.9086505, y: 0.90865016, z: 0.11725452}
+    - name: "\u53F3\u8DB3\u30ED\u30FC\u30E9\u30FC.003"
+      parentName: DrillMan(Clone)
+      position: {x: 0.42225778, y: 0.819623, z: -0.34254074}
+      rotation: {x: -0.000000009969823, y: 0.000000032284717, z: 1, w: -0.0000000754979}
+      scale: {x: -0.9086505, y: -0.90865016, z: -0.11725451}
+    - name: "\u53F3\u8DB3\u6307"
+      parentName: DrillMan(Clone)
+      position: {x: -4.025838, y: 0.2467041, z: 1.8011436}
+      rotation: {x: -0.7071068, y: -0.00000001786384, z: 0.0000000036012644, w: 0.7071067}
+      scale: {x: 0.94634426, y: 0.5086403, z: 0.35038203}
+    - name: "\u53F3\u8DB3\u6307.001"
+      parentName: DrillMan(Clone)
+      position: {x: -4.0258384, y: 0.24670506, z: 0.8250828}
+      rotation: {x: -0.7071068, y: -0.00000001786384, z: 0.0000000036012644, w: 0.7071067}
+      scale: {x: 0.94634426, y: 0.5086403, z: 0.35038203}
+    - name: "\u53F3\u8DB3\u6307.002"
+      parentName: DrillMan(Clone)
+      position: {x: -4.025839, y: 0.24670601, z: -0.8673954}
+      rotation: {x: 0.000000062090955, y: 0.7071068, z: -0.7071067, w: -0.000000044679194}
+      scale: {x: -0.94634426, y: -0.5086402, z: -0.35038203}
+    - name: "\u53F3\u8DB3\u6307.003"
+      parentName: DrillMan(Clone)
+      position: {x: -4.0258384, y: 0.24670696, z: -1.8434544}
+      rotation: {x: 0.000000062090955, y: 0.7071068, z: -0.7071067, w: -0.000000044679194}
+      scale: {x: -0.94634426, y: -0.5086402, z: -0.35038203}
+    - name: "\u53F3\u8DB3\u88C5\u98FE"
+      parentName: DrillMan(Clone)
+      position: {x: -0.883474, y: 0.36327457, z: 2.5095406}
+      rotation: {x: -0.7071068, y: 0.000000020092381, z: -0.000000033960607, w: 0.7071067}
+      scale: {x: 0.44109952, y: 1.0054467, z: 0.5332491}
+    - name: "\u53F3\u8DB3\u88C5\u98FE.001"
+      parentName: DrillMan(Clone)
+      position: {x: -1.7570534, y: 1.4636211, z: 0.7015171}
+      rotation: {x: -0.7071068, y: 0.00000001922134, z: -0.000000038050082, w: 0.7071067}
+      scale: {x: 0.8062876, y: 1.0054466, z: 0.6726252}
+    - name: "\u53F3\u8DB3\u88C5\u98FE.002"
+      parentName: DrillMan(Clone)
+      position: {x: -1.745885, y: 1.464488, z: 2.0355263}
+      rotation: {x: 0.00000006439003, y: 0.7071068, z: -0.7071067, w: -0.000000042380123}
+      scale: {x: -0.8062877, y: -1.0054467, z: -0.67262524}
+    - name: "\u53F3\u8DB3\u88C5\u98FE.003"
+      parentName: DrillMan(Clone)
+      position: {x: -2.7125192, y: 1.1686096, z: 1.9913807}
+      rotation: {x: -0.12145863, y: 0.6970172, z: -0.6967306, w: 0.11824241}
+      scale: {x: -0.8062874, y: -1.0054467, z: -0.6726253}
+    - name: "\u53F3\u8DB3\u88C5\u98FE.004"
+      parentName: DrillMan(Clone)
+      position: {x: -2.7168248, y: 1.1646976, z: 0.77614784}
+      rotation: {x: -0.69673073, y: -0.1182424, z: 0.121458605, w: 0.6970172}
+      scale: {x: 0.80628735, y: 1.0054466, z: 0.6726251}
+    - name: "\u53F3\u8DB3\u88C5\u98FE.005"
+      parentName: DrillMan(Clone)
+      position: {x: -2.047712, y: 0.40874386, z: 2.4463444}
+      rotation: {x: -0.7071068, y: -0.000000012961665, z: 0.000000008226713, w: 0.7071067}
+      scale: {x: 0.54058486, y: 1.0054467, z: 0.5332491}
+    - name: "\u53F3\u8DB3\u88C5\u98FE.006"
+      parentName: DrillMan(Clone)
+      position: {x: -2.0477118, y: 0.40874386, z: 0.44067}
+      rotation: {x: -0.7071068, y: -0.000000012961665, z: 0.000000008226713, w: 0.7071067}
+      scale: {x: 0.54058486, y: 1.0054467, z: 0.5332491}
+    - name: "\u53F3\u8DB3\u88C5\u98FE.007"
+      parentName: DrillMan(Clone)
+      position: {x: -0.88347405, y: 0.36327267, z: 0.5038643}
+      rotation: {x: -0.7071068, y: 0.000000020092381, z: -0.000000033960607, w: 0.7071067}
+      scale: {x: 0.44109952, y: 1.0054467, z: 0.5332491}
+    - name: "\u53F3\u8DB3\u88C5\u98FE.008"
+      parentName: DrillMan(Clone)
+      position: {x: -0.88347423, y: 0.36327076, z: -0.5461807}
+      rotation: {x: 0.0000000610166, y: 0.7071068, z: -0.7071067, w: -0.00000004575355}
+      scale: {x: -0.4410995, y: -1.0054467, z: -0.5332491}
+    - name: "\u53F3\u8DB3\u88C5\u98FE.009"
+      parentName: DrillMan(Clone)
+      position: {x: -2.0477123, y: 0.40874672, z: -0.48298073}
+      rotation: {x: 0.000000057329512, y: 0.7071068, z: -0.7071067, w: -0.00000004944064}
+      scale: {x: -0.54058486, y: -1.0054467, z: -0.5332491}
+    - name: "\u53F3\u8DB3\u88C5\u98FE.010"
+      parentName: DrillMan(Clone)
+      position: {x: -2.047712, y: 0.40874577, z: -2.488657}
+      rotation: {x: 0.000000057329512, y: 0.7071068, z: -0.7071067, w: -0.00000004944064}
+      scale: {x: -0.54058486, y: -1.0054467, z: -0.5332491}
+    - name: "\u53F3\u8DB3\u88C5\u98FE.011"
+      parentName: DrillMan(Clone)
+      position: {x: -2.716825, y: 1.1646976, z: -0.8184624}
+      rotation: {x: 0.118242405, y: -0.6967307, z: 0.69701725, w: -0.121458665}
+      scale: {x: -0.8062874, y: -1.0054464, z: -0.6726252}
+    - name: "\u53F3\u8DB3\u88C5\u98FE.012"
+      parentName: DrillMan(Clone)
+      position: {x: -2.7125206, y: 1.1686077, z: -2.0336933}
+      rotation: {x: -0.6970172, y: -0.12145856, z: 0.11824235, w: 0.6967307}
+      scale: {x: 0.80628747, y: 1.0054467, z: 0.6726252}
+    - name: "\u53F3\u8DB3\u88C5\u98FE.013"
+      parentName: DrillMan(Clone)
+      position: {x: -1.7458856, y: 1.4644909, z: -2.077837}
+      rotation: {x: -0.7071068, y: 0.00000001922134, z: -0.000000038050082, w: 0.7071067}
+      scale: {x: 0.8062876, y: 1.0054466, z: 0.6726252}
+    - name: "\u53F3\u8DB3\u88C5\u98FE.014"
+      parentName: DrillMan(Clone)
+      position: {x: -1.7570531, y: 1.4636192, z: -0.7438259}
+      rotation: {x: 0.00000006439003, y: 0.7071068, z: -0.7071067, w: -0.000000042380123}
+      scale: {x: -0.8062877, y: -1.0054467, z: -0.67262524}
+    - name: "\u53F3\u8DB3\u88C5\u98FE.015"
+      parentName: DrillMan(Clone)
+      position: {x: -0.88347375, y: 0.36327076, z: -2.551851}
+      rotation: {x: 0.0000000610166, y: 0.7071068, z: -0.7071067, w: -0.00000004575355}
+      scale: {x: -0.4410995, y: -1.0054467, z: -0.5332491}
+    - name: "\u53F3\u8DB3\u9593\u63A5\u4E3B"
+      parentName: DrillMan(Clone)
+      position: {x: -0.038913667, y: 4.5589876, z: 1.3490467}
+      rotation: {x: -0.7071068, y: -0.000000019039522, z: 4.7662074e-10, w: 0.7071067}
+      scale: {x: 1.1785142, y: 0.7595134, z: 1.2986493}
+    - name: "\u53F3\u8DB3\u9593\u63A5\u4E3B.001"
+      parentName: DrillMan(Clone)
+      position: {x: -0.038913846, y: 4.5589895, z: -1.3913574}
+      rotation: {x: 0.00000006101124, y: 0.7071068, z: -0.7071067, w: -0.000000045758906}
+      scale: {x: -1.1785142, y: -0.75951344, z: -1.1660973}
+    - name: "\u53F3\u8DB3\u9593\u63A5\uFF11"
+      parentName: DrillMan(Clone)
+      position: {x: 0.030307978, y: 4.6573887, z: 0.4504795}
+      rotation: {x: -0.00000005430079, y: -0.000000013785675, z: -0.000000008334985, w: 1}
+      scale: {x: 0.6145511, y: 0.61455107, z: 0.09296627}
+    - name: "\u53F3\u8DB3\u9593\u63A5\uFF11.001"
+      parentName: DrillMan(Clone)
+      position: {x: 0.030307889, y: 4.6573887, z: -0.49279022}
+      rotation: {x: -0.000000013068832, y: 0.000000032159324, z: 1, w: -0.0000000754979}
+      scale: {x: -0.6145512, y: -0.614551, z: -0.09296627}
+    - name: "\u53F3\u8DB3\u9593\u63A5\uFF12"
+      parentName: DrillMan(Clone)
+      position: {x: 0.030307978, y: 4.6573877, z: 2.38657}
+      rotation: {x: -0.000000010706067, y: 0.000000024804065, z: 1, w: 0.0000000754979}
+      scale: {x: -0.4244798, y: -0.42447966, z: -0.06421322}
+    - name: "\u53F3\u8DB3\u9593\u63A5\uFF12.001"
+      parentName: DrillMan(Clone)
+      position: {x: 0.030308038, y: 4.6573906, z: -2.4288807}
+      rotation: {x: -0.0000000480838, y: -0.000000011397482, z: -0.000000010970166, w: 1}
+      scale: {x: 0.42447972, y: 0.42447966, z: 0.06421321}
+    - name: "\u5C0F\u6307"
+      parentName: DrillMan(Clone)
+      position: {x: -0.4448737, y: 12.226278, z: -9.932641}
+      rotation: {x: 0.6799485, y: 0.7075096, z: 0.17056791, w: -0.08948111}
+      scale: {x: 0.14517772, y: 0.27153233, z: 0.2575133}
+    - name: "\u5DE6\u76EE"
+      parentName: DrillMan(Clone)
+      position: {x: -0.81693834, y: 14.75536, z: -0.30414772}
+      rotation: {x: -0.7071068, y: -0.000000018529875, z: 0.000000008452222, w: 0.7071067}
+      scale: {x: 0.12660988, y: 0.12660988, z: 0.12660988}
+    - name: "\u5DE6\u80A1\u95A2\u7BC0"
+      parentName: DrillMan(Clone)
+      position: {x: -0.09483294, y: 8.455125, z: -1.318738}
+      rotation: {x: 0.00000006344091, y: 0.7071068, z: -0.7071067, w: -0.000000043329248}
+      scale: {x: -1.1133103, y: -1.1133103, z: -1.1133102}
+    - name: "\u5DE6\u80A9"
+      parentName: DrillMan(Clone)
+      position: {x: -0.025665313, y: 13.552338, z: -1.7911692}
+      rotation: {x: -0.10599717, y: -0.000000009423018, z: -0.000000011163062, w: 0.99436647}
+      scale: {x: 1.2375493, y: 1.2375492, z: 0.19123837}
+    - name: "\u5DE6\u80A9.001"
+      parentName: DrillMan(Clone)
+      position: {x: -0.20258236, y: 13.5764675, z: -2.0880604}
+      rotation: {x: -0.7071068, y: 0.000000017356895, z: -0.000000033731318, w: 0.7071067}
+      scale: {x: 1.0054469, y: 1.0054467, z: 1.0054467}
+    - name: "\u5DE6\u80A9.002"
+      parentName: DrillMan(Clone)
+      position: {x: -0.20258237, y: 13.576469, z: 2.0094852}
+      rotation: {x: 0.00000006370097, y: 0.7071068, z: -0.7071067, w: -0.000000043069175}
+      scale: {x: -1.0054469, y: -1.0054467, z: -1.0054464}
+    - name: "\u5DE6\u8155\u3064\u306A\u304E\uFF11"
+      parentName: DrillMan(Clone)
+      position: {x: 0.5415369, y: 12.701589, z: -3.2648685}
+      rotation: {x: 0.000000012293651, y: 1, z: 0.000000016408977, w: 0.00000019470718}
+      scale: {x: 0.9081103, y: 1.2910556, z: 0.90811026}
+    - name: "\u5DE6\u8155\u3064\u306A\u304E\uFF12"
+      parentName: DrillMan(Clone)
+      position: {x: 0.5415371, y: 12.701591, z: -4.247841}
+      rotation: {x: 0.000000010802164, y: 1, z: 0.000000019762824, w: 0.00000019470718}
+      scale: {x: 0.90811044, y: 1.2892134, z: 0.9081103}
+    - name: "\u5DE6\u8155\u3064\u306A\u304E\uFF13"
+      parentName: DrillMan(Clone)
+      position: {x: -1.1535144, y: 12.708954, z: -3.8101578}
+      rotation: {x: -0.000000022515064, y: -0.000000010007187, z: -0.000000013755924, w: 1}
+      scale: {x: 0.9081103, y: 1.2442998, z: 1.4138362}
+    - name: "\u5DE6\u8155\u30CD\u30B8"
+      parentName: DrillMan(Clone)
+      position: {x: 0.5260551, y: 12.444747, z: -3.2576275}
+      rotation: {x: -0.47304273, y: 0.52557653, z: -0.5255765, w: 0.47304258}
+      scale: {x: 0.100387074, y: 0.10038707, z: 0.019329203}
+    - name: "\u5DE6\u8155\u30CD\u30B8.001"
+      parentName: DrillMan(Clone)
+      position: {x: -1.1455936, y: 12.432986, z: -3.7862759}
+      rotation: {x: 0.4520841, y: 0.5437095, z: -0.5437094, w: -0.45208412}
+      scale: {x: 0.10038706, y: 0.100387044, z: 0.019329203}
+    - name: "\u5DE6\u8155\u30CD\u30B8.002"
+      parentName: DrillMan(Clone)
+      position: {x: 0.52605474, y: 12.444749, z: -4.271841}
+      rotation: {x: -0.47304273, y: 0.52557653, z: -0.5255765, w: 0.47304258}
+      scale: {x: 0.100387074, y: 0.10038707, z: 0.019329203}
+    - name: "\u5DE6\u8155\u30CD\u30B8.003"
+      parentName: DrillMan(Clone)
+      position: {x: 0.52887976, y: 13.004344, z: -4.271839}
+      rotation: {x: -0.52405226, y: 0.47473076, z: -0.4747306, w: 0.52405226}
+      scale: {x: 0.10038707, y: 0.10038706, z: 0.019329209}
+    - name: "\u5DE6\u8155\u30CD\u30B8.004"
+      parentName: DrillMan(Clone)
+      position: {x: 0.5288797, y: 13.004342, z: -3.2576256}
+      rotation: {x: -0.52405226, y: 0.47473076, z: -0.4747306, w: 0.52405226}
+      scale: {x: 0.10038707, y: 0.10038706, z: 0.019329209}
+    - name: "\u5DE6\u8155\u30CD\u30B8.005"
+      parentName: DrillMan(Clone)
+      position: {x: -1.1739454, y: 13.002925, z: -3.786275}
+      rotation: {x: -0.5284008, y: -0.46988592, z: 0.46988583, w: 0.5284006}
+      scale: {x: 0.100387074, y: 0.10038705, z: 0.019329205}
+    - name: "\u5DE6\u8155\u88C5\u98FE\uFF11"
+      parentName: DrillMan(Clone)
+      position: {x: -0.29071513, y: 12.117617, z: -3.2763777}
+      rotation: {x: -0.000000038682387, y: -0.000000014986234, z: -0.000000010884062, w: 1}
+      scale: {x: 0.8342838, y: 0.8342837, z: 0.3132905}
+    - name: "\u5DE6\u8155\u88C5\u98FE\uFF11.001"
+      parentName: DrillMan(Clone)
+      position: {x: -0.29071525, y: 12.117617, z: -4.2906227}
+      rotation: {x: -0.000000038682387, y: -0.000000014986234, z: -0.000000010884062, w: 1}
+      scale: {x: 0.8342838, y: 0.8342837, z: 0.3132905}
+    - name: "\u5DE6\u8155\u88C5\u98FE\uFF11.002"
+      parentName: DrillMan(Clone)
+      position: {x: -0.18596205, y: 13.333456, z: 7.4983454}
+      rotation: {x: -0.000000010100468, y: 0.00000002342919, z: 1, w: -0.00000019470718}
+      scale: {x: 1.3795823, y: 1.1596638, z: 0.23850314}
+    - name: "\u5DE6\u8155\u88C5\u98FE\uFF12"
+      parentName: DrillMan(Clone)
+      position: {x: -0.3097757, y: 13.179242, z: -3.731289}
+      rotation: {x: -0.000000013477008, y: 0.00000000813665, z: 1, w: -0.00000019470718}
+      scale: {x: 0.8342838, y: 0.45784077, z: 0.73690796}
+    - name: "\u5DE6\u8155\u88C5\u98FE\uFF13"
+      parentName: DrillMan(Clone)
+      position: {x: -0.12647013, y: 12.599711, z: -7.050602}
+      rotation: {x: 0.000000039397804, y: 0.000000041736076, z: -0.68426883, w: 0.7292298}
+      scale: {x: 0.9584042, y: 0.78126615, z: 1.1260468}
+    - name: "\u5DE6\u8155\u9593\u63A5\u4E3B"
+      parentName: DrillMan(Clone)
+      position: {x: -0.29064238, y: 12.643566, z: -5.065357}
+      rotation: {x: -0.000000018123153, y: -0.000000013199454, z: -0.0000000140277425, w: 1}
+      scale: {x: 1.0054467, y: 1.3909507, z: 1.0054466}
+    - name: "\u5DE6\u8155\u9593\u63A5\u4E3B.003"
+      parentName: DrillMan(Clone)
+      position: {x: -0.29064226, y: 12.643566, z: -2.515131}
+      rotation: {x: -0.000000018123153, y: -0.000000013199454, z: -0.0000000140277425, w: 1}
+      scale: {x: 1.0054467, y: 1.3909507, z: 1.0054466}
+    - name: "\u5DE6\u8155\u9593\u63A5\uFF11"
+      parentName: DrillMan(Clone)
+      position: {x: -0.28398582, y: 13.301476, z: -5.106756}
+      rotation: {x: -0.7071068, y: -0.000000020254616, z: 0.000000003736021, w: 0.7071067}
+      scale: {x: 0.4406726, y: 0.44067252, z: 0.07735995}
+    - name: "\u5DE6\u8155\u9593\u63A5\uFF12"
+      parentName: DrillMan(Clone)
+      position: {x: -0.2839856, y: 11.796714, z: -5.0966873}
+      rotation: {x: 0.70710665, y: -0.00000003874993, z: -0.00000001887012, w: 0.7071069}
+      scale: {x: 0.31845146, y: 0.31845143, z: 0.055904076}
+    - name: "\u5DE6\u8155\uFF11"
+      parentName: DrillMan(Clone)
+      position: {x: -0.28789365, y: 12.617414, z: -3.718237}
+      rotation: {x: -0.7071068, y: -0.000000014904249, z: 0.000000007876453, w: 0.7071067}
+      scale: {x: 0.42201447, y: 1.1108943, z: 0.6129131}
+    - name: "\u5DE6\u8155\uFF12"
+      parentName: DrillMan(Clone)
+      position: {x: -0.2878934, y: 12.617416, z: -6.409028}
+      rotation: {x: -0.7071068, y: -0.00000001951862, z: 0.0000000011594552, w: 0.7071067}
+      scale: {x: 0.42201442, y: 1.1374152, z: 0.612913}
+    - name: "\u5DE6\u8DB3"
+      parentName: DrillMan(Clone)
+      position: {x: -1.2604592, y: 0.4927826, z: -1.4240894}
+      rotation: {x: -0.000000041997815, y: 0.7071068, z: -0.7071067, w: 0.00000006477234}
+      scale: {x: -2.076901, y: -0.991771, z: -0.68319154}
+    - name: "\u624B\u306E\u3072\u3089"
+      parentName: DrillMan(Clone)
+      position: {x: -0.3314501, y: 12.642396, z: -8.079035}
+      rotation: {x: -0.51564336, y: 0.48385113, z: -0.4838511, w: 0.5156434}
+      scale: {x: 0.683092, y: 0.9369324, z: 0.32448357}
+    - name: "\u6B6F"
+      parentName: DrillMan(Clone)
+      position: {x: -0.98864484, y: 14.346047, z: -0.08362675}
+      rotation: {x: -0.6671937, y: 0.0015603174, z: 0.0004606131, w: 0.74488246}
+      scale: {x: 0.07657181, y: 0.067777544, z: 0.06777753}
+    - name: "\u6B6F\u8ECA"
+      parentName: DrillMan(Clone)
+      position: {x: -0.9142907, y: 10.083514, z: 0.93540287}
+      rotation: {x: -0.40113157, y: -0.40113157, z: 0.5823174, w: 0.58231735}
+      scale: {x: 0.3322266, y: 0.3322267, z: 0.05187202}
+    - name: "\u6B6F\u8ECA.001"
+      parentName: DrillMan(Clone)
+      position: {x: -0.9661292, y: 10.793735, z: -0.12832642}
+      rotation: {x: 0.5000001, y: 0.50000006, z: -0.4999999, w: -0.49999994}
+      scale: {x: 0.83382416, y: 0.8338244, z: 0.13018873}
+    - name: "\u6B6F\u8ECA.002"
+      parentName: DrillMan(Clone)
+      position: {x: -0.41857323, y: 10.450518, z: 1.3674049}
+      rotation: {x: -0.13802864, y: -0.089802444, z: 0.8267683, w: 0.53790146}
+      scale: {x: 0.52078074, y: 0.52078074, z: 0.0813118}
+    - name: "\u6B6F\u8ECA.003"
+      parentName: DrillMan(Clone)
+      position: {x: 0.065718964, y: 10.7596445, z: -1.6686783}
+      rotation: {x: 0.7000263, y: 0.7000262, z: 0.09981615, w: 0.09981615}
+      scale: {x: 0.5044665, y: 0.5044666, z: 0.07876461}
+    - name: "\u6B6F\u8ECA.004"
+      parentName: DrillMan(Clone)
+      position: {x: -0.6698043, y: 10.370813, z: -1.4445095}
+      rotation: {x: 0.20356591, y: 0.20356593, z: 0.6771712, w: 0.67717135}
+      scale: {x: 0.4218573, y: 0.42185754, z: 0.04379557}
+    - name: "\u6B6F\u8ECA.005"
+      parentName: DrillMan(Clone)
+      position: {x: 0.74522334, y: 10.183052, z: 1.1339684}
+      rotation: {x: 0.3136558, y: 0.31365576, z: 0.633735, w: 0.6337351}
+      scale: {x: 0.32543585, y: 0.3254359, z: 0.050811764}
+    - name: "\u6B6F\u8ECA.006"
+      parentName: DrillMan(Clone)
+      position: {x: -1.0880618, y: 10.57337, z: 0.29588795}
+      rotation: {x: 0.50485355, y: 0.49509904, z: -0.5048535, w: -0.49509892}
+      scale: {x: 0.1858519, y: 0.18585193, z: 0.029017888}
+    - name: "\u6B6F\u8ECA.007"
+      parentName: DrillMan(Clone)
+      position: {x: -1.0620701, y: 10.29083, z: -0.094285965}
+      rotation: {x: 0.5533271, y: 0.45004728, z: -0.5406168, w: -0.44611663}
+      scale: {x: 0.16539712, y: 0.16539715, z: 0.025824185}
+    - name: "\u6B6F\u8ECA.008"
+      parentName: DrillMan(Clone)
+      position: {x: -1.0292041, y: 10.384466, z: -0.5417261}
+      rotation: {x: -0.39063433, y: -0.58941066, z: 0.39063418, w: 0.5894106}
+      scale: {x: 0.119505756, y: 0.11950578, z: 0.018658971}
+    - name: "\u6B6F\u8ECA.009"
+      parentName: DrillMan(Clone)
+      position: {x: 0.35789013, y: 10.74992, z: 1.5791712}
+      rotation: {x: 0.13539374, y: 0.13539377, z: 0.6940234, w: 0.6940235}
+      scale: {x: 0.40618336, y: 0.40618342, z: 0.06341922}
+    - name: "\u6B6F\u8ECA.010"
+      parentName: DrillMan(Clone)
+      position: {x: -1.0166756, y: 10.95346, z: -0.27764034}
+      rotation: {x: 0.50000006, y: 0.5, z: -0.49999994, w: -0.49999997}
+      scale: {x: 0.42916185, y: 0.42916203, z: 0.06700696}
+    - name: "\u6B6F\u8ECA.011"
+      parentName: DrillMan(Clone)
+      position: {x: 0.774747, y: 10.282034, z: -1.3925648}
+      rotation: {x: 0.6463461, y: 0.646346, z: 0.28676963, w: 0.2867696}
+      scale: {x: 0.40618336, y: 0.40618345, z: 0.063419215}
+    - name: "\u6B6F\u8ECA.012"
+      parentName: DrillMan(Clone)
+      position: {x: 0.1001177, y: 10.005869, z: -1.6018734}
+      rotation: {x: -0.107691236, y: -0.10561052, z: 0.7058021, w: 0.692165}
+      scale: {x: 0.18585187, y: 0.18585193, z: 0.029017888}
+    - name: "\u6B6F\u8ECA.013"
+      parentName: DrillMan(Clone)
+      position: {x: 1.1852968, y: 10.29083, z: -0.47554684}
+      rotation: {x: -0.44444728, y: -0.43154135, z: 0.54450387, w: 0.56546813}
+      scale: {x: 0.3935512, y: 0.39355126, z: 0.0614469}
+    - name: "\u6B6F\u8ECA.014"
+      parentName: DrillMan(Clone)
+      position: {x: 1.1898496, y: 10.240709, z: 0.4647665}
+      rotation: {x: 0.5447518, y: 0.5447519, z: -0.45082754, w: -0.45082745}
+      scale: {x: 0.38250613, y: 0.38250616, z: 0.05972237}
+    - name: "\u6B6F\u8ECA.015"
+      parentName: DrillMan(Clone)
+      position: {x: 0.9893251, y: 10.930634, z: 0.895216}
+      rotation: {x: 0.5421843, y: 0.32083791, z: 0.57982194, w: 0.5166292}
+      scale: {x: 0.44378388, y: 0.44378394, z: 0.06928997}
+    - name: "\u6B6F\u8ECA.016"
+      parentName: DrillMan(Clone)
+      position: {x: 0.92737937, y: 10.961391, z: -1.1022768}
+      rotation: {x: 0.65665394, y: 0.656654, z: 0.26230815, w: 0.26230812}
+      scale: {x: 0.22199973, y: 0.2219998, z: 0.03466181}
+    - name: "\u6B6F\u8ECA.017"
+      parentName: DrillMan(Clone)
+      position: {x: -0.14018668, y: 14.116673, z: -0.82823753}
+      rotation: {x: 0.70006245, y: 0.7025182, z: 0.10586099, w: 0.07193149}
+      scale: {x: 0.35056883, y: 0.3505689, z: 0.054735865}
+    - name: "\u6B6F\u8ECA.018"
+      parentName: DrillMan(Clone)
+      position: {x: -0.03333929, y: 13.9701805, z: 0.70292854}
+      rotation: {x: 0.062404424, y: 0.24628699, z: 0.64897555, w: 0.71713257}
+      scale: {x: 0.39357665, y: 0.39357668, z: 0.06145087}
+    - name: "\u6B6F\u8ECA.019"
+      parentName: DrillMan(Clone)
+      position: {x: -0.0006789714, y: 14.54739, z: -0.63422203}
+      rotation: {x: 0.899225, y: 0.37377656, z: 0.22560301, w: 0.028085744}
+      scale: {x: 0.17302291, y: 0.17302291, z: 0.02701483}
+    - name: "\u6B6F\u8ECA.020"
+      parentName: DrillMan(Clone)
+      position: {x: -0.022895917, y: 14.5879345, z: 0.6512604}
+      rotation: {x: 0.5650353, y: 0.8046429, z: -0.17846285, w: -0.03789346}
+      scale: {x: 0.17061177, y: 0.17061174, z: 0.026638377}
+    - name: "\u6B6F\uFF11\uFF10"
+      parentName: DrillMan(Clone)
+      position: {x: -1.0295937, y: 14.075086, z: 0.07178116}
+      rotation: {x: 0.678436, y: -0.00031099614, z: 0.0015968952, w: 0.73465776}
+      scale: {x: 0.027176296, y: 0.033083502, z: 0.024123058}
+    - name: "\u6B6F\uFF11\uFF11"
+      parentName: DrillMan(Clone)
+      position: {x: -1.0137882, y: 14.074424, z: 0.14522552}
+      rotation: {x: 0.678436, y: -0.00031099629, z: 0.0015968941, w: 0.73465776}
+      scale: {x: 0.058966283, y: 0.052194018, z: 0.05219403}
+    - name: "\u6B6F\uFF11\uFF12"
+      parentName: DrillMan(Clone)
+      position: {x: -1.0088265, y: 14.115632, z: -0.22588158}
+      rotation: {x: 0.6199166, y: -0.049204078, z: 0.040469903, w: 0.7820771}
+      scale: {x: 0.058966145, y: 0.043593686, z: 0.036500588}
+    - name: "\u6B6F\uFF11\uFF13"
+      parentName: DrillMan(Clone)
+      position: {x: -0.96181464, y: 14.125856, z: -0.31857395}
+      rotation: {x: 0.6111356, y: -0.13891442, z: 0.11156947, w: 0.7712123}
+      scale: {x: 0.05896616, y: 0.058925323, z: 0.024591284}
+    - name: "\u6B6F\uFF11\uFF14"
+      parentName: DrillMan(Clone)
+      position: {x: -0.98828954, y: 14.130959, z: 0.23064709}
+      rotation: {x: 0.61850804, y: 0.075199544, z: -0.058157682, w: 0.78000677}
+      scale: {x: 0.05848438, y: 0.04630143, z: 0.035541043}
+    - name: "\u6B6F\uFF11\uFF15"
+      parentName: DrillMan(Clone)
+      position: {x: -0.965455, y: 14.155127, z: 0.31005}
+      rotation: {x: 0.61850804, y: 0.07519954, z: -0.058157723, w: 0.78000677}
+      scale: {x: 0.058484465, y: 0.047004413, z: 0.045217574}
+    - name: "\u6B6F\uFF12"
+      parentName: DrillMan(Clone)
+      position: {x: -0.996785, y: 14.322834, z: 0.054491997}
+      rotation: {x: -0.6671937, y: 0.0015603219, z: 0.00046061233, w: 0.74488246}
+      scale: {x: 0.058966286, y: 0.052194003, z: 0.052194018}
+    - name: "\u6B6F\uFF13"
+      parentName: DrillMan(Clone)
+      position: {x: -0.99678504, y: 14.319536, z: 0.16059685}
+      rotation: {x: -0.6671937, y: 0.0015603219, z: 0.00046061233, w: 0.74488246}
+      scale: {x: 0.058966286, y: 0.052194003, z: 0.052194018}
+    - name: "\u6B6F\uFF14"
+      parentName: DrillMan(Clone)
+      position: {x: -0.9642011, y: 14.350216, z: -0.2113924}
+      rotation: {x: -0.7674554, y: 0.0016104048, z: 0.00023120859, w: 0.6411003}
+      scale: {x: 0.05896626, y: 0.05219399, z: 0.05219401}
+    - name: "\u6B6F\uFF15"
+      parentName: DrillMan(Clone)
+      position: {x: -0.9872331, y: 14.345039, z: 0.2368145}
+      rotation: {x: -0.64100754, y: 0.0015434393, z: 0.00051435514, w: 0.76753294}
+      scale: {x: 0.03619777, y: 0.026330933, z: 0.031544637}
+    - name: "\u6B6F\uFF16"
+      parentName: DrillMan(Clone)
+      position: {x: -0.9624214, y: 14.360006, z: 0.31092548}
+      rotation: {x: -0.667568, y: 0.09885898, z: 0.089101985, w: 0.7325576}
+      scale: {x: 0.04279543, y: 0.044851787, z: 0.043584537}
+    - name: "\u6B6F\uFF17"
+      parentName: DrillMan(Clone)
+      position: {x: -0.95762867, y: 14.338657, z: -0.32014656}
+      rotation: {x: -0.667568, y: 0.09885898, z: 0.089101985, w: 0.7325576}
+      scale: {x: 0.04279543, y: 0.044851787, z: 0.043584537}
+    - name: "\u6B6F\uFF18"
+      parentName: DrillMan(Clone)
+      position: {x: -1.0331299, y: 14.090615, z: -0.0069093704}
+      rotation: {x: 0.678436, y: -0.00031099765, z: 0.0015968925, w: 0.73465776}
+      scale: {x: 0.058966283, y: 0.052194003, z: 0.052194018}
+    - name: "\u6B6F\uFF19"
+      parentName: DrillMan(Clone)
+      position: {x: -1.0297434, y: 14.090614, z: -0.12454319}
+      rotation: {x: 0.678436, y: -0.00031099629, z: 0.0015968941, w: 0.73465776}
+      scale: {x: 0.058966283, y: 0.052194018, z: 0.05219403}
+    - name: "\u7403"
+      parentName: DrillMan(Clone)
+      position: {x: -0.9082291, y: 14.747923, z: -0.30895996}
+      rotation: {x: 0.011080087, y: 0.69020146, z: 0.70701987, w: 0.15369481}
+      scale: {x: 0.42320192, y: 1.5111746, z: 1.599087}
+    - name: "\u7403.001"
+      parentName: DrillMan(Clone)
+      position: {x: -0.9948505, y: 14.96496, z: -0.008122444}
+      rotation: {x: -0.7071068, y: -0.000000016850919, z: 9.361631e-10, w: 0.7071067}
+      scale: {x: -0.52758855, y: -0.5275884, z: -0.5275885}
+    - name: "\u7403.002"
+      parentName: DrillMan(Clone)
+      position: {x: -0.90578103, y: 15.1870575, z: -0.008126259}
+      rotation: {x: -0.6967964, y: 0.12031125, z: -0.12031114, w: 0.6967964}
+      scale: {x: -0.52758855, y: -0.5275884, z: -0.5275884}
+    - name: "\u7403.003"
+      parentName: DrillMan(Clone)
+      position: {x: -0.7229215, y: 15.341337, z: -0.008122444}
+      rotation: {x: -0.6065919, y: 0.36338192, z: -0.3633819, w: 0.6065918}
+      scale: {x: -0.5275885, y: -0.5275884, z: -0.52758855}
+    - name: "\u7403.004"
+      parentName: DrillMan(Clone)
+      position: {x: -0.5003662, y: 15.370024, z: -0.008126259}
+      rotation: {x: -0.5717286, y: 0.41608483, z: -0.41608462, w: 0.5717284}
+      scale: {x: -0.5275884, y: -0.5275884, z: -0.52758855}
+    - name: "\u7403.005"
+      parentName: DrillMan(Clone)
+      position: {x: -0.26829526, y: 15.370024, z: -0.0081243515}
+      rotation: {x: -0.5600634, y: 0.43165854, z: -0.4316584, w: 0.5600633}
+      scale: {x: -0.5275885, y: -0.52758837, z: -0.5275886}
+    - name: "\u7403.006"
+      parentName: DrillMan(Clone)
+      position: {x: -0.043256998, y: 15.345411, z: -0.0081214905}
+      rotation: {x: -0.49863774, y: 0.50135857, z: -0.5013585, w: 0.49863777}
+      scale: {x: -0.52758867, y: -0.5275884, z: -0.5275887}
+    - name: "\u7403.007"
+      parentName: DrillMan(Clone)
+      position: {x: 0.15043561, y: 15.215599, z: -0.0081243515}
+      rotation: {x: -0.278891, y: 0.6497845, z: -0.6497844, w: 0.27889103}
+      scale: {x: -0.5275884, y: -0.52758837, z: -0.5275884}
+    - name: "\u7403.008"
+      parentName: DrillMan(Clone)
+      position: {x: 0.2637993, y: 14.980076, z: -0.008122444}
+      rotation: {x: -0.16785249, y: 0.68689567, z: -0.6868955, w: 0.16785252}
+      scale: {x: -0.52758855, y: -0.5275884, z: -0.5275885}
+    - name: "\u7403.009"
+      parentName: DrillMan(Clone)
+      position: {x: 0.32357526, y: 14.737457, z: -0.0081214905}
+      rotation: {x: -0.14143164, y: 0.6928184, z: -0.69281805, w: 0.14143172}
+      scale: {x: -0.5275885, y: -0.52758837, z: -0.5275884}
+    - name: "\u7403.010"
+      parentName: DrillMan(Clone)
+      position: {x: 0.34467313, y: 14.491322, z: -0.008122444}
+      rotation: {x: -0.10485344, y: 0.69928956, z: -0.6992894, w: 0.10485349}
+      scale: {x: -0.52758855, y: -0.5275884, z: -0.5275884}
+    - name: "\u7403.011"
+      parentName: DrillMan(Clone)
+      position: {x: 0.35982388, y: 14.30288, z: -0.0081214905}
+      rotation: {x: -0.10485344, y: 0.69928956, z: -0.6992894, w: 0.10485349}
+      scale: {x: -0.52758855, y: -0.5275884, z: -0.5275884}
+    - name: "\u7403.012"
+      parentName: DrillMan(Clone)
+      position: {x: -0.9063538, y: 14.754989, z: 0.30521393}
+      rotation: {x: 0.69020146, y: -0.011080243, z: -0.15369467, w: 0.70701987}
+      scale: {x: -0.4232019, y: -1.5111748, z: -1.5990868}
+    - name: "\u7403.014"
+      parentName: DrillMan(Clone)
+      position: {x: -1.356276, y: 12.582418, z: -0.7195959}
+      rotation: {x: -0.7071068, y: -0.000000015223726, z: 4.3496337e-10, w: 0.7071067}
+      scale: {x: 0.37850556, y: 0.37850547, z: 0.37850547}
+    - name: "\u7ACB\u65B9\u4F53"
+      parentName: DrillMan(Clone)
+      position: {x: -0.92375225, y: 14.648228, z: -0.014312744}
+      rotation: {x: -0.7071068, y: -0.000000021359302, z: 0.0000000030611618, w: 0.7071067}
+      scale: {x: 0.025413085, y: 0.112178594, z: 0.11217859}
+    - name: "\u80A1\u95A2\u7BC0"
+      parentName: DrillMan(Clone)
+      position: {x: -0.06925467, y: 8.387791, z: -0.0000009536743}
+      rotation: {x: -0.7071068, y: -0.000000022162409, z: 0.0000000036331815, w: 0.7071067}
+      scale: {x: 1.8125836, y: 1.8125834, z: 1.8125831}
+    - name: "\u80CC\u9AA8"
+      parentName: DrillMan(Clone)
+      position: {x: -0.025918804, y: 11.33611, z: -0.000002861023}
+      rotation: {x: -0.7071068, y: -0.000000026601144, z: -9.910118e-10, w: 0.7071067}
+      scale: {x: 0.8554203, y: 1.274327, z: 1.9023591}
+    - name: "\u85AC\u6307"
+      parentName: DrillMan(Clone)
+      position: {x: -0.36942026, y: 12.592979, z: -10.016062}
+      rotation: {x: 0.6799485, y: 0.7075096, z: 0.17056791, w: -0.08948111}
+      scale: {x: 0.14517772, y: 0.27153233, z: 0.2575133}
+    - name: "\u89AA\u6307"
+      parentName: DrillMan(Clone)
+      position: {x: -0.42219144, y: 13.355188, z: -8.021437}
+      rotation: {x: 0.42040363, y: 0.49983782, z: -0.49545467, w: 0.5726671}
+      scale: {x: 0.2676236, y: 0.22858024, z: 0.24772008}
+    - name: "\u9396\uFF11"
+      parentName: DrillMan(Clone)
+      position: {x: -0.21167818, y: 13.706341, z: 4.6197834}
+      rotation: {x: -0.79574317, y: 0.000000012758553, z: -0.000000035556617, w: 0.6056342}
+      scale: {x: 0.34973237, y: 0.34973225, z: 0.34973222}
+    - name: "\u9396\uFF11.001"
+      parentName: DrillMan(Clone)
+      position: {x: -0.24824238, y: 14.024521, z: 4.665498}
+      rotation: {x: 0.48674121, y: 0.42878675, z: 0.5803359, w: -0.49237713}
+      scale: {x: 0.34973216, y: 0.34973228, z: 0.34973222}
+    - name: "\u9396\uFF11.002"
+      parentName: DrillMan(Clone)
+      position: {x: -0.28391993, y: 14.286053, z: 4.7313633}
+      rotation: {x: 0.07019559, y: 0.3976862, z: 0.8929113, w: -0.19906683}
+      scale: {x: 0.3497322, y: 0.3497322, z: 0.3497322}
+    - name: "\u9396\uFF11.003"
+      parentName: DrillMan(Clone)
+      position: {x: -0.33606303, y: 14.538353, z: 4.8148956}
+      rotation: {x: 0.36802104, y: 0.7550506, z: -0.2528916, w: 0.4801093}
+      scale: {x: 0.3497322, y: 0.34973234, z: 0.34973222}
+    - name: "\u9396\uFF11.004"
+      parentName: DrillMan(Clone)
+      position: {x: -0.34334594, y: 14.749079, z: 4.92698}
+      rotation: {x: 0.7289481, y: 0.20355687, z: -0.0285005, w: 0.6529831}
+      scale: {x: 0.34973237, y: 0.34973228, z: 0.3497322}
+    - name: "\u9396\uFF11.005"
+      parentName: DrillMan(Clone)
+      position: {x: -0.40165776, y: 15.204136, z: 5.2105923}
+      rotation: {x: 0.79106456, y: 0.205393, z: -0.007833681, w: 0.5761678}
+      scale: {x: 0.34973225, y: 0.34973222, z: 0.34973222}
+    - name: "\u9396\uFF11.006"
+      parentName: DrillMan(Clone)
+      position: {x: -0.36695307, y: 14.988901, z: 5.0841594}
+      rotation: {x: 0.4065681, y: 0.77342147, z: -0.18940476, w: 0.4479369}
+      scale: {x: 0.34973222, y: 0.34973228, z: 0.34973228}
+    - name: "\u9396\uFF11.007"
+      parentName: DrillMan(Clone)
+      position: {x: -0.4735481, y: 15.407831, z: 5.412822}
+      rotation: {x: 0.51680315, y: 0.7953951, z: 0.03744351, w: 0.31441876}
+      scale: {x: 0.3497322, y: 0.34973228, z: 0.34973222}
+    - name: "\u9396\uFF11.008"
+      parentName: DrillMan(Clone)
+      position: {x: -0.5082536, y: 15.483927, z: 5.6621428}
+      rotation: {x: 0.9303604, y: 0.19776705, z: 0.055998895, w: 0.30361488}
+      scale: {x: 0.34973222, y: 0.34973216, z: 0.3497322}
+    - name: "\u9396\uFF11.009"
+      parentName: DrillMan(Clone)
+      position: {x: -0.5577987, y: 15.525011, z: 5.908532}
+      rotation: {x: 0.5656532, y: 0.77012014, z: 0.20287596, w: 0.21399216}
+      scale: {x: 0.3497322, y: 0.3497323, z: 0.34973225}
+    - name: "\u9396\uFF11.010"
+      parentName: DrillMan(Clone)
+      position: {x: -0.5757329, y: 15.482681, z: 6.165484}
+      rotation: {x: 0.98311234, y: 0.17751102, z: 0.03581089, w: 0.02641184}
+      scale: {x: 0.34970623, y: 0.34970292, z: 0.3427277}
+    - name: "\u9396\uFF11.011"
+      parentName: DrillMan(Clone)
+      position: {x: -0.571672, y: 15.428339, z: 6.403719}
+      rotation: {x: 0.60367715, y: 0.67521024, z: 0.42229703, w: 0.036472745}
+      scale: {x: 0.3497322, y: 0.34973228, z: 0.34973222}
+    - name: "\u9396\uFF11.012"
+      parentName: DrillMan(Clone)
+      position: {x: -0.5757329, y: 15.2163315, z: 6.5730195}
+      rotation: {x: 0.9048605, y: 0.14648773, z: 0.10646087, w: -0.38527256}
+      scale: {x: 0.3497323, y: 0.34973222, z: 0.3497322}
+    - name: "\u9396\uFF11.013"
+      parentName: DrillMan(Clone)
+      position: {x: -0.5097396, y: 14.944975, z: 6.6173525}
+      rotation: {x: 0.3483755, y: 0.7514212, z: -0.2638361, w: 0.4943594}
+      scale: {x: 0.34973222, y: 0.34973225, z: 0.34973222}
+    - name: "\u9396\uFF11.014"
+      parentName: DrillMan(Clone)
+      position: {x: -0.47906864, y: 14.701744, z: 6.5174093}
+      rotation: {x: 0.671218, y: 0.15009995, z: -0.101304084, w: 0.7188004}
+      scale: {x: 0.3497323, y: 0.34973222, z: 0.3497322}
+    - name: "\u9396\uFF11.015"
+      parentName: DrillMan(Clone)
+      position: {x: -0.4728076, y: 14.470119, z: 6.359462}
+      rotation: {x: 0.5823613, y: 0.7534875, z: -0.03904631, w: 0.30263385}
+      scale: {x: 0.34973216, y: 0.3497324, z: 0.3497322}
+    - name: "\u9396\uFF11.016"
+      parentName: DrillMan(Clone)
+      position: {x: -0.39074227, y: 14.33074, z: 6.1022816}
+      rotation: {x: 0.8920321, y: -0.040282216, z: 0.13729118, w: 0.42872748}
+      scale: {x: 0.3497323, y: 0.34973216, z: 0.34973213}
+    - name: "\u9396\uFF11.017"
+      parentName: DrillMan(Clone)
+      position: {x: -0.25904503, y: 14.231197, z: 5.8511763}
+      rotation: {x: 0.6032734, y: 0.72597134, z: 0.097224, w: 0.31555426}
+      scale: {x: 0.34973207, y: 0.34973237, z: 0.34973216}
+    - name: "\u982D"
+      parentName: DrillMan(Clone)
+      position: {x: -0.5447754, y: 14.771488, z: 0.009990692}
+      rotation: {x: -0.7071068, y: -0.000000018011866, z: 0.000000005894794, w: 0.7071067}
+      scale: {x: 1.0054469, y: 1.0054467, z: 1.0054467}
+    - name: "\u982D\u90E8\u54C1"
+      parentName: DrillMan(Clone)
+      position: {x: -0.25756472, y: 15.01247, z: 0.0003452301}
+      rotation: {x: -0.000000030794634, y: -0.000000015342088, z: -0.000000010444653, w: 1}
+      scale: {x: 0.8693822, y: 0.869382, z: 0.13641068}
+    - name: "\u984E"
+      parentName: DrillMan(Clone)
+      position: {x: -0.8008581, y: 14.041025, z: -0.0069818497}
+      rotation: {x: -0.7071068, y: -0.000000021255815, z: 0.0000000025764615, w: 0.7071067}
+      scale: {x: 0.51120067, y: 0.51120055, z: 0.5112006}
+    - name: "\u9996"
+      parentName: DrillMan(Clone)
+      position: {x: -0.036848366, y: 13.690336, z: -0.017505646}
+      rotation: {x: -0.7071068, y: 0.000000017225902, z: -0.000000037799623, w: 0.7071067}
+      scale: {x: 0.42030546, y: 0.6382196, z: 0.4203054}
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    globalScale: 1
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+    hasExtraRoot: 1
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  autoGenerateAvatarMappingIfUnspecified: 1
+  animationType: 3
+  humanoidOversampling: 1
+  avatarSetup: 1
+  addHumanoidExtraRootOnlyWhenUsingAvatar: 1
+  importBlendShapeDeformPercent: 1
+  remapMaterialsIfMaterialImportModeIsNone: 0
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

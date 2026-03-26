@@ -15267,17 +15267,16 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 81d4b12c82ceb4c1da263f9802342dff, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::Player_CharacterController_FPS
+  useSpecialDualController: 1
   characterController: {fileID: 0}
   playerInput: {fileID: 0}
   animator: {fileID: 0}
-  characterModel: {fileID: 0}
   spaceShipRepair: {fileID: 0}
   playerCamera: {fileID: 723039793}
   mouseSensitivity: 40
   padSensitivity: 100
   walkSpeed: 2
   runSpeed: 6
-  rotationSpeed: 15
   gravity: -9.81
 --- !u!114 &527325746
 MonoBehaviour:
@@ -40751,17 +40750,16 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 81d4b12c82ceb4c1da263f9802342dff, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::PlayerCharacterControllerFps
+  useSpecialDualController: 1
   characterController: {fileID: 1292232303}
   playerInput: {fileID: 1292232305}
   animator: {fileID: 1292232306}
-  characterModel: {fileID: 0}
   spaceShipRepair: {fileID: 0}
   playerCamera: {fileID: 47758411}
   mouseSensitivity: 0.1
   padSensitivity: 300
   walkSpeed: 2
   runSpeed: 6
-  rotationSpeed: 15
   gravity: -9.81
 --- !u!143 &1292232303
 CharacterController:
@@ -50702,17 +50700,16 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 81d4b12c82ceb4c1da263f9802342dff, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::PlayerCharacterControllerFps
+  useSpecialDualController: 1
   characterController: {fileID: 1674443321}
   playerInput: {fileID: 1674443320}
   animator: {fileID: 1674443323}
-  characterModel: {fileID: 1674443316}
   spaceShipRepair: {fileID: 1535564059}
   playerCamera: {fileID: 47758411}
   mouseSensitivity: 0.1
   padSensitivity: 500
   walkSpeed: 2
   runSpeed: 6
-  rotationSpeed: 15
   gravity: -9.81
 --- !u!114 &1674443320
 MonoBehaviour:
