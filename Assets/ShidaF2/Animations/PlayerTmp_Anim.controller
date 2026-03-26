@@ -560,7 +560,6 @@ MonoBehaviour:
   hitboxObjectName: TmpObj
   activeStartTime: 0.2
   activeEndTime: 0.5
-  hitboxObj: {fileID: 0}
 --- !u!206 &4622970525816141803
 BlendTree:
   m_ObjectHideFlags: 1

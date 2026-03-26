@@ -4,6 +4,7 @@ public class BreakableWall : MonoBehaviour
 {
     public float hp = 50;
     public float currenthp;
+[SerializeField]private PreDeathSpawner preDeathSpawner;
 
     void Awake()
     {
@@ -20,6 +21,11 @@ public class BreakableWall : MonoBehaviour
 
         if (currenthp <= 0)
         {
+
+            if (preDeathSpawner != null)
+            {
+                preDeathSpawner.SpawnNow();
+            }
             Break();
         }
     }

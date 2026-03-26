@@ -62,7 +62,7 @@ public class Player_Search1 : MonoBehaviour
         scanTriggerCounter.RemoveNullParts();
 
         int count = scanTriggerCounter.PartCount;
-        infoText.text = $"�߂��Ƀp�[�c�� {count} ����܂�";
+        infoText.text = $"近くにパーツが {count} 個あります";
         infoText.gameObject.SetActive(true);
         infoTextObj.SetActive(true);
         StartCoroutine(HideInfoText());
