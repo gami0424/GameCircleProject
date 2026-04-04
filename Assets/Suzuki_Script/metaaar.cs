@@ -24,7 +24,17 @@ public class metaaar : MonoBehaviour
         {
             time -= Time.deltaTime;
         }
-        player_gauge.fillAmount = time / maxtime;
-        if (gauge >= 1) gauge = 0;
+        float fill = time / maxtime;
+        player_gauge.fillAmount = fill;
+        if (fill > 0.5f)
+        {
+            player_gauge.color = Color.white;
+        }
+        else
+        {
+            float t = fill * 2f;
+            player_gauge.color = Color.Lerp(Color.red, Color.yellow, t);
+        }
+
     }
 }
